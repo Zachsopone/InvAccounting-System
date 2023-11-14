@@ -1,0 +1,46 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int 
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int choice     }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:403:403:403:18:6:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:403:403:403:17:19:compiler.err.expected:';' expected]

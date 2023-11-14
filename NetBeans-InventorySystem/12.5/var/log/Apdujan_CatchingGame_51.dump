@@ -1,0 +1,81 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add(rat);
+    r=new Random();
+    Timer ratMoves=new Timer(ms,ActionListener(){
+        @Override
+        public void ActionPerformed(ActionEvent e){
+        rat setLocation(p);
+        }
+    });
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+
+    private ActionListener ActionListener() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add(rat);
+    r=new Random();
+    Timer ratMoves=new Timer(msActionListener(){
+        @Override
+        public void ActionPerformed(ActionEvent e){
+        rat setLocation(p);
+        }
+    });
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+
+    private ActionListener ActionListener() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:614:614:615:22:24:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:528:528:537:20:8:compiler.err.method.does.not.override.superclass:method does not override or implement a method from a supertype, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:613:613:613:22:23:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:500:500:516:19:30:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method msActionListener()
+  location: class Apdujan_CatchingGame, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:598:598:601:22:8:compiler.err.cant.resolve:cannot find symbol
+  symbol: class rat, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:518:518:518:19:48:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:615:615:615:22:25:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:633:633:633:24:5:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:614:614:615:22:25:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:633:633:633:24:6:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:613:613:613:22:24:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:500:500:516:19:30:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method msActionListener()
+  location: class Apdujan_CatchingGame, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:528:528:537:20:9:compiler.err.method.does.not.override.superclass:method does not override or implement a method from a supertype, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:615:615:615:22:26:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:518:518:518:19:48:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:598:598:601:22:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: class rat]

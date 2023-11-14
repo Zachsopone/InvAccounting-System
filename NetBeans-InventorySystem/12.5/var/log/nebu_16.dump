@@ -1,0 +1,31 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an interger: ");
+        
+        String num1 = 
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter an interger: ");
+        
+         num1 = 
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:205:205:209:7:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable num1
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:217:217:217:7:22:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:217:217:217:8:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:205:205:209:7:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable num1
+  location: class nebu]

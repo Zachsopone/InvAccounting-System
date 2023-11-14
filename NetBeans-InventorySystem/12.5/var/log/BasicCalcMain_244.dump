@@ -1,0 +1,103 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.select){
+        case 1:
+            num.getInput();
+            System.out.println("The sum is "+num.addOperation()+"\n");
+            break;
+        case 2:
+            num.getInput();
+            System.out.println("The difference is "+num.subOperation()+"\n");
+            break;
+        case 3:
+            num.getInput();
+            System.out.println("The area of the circle is "+num.circleAreaOp()+"\n");
+            break;
+        case 4:
+            num.getInput();
+            System.out.println("The area of the cylinder is "+num.cylinderOperation()+"\n");
+            break;
+    }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.select){
+        case 1:
+            num.getInput();
+            System.out.println("The sum is "+num.addOperation()+"\n");
+            break;
+        case 2:
+            num.getInput();
+            System.out.println("The difference is "+num.subOperation()+"\n");
+            break;
+        case 3:
+            num.getInput();
+            System.out.println("The area of the circle is "+num.circleArea_Op()+"\n");
+            break;
+        case 4:
+            num.getInput();
+            System.out.println("The area of the cylinder is "+num.cylinderOperation()+"\n");
+            break;
+    }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:182:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:563:566:580:20:64:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method circleArea_Op()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:273:276:289:12:49:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:346:349:358:15:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:174:181:9:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable select
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:212:215:224:11:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:487:490:499:19:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:414:417:430:16:56:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method subOperation()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:637:640:649:23:17:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:715:718:736:24:67:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method cylinderOperation()
+  location: variable num of type computeProg], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:182:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:563:566:580:20:64:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method circleArea_Op()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:273:276:289:12:49:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:346:349:358:15:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:174:181:9:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable select
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:212:215:224:11:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:487:490:499:19:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:414:417:430:16:56:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method subOperation()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:715:718:736:24:66:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method cylinderOperation()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:637:640:649:23:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg]

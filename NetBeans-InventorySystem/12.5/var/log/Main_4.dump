@@ -1,0 +1,63 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Calculator/src/Main.java
+----- Original text: ---------------------------------------------
+public class Main {
+
+  public static void main(String[] args){
+  Apdujan op=new Apdujan();
+  op.getInput();
+  op.Cal
+  System.out.print("The sum is" + op.addProgram() + "\n");
+  System.out.print("The product is " + op.multiProgram()+ "\n");
+  System.out.print("The difference is " + op.subProgram()+ "\n");
+  System.out.print("The quotient is " + op.divProgram() + "\n");
+  }
+}
+
+
+----- Updated text: ---------------------------------------------
+public class Main {
+
+  public static void main(String[] args){
+  Apdujan op=new Apdujan();
+  op.getInput();
+  op.Calculate
+  System.out.print("The sum is" + op.addProgram() + "\n");
+  System.out.print("The product is " + op.multiProgram()+ "\n");
+  System.out.print("The difference is " + op.subProgram()+ "\n");
+  System.out.print("The quotient is " + op.divProgram() + "\n");
+  }
+}
+
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:131:131:131:7:9:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:110:112:122:6:5:compiler.err.doesnt.exist:package op does not exist, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:132:132:135:7:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable out
+  location: class Main, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:184:184:190:8:3:compiler.err.var.might.not.have.been.initialized:variable System might not have been initialized, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:131:131:131:7:9:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:110:112:122:6:5:compiler.err.doesnt.exist:package op does not exist, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:ERROR:132:132:135:7:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable out
+  location: class Main, file:/C:/Users/GIGABYTE/Calculator/src/Main.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

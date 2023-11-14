@@ -1,0 +1,175 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+    public int getProductId() {
+        return ProductId;
+    }
+
+    public void setProductId(int ProductId) {
+        this.ProductId = ProductId;
+    }
+
+    public String getProductName() {
+        return ProductName;
+    }
+
+    public void setProductName(String ProductName) {
+        this.ProductName = ProductName;
+    }
+
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String Category) {
+        this.Category = Category;
+    }
+
+    public int getQuantity() {
+        return Quantity;
+    }
+
+    public void setQuantity(int Quantity) {
+        this.Quantity = Quantity;
+    }
+
+    public double getBuyingPrice() {
+        return BuyingPrice;
+    }
+
+    public void setBuyingPrice(double BuyingPrice) {
+        this.BuyingPrice = BuyingPrice;
+    }
+
+    public double getSellingPrice() {
+        return SellingPrice;
+    }
+
+    public void setSellingP(double SellingPrice) {
+        this.SellingPrice = SellingPrice;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.ProductId=ID;
+    this.ProductName=PRODUCT;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    this.BuyingP=BUYINGPRICE;
+    this.SellingP=SELLINGPRICE;
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+    public int getProductId() {
+        return ProductId;
+    }
+
+    public void setProductId(int ProductId) {
+        this.ProductId = ProductId;
+    }
+
+    public String getProductName() {
+        return ProductName;
+    }
+
+    public void setProductName(String ProductName) {
+        this.ProductName = ProductName;
+    }
+
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String Category) {
+        this.Category = Category;
+    }
+
+    public int getQuantity() {
+        return Quantity;
+    }
+
+    public void setQuantity(int Quantity) {
+        this.Quantity = Quantity;
+    }
+
+    public double getBuyingPrice() {
+        return BuyingPrice;
+    }
+
+    public void setBuyingPrice(double BuyingPrice) {
+        this.BuyingPrice = BuyingPrice;
+    }
+
+    public double getSellingPrice() {
+        return SellingPrice;
+    }
+
+    public void setSellingP(double SellingPrice) {
+        this.SellingPrice = SellingPrice;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.ProductId=ID;
+    this.ProductName=PRODUCTNAME;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    this.BuyingP=BUYINGPRICE;
+    this.SellingP=SELLINGPRICE;
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1637:1637:1648:72:22:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable PRODUCTNAME
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1737:1741:1750:76:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1654:1658:1666:73:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1681:1685:1692:74:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1707:1711:1719:75:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1637:1637:1648:72:22:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable PRODUCTNAME
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1654:1658:1666:73:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1737:1741:1750:76:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1681:1685:1692:74:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1707:1711:1719:75:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP]

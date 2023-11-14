@@ -1,0 +1,49 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1 = 0;
+        int num2 = 0;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+        public nebu(int num1, int num2){
+            this
+        }
+ 
+    public static void main(String[] args) throws InterruptedException {
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1 = 0;
+        int num2 = 0;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+        public nebu(int num1, int num2){
+            this.
+        }
+ 
+    public static void main(String[] args) throws InterruptedException {
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:333:333:333:13:1:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:333:333:333:12:18:compiler.err.expected:<identifier> expected]

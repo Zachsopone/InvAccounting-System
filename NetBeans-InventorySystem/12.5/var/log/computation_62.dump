@@ -1,0 +1,145 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        
+        if(itemCode1 == 0001)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.println(value);
+                    System.out.println(value * quantity);
+                }
+        if(itemCode1 == 002)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                 System.out.println(value);
+                System.out.println(value * quantity);
+            }
+        
+        if(itemCode2 == 0001)
+                {
+                    System.out.println("Juan Tasty Bread");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.println(value);
+                    System.out.println(value * quantity2);
+                }
+        if(itemCode2 == 002)
+            {
+                System.out.println("Surf Powder Rose Fresh");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print(value);
+                System.out.print(value * quantity2);
+                
+            }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        
+        if(itemCode1 == 0001)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.println(value);
+                    System.out.println(value * quantity);
+                }
+        if(itemCode1 == 002)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                 System.out.println(value);
+                System.out.println(value * quantity);
+            }
+        
+        if(itemCode2 == 0001)
+                {
+                    System.out.println("Juan Tasty Bread");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.println(value);
+                    System.out.println(value * quantity2);
+                }
+        if(itemCode2 == 002)
+            {
+                System.out.println("Surf Powder Rose Fresh");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print(\t value);
+                System.out.print(value * quantity2);
+                
+            }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1976:1976:1976:56:42:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1969:1971:1976:56:37:compiler.err.already.defined:variable value is already defined in method compute(), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1968:1968:1968:56:34:compiler.err.illegal.char:illegal character: '\', file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1969:1969:1970:56:35:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class t
+  location: class computation], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:2012:2012:2017:57:34:compiler.err.var.might.not.have.been.initialized:variable value might not have been initialized, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1976:1976:1976:56:42:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1969:1971:1976:56:37:compiler.err.already.defined:variable value is already defined in method compute(), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1968:1968:1968:56:34:compiler.err.illegal.char:illegal character: '\', file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:1969:1969:1970:56:35:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class t
+  location: class computation]

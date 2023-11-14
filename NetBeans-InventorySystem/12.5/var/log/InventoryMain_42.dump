@@ -1,0 +1,75 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private String servername="localhost";
+    private String dbname="inventoryms";
+    private String username="root";
+    private String portnumber="3306";
+    private String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName
+    
+    }
+}
+----- Updated text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private String servername="localhost";
+    private String dbname="inventoryms";
+    private String username="root";
+    private String portnumber="3306";
+    private String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName()
+    
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:667:677:691:29:15:compiler.err.cant.apply.symbol:method setServerName in class MysqlDataSource cannot be applied to given types;
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:693:693:693:29:31:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:667:677:691:29:15:compiler.err.cant.apply.symbol:method setServerName in class MysqlDataSource cannot be applied to given types;
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:693:693:693:29:31:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:580:703:704:31:5:compiler.err.missing.ret.stmt:missing return statement]

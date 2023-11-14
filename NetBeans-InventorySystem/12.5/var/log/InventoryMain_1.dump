@@ -1,0 +1,45 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Class.forName("org.apache.derby.jdbc.");
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:231:429:unnamed package:null:,null,CLASS:231:429:InventoryMain:InventoryMain:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryMain():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:327:422:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:327:340:null:null:,PRIMITIVE_TYPE:341:345:null:void:,VARIABLE:351:364:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:351:359:null:java.lang.String[]:,IDENTIFIER:351:357:java.lang.String:java.lang.String:,null,null,null,BLOCK:366:422:null:null:,EXPRESSION_STATEMENT:376:416:null:null:,METHOD_INVOCATION:376:415:forName(java.lang.String):java.lang.Class<capture#733 of ?>:,MEMBER_SELECT:376:389:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:376:381:java.lang.Class:java.lang.Class:,STRING_LITERAL:390:414:null:java.lang.String:,null,, actual tree: COMPILATION_UNIT:231:429:unnamed package:null:,null,CLASS:231:429:InventoryMain:InventoryMain:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryMain():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:327:422:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:327:340:null:null:,PRIMITIVE_TYPE:341:345:null:void:,VARIABLE:351:364:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:351:359:null:java.lang.String[]:,IDENTIFIER:351:357:java.lang.String:java.lang.String:,null,null,null,BLOCK:366:422:null:null:,EXPRESSION_STATEMENT:376:416:null:null:,METHOD_INVOCATION:376:415:forName(java.lang.String):java.lang.Class<capture#779 of ?>:,MEMBER_SELECT:376:389:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:376:381:java.lang.Class:java.lang.Class:,STRING_LITERAL:390:414:null:java.lang.String:,null,

@@ -1,0 +1,31 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg.
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num 
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:118:118:118:8:3:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:114:7:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class computeProg
+  location: class BasicCalcMain], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:114:7:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class computeProg
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:118:118:118:7:20:compiler.err.expected:';' expected]

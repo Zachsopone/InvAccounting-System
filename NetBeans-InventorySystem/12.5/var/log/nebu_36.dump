@@ -1,0 +1,35 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        System.out.
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        System.out.print
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:366:366:366:12:1:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:350:360:366:11:19:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:366:366:366:11:25:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:350:360:366:11:19:compiler.err.not.stmt:not a statement]

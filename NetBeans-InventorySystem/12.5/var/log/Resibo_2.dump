@@ -1,0 +1,57 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class Resibo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        header.name=
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class Resibo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        header.name=new 
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:394:400:405:18:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable name
+  location: class header, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:409:409:409:19:3:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:433:433:433:22:3:compiler.err.expected2:'(' or '[' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:394:400:405:18:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable name
+  location: class header, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:433:433:433:21:5:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:409:409:409:18:24:compiler.err.expected:<identifier> expected]

@@ -1,0 +1,30 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   
+}
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String 
+   
+}
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:118:118:124:10:0:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:124:124:124:10:0:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:118:118:124:8:4:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:124:124:124:8:10:compiler.err.expected:';' expected]

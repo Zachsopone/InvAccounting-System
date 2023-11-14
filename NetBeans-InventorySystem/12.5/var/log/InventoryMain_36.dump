@@ -1,0 +1,75 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private String servername="localhost";
+    private String dbname="inventoryms";
+    private String username="root";
+    private String portnumber="3306";
+    private String password="";
+    
+    public static connection GetConnection(){
+    Connection cn=null;
+    MsySqlDataSource datasource = new  MysqlDataSource();
+    
+    
+    }
+}
+----- Updated text: ---------------------------------------------
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private String servername="localhost";
+    private String dbname="inventoryms";
+    private String username="root";
+    private String portnumber="3306";
+    private String password="";
+    
+    public static connection GetConnection(){
+    Connection cn=null;
+    MySqlDataSource datasource = new  MysqlDataSource();
+    
+    
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:553:553:563:25:19:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class connection
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:609:609:624:27:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class MySqlDataSource
+  location: class InventoryMain], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:553:553:563:25:19:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class connection
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:609:609:624:27:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class MySqlDataSource
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:579:676:677:30:5:compiler.err.missing.ret.stmt:missing return statement]

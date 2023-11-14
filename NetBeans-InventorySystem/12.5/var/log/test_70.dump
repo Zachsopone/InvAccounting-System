@@ -1,0 +1,104 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i) + " ");
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        String str = "Butaw si Ekel";
+                        traverseString(str);
+                        Thread.sleep(1000);
+                        break;
+                    case 2:
+                        String str = "Butaw si Keim";
+                        traverseString(str);
+                        Thread.sleep(1000);
+                        break;
+                    case 3:
+                        String str = "Butaw si Ekel";
+                        traverseString(str);
+                        Thread.sleep(1000);
+                        break;
+                    default:
+                        String str = "Butaw si Ekel";
+                        traverseString(str);
+                        Thread.sleep(1000);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i) + " ");
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        String str = "Butaw si Ekel";
+                        traverseString(str)
+                        Thread.sleep(1000);
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        Thread.sleep(1000);
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        Thread.sleep(1000);
+                        break;
+                    default:
+                        System.out.println("Pogi c Richard");
+                        Thread.sleep(1000);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:767:767:767:28:44:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:792:804:810:29:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:767:767:767:28:44:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:955:967:973:33:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:1284:1296:1302:41:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:1118:1130:1136:37:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown]

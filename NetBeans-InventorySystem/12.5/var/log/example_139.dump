@@ -1,0 +1,47 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   System.out.printf
+   
+}
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   System.out.printf()
+   
+}
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:238:238:238:13:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:219:229:236:12:14:compiler.err.cant.apply.symbols:no suitable method found for printf(no arguments)
+    method PrintStream.printf(String,Object...) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.printf(Locale,String,Object...) is not applicable
+      (actual and formal argument lists differ in length)], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:238:238:238:12:23:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:219:229:236:12:14:compiler.err.cant.apply.symbols:no suitable method found for printf(no arguments)
+    method PrintStream.printf(String,Object...) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.printf(Locale,String,Object...) is not applicable
+      (actual and formal argument lists differ in length)]

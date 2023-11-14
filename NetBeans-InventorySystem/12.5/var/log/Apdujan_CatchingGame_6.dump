@@ -1,0 +1,45 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout()
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new )
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:291:291:291:14:2:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:293:293:293:14:4:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:292:292:292:14:3:compiler.err.expected2:'(' or '[' expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:291:291:291:13:18:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:292:292:292:13:19:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:293:293:293:13:20:compiler.err.expected:';' expected]

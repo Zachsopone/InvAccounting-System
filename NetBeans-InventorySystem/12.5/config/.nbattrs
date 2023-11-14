@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="">
+        <attr name="FormDesignerPalette\AWT\position" intvalue="200"/>
+        <attr name="FormDesignerPalette\Beans\position" intvalue="300"/>
+        <attr name="FormDesignerPalette\Borders\position" intvalue="400"/>
+        <attr name="FormDesignerPalette\LookAndFeels\position" intvalue="500"/>
+        <attr name="FormDesignerPalette\SwingContainers\position" intvalue="600"/>
+        <attr name="FormDesignerPalette\SwingControls\position" intvalue="700"/>
+        <attr name="FormDesignerPalette\SwingFillers\position" intvalue="800"/>
+        <attr name="FormDesignerPalette\SwingMenus\position" intvalue="900"/>
+        <attr name="FormDesignerPalette\SwingWindows\position" intvalue="1000"/>
+        <attr name="FormDesignerPalette\_Layouts_only_for_internal_use_\position" intvalue="100"/>
+    </fileobject>
+</attributes>

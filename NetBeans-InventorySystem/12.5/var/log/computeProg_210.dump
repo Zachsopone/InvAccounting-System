@@ -1,0 +1,47 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){\
+    
+   }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){\
+    
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:318:318:318:17:37:compiler.err.illegal.char:illegal character: '\'], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:317:329:330:19:5:compiler.err.missing.ret.stmt:missing return statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:318:318:318:17:37:compiler.err.illegal.char:illegal character: '\']

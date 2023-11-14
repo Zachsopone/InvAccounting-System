@@ -1,0 +1,63 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Hello World");
+                    break;
+                case 2:
+                    System.out.
+                
+            }
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Hello World");
+                    break;
+                case 2:
+                    System.out.print
+                
+            }
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:603:603:603:24:5:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:587:597:603:23:31:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:603:603:603:23:37:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:587:597:603:23:31:compiler.err.not.stmt:not a statement]

@@ -1,0 +1,25 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 3
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:100:100:100:7:4:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:100:100:100:6:25:compiler.err.expected:';' expected]

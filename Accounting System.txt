@@ -1,0 +1,7 @@
+employee:
+Pineapple
+Gary
+
+admin:
+Mister
+Crabs

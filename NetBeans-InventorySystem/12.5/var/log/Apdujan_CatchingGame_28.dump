@@ -1,0 +1,77 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add()
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:424:440:444:17:21:compiler.err.cant.apply.symbols:no suitable method found for add(no arguments)
+    method Component.add(PopupMenu) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(String,Component) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,Object,int) is not applicable
+      (actual and formal argument lists differ in length), file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:446:446:446:18:2:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:424:440:444:17:21:compiler.err.cant.apply.symbols:no suitable method found for add(no arguments)
+    method Component.add(PopupMenu) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(String,Component) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,Object) is not applicable
+      (actual and formal argument lists differ in length)
+    method Container.add(Component,Object,int) is not applicable
+      (actual and formal argument lists differ in length), file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:446:446:446:17:27:compiler.err.expected:';' expected]

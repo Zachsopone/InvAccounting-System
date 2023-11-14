@@ -1,0 +1,53 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class Resibo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        header.
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class Resibo {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        header.name
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:394:400:405:18:15:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:405:405:405:19:4:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:394:400:405:18:15:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/Resibo.java:ERROR:405:405:405:18:20:compiler.err.expected:';' expected]

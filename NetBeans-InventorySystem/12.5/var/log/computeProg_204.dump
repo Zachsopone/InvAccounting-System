@@ -1,0 +1,41 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:250:250:250:15:6:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:229:255:256:15:5:compiler.err.missing.ret.stmt:missing return statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:250:250:250:14:20:compiler.err.expected:';' expected]

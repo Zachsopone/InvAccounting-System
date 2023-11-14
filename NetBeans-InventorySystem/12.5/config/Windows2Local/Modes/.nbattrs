@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="bottomSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="output/find-usages"/>
+    </fileobject>
+    <fileobject name="code_evaluator">
+        <attr name="WinSys-TCRef-Order" stringvalue="evaluatorPane"/>
+    </fileobject>
+    <fileobject name="commonpalette">
+        <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
+        <attr name="_palette_visible_" boolvalue="true"/>
+        <attr name="_palette_visible_FormDesignerPalette" boolvalue="true"/>
+        <attr name="_palette_visible__empty_" boolvalue="false"/>
+    </fileobject>
+    <fileobject name="editor">
+        <attr name="WinSys-TCRef-Order" stringvalue="Welcome/CoverageReportTopComponent/MultiView-java#002Eso10CA9CC1xt#002Ehistory#007C_1/MultiView-java#002Eso10CA9CC2xt#002Ehistory#007C_2/JShellEditor/dbgInstances/MultiView-java#002Eso2D0988CFtext#002Ehistory#007C/MultiView-java#002Eso10CA9CC4xt#002Ehistory#007C_4"/>
+    </fileobject>
+    <fileobject name="explorer">
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/services/favorites/projectTab_tc/debuggingView"/>
+    </fileobject>
+    <fileobject name="leftSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="DashboardTopComponent"/>
+    </fileobject>
+    <fileobject name="navigator">
+        <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC/TruffleASTDebugView/DomTC"/>
+    </fileobject>
+    <fileobject name="output">
+        <attr name="WinSys-TCRef-Order" stringvalue="NotificationCenterTopComponent/watchesView/localsView/breakpointsView/resultsView/callstackView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/TerminalContainerTopComponent/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/ReporterResultTopComponent/eventsView/profiler_pp/CallHierarchyTopComponent/AnalyzerTopComponent/AnalysisResultTopComponent/JavadocTopComponent/classes/CheckRegexTopComponent"/>
+    </fileobject>
+    <fileobject name="properties">
+        <attr name="WinSys-TCRef-Order" stringvalue="properties/CssStylesTC/AnalyzeStackTopComponent/JavaHierarchyTopComponent/KnockoutTC"/>
+    </fileobject>
+</attributes>

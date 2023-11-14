@@ -1,0 +1,75 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*pi*radius*radius+2*pi*radius*height
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, c, select;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2**radius*radius+2*pi*radius*height
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:493:493:493:22:60:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:487:487:493:22:54:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:461:461:467:22:28:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:480:480:486:22:47:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:477:477:479:22:44:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable pi
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:468:468:474:22:35:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:460:460:460:22:27:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:493:493:493:22:60:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:487:487:493:22:54:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:461:461:467:22:28:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:480:480:486:22:47:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:432:498:499:23:5:compiler.err.missing.ret.stmt:missing return statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:477:477:479:22:44:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable pi
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:468:468:474:22:35:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:460:460:460:22:27:compiler.err.illegal.start.of.expr:illegal start of expression]

@@ -1,0 +1,55 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+import java.util.*;
+
+public class BasicCalcMain {
+  public static void main(String[] args) throws IOException {
+  computeProg num=new computeProg();
+  num.calcChoice();
+  
+  num.calcProcess(); 
+  }
+}
+
+----- Updated text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+import java.util.*;
+
+public class BasicCalcMain {
+  public static void main(String[] args) throws IOException {
+  computeProg num=new computeProg();
+  num.calcChoice();
+  num
+  num.calcProcess(); 
+  }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:220:220:220:10:6:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:211:211:214:9:3:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class num
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:211:217:220:10:3:compiler.err.already.defined:variable num is already defined in method main(String[]), file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:221:221:232:10:7:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcProcess()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:211:211:214:9:3:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class num
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:211:217:220:10:3:compiler.err.already.defined:variable num is already defined in method main(String[]), file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:220:220:220:10:6:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:ERROR:221:221:232:10:7:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcProcess()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

@@ -1,0 +1,57 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java
+----- Original text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        window.setSize(500,500);
+        window.setVisible(true);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setTitle("Hans Gabriel");
+        w
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        window.setSize(500,500);
+        window.setVisible(true);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setTitle("Hans Gabriel");
+        windwo
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:370:370:370:20:5:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:364:364:370:19:9:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:370:370:370:19:15:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:364:364:370:19:9:compiler.err.not.stmt:not a statement]

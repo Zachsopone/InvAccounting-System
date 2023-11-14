@@ -1,0 +1,149 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java
+----- Original text: ---------------------------------------------
+import java.util.*;
+import java.util.Scanner;
+
+public class Apdujan {
+    private Scanner n=new Scanner(System.in);
+    private int a;
+    private int b; 
+   
+    public void getInput(){
+      System.out.print("Enter first number: ");
+      a=n.nextInt();
+      System.out.print("Enter second number: ");
+      b=n.nextInt();
+    }
+    public int addProgram(){
+      int sum=this.a + this.b;
+      return sum;
+    }
+    public int multiProgram(){
+      int prod=this.a * this.b;
+      return prod;
+    }
+    public int subProgram(){
+      int diff=this.a - this.b;
+      return diff;
+    }
+    public int divProgram(){
+      int quot=this.a / this.b;
+      return quot;
+    }
+    public void Calculate(){
+        
+    } 
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.*;
+import java.util.Scanner;
+
+public class Apdujan {
+    private Scanner n=new Scanner(System.in);
+    private int a;
+    private int b; 
+   
+    public void getInput(){
+      System.out.print("Enter first number: ");
+      a=n.nextInt();
+      System.out.print("Enter second number: ");
+      b=n.nextInt();
+    }
+    public int addProgram(){
+      int sum=this.a + this.b;
+      return sum;
+    }
+    public int multiProgram(){
+      int prod=this.a * this.b;
+      return prod;
+    }
+    public int subProgram(){
+      int diff=this.a - this.b;
+      return diff;
+    }
+    public int divProgram(){
+      int quot=this.a / this.b;
+      return quot;
+    }
+    public void Calculate(){
+        System.out.print("The sum is" + op.addProgram() + "\n");
+  System.out.print("The product is " + op.multiProgram()+ "\n");
+  System.out.print("The difference is " + op.subProgram()+ "\n");
+  System.out.print("The quotient is " + op.divProgram() + "\n");
+    } 
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:941:941:943:35:41:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Scanner.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:877:877:879:34:43:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:809:809:811:33:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReadableByteChannel.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Cloneable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:745:745:747:32:41:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Iterator.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Path.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:File.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:941:941:943:35:41:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Scanner.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:877:877:879:34:43:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:809:809:811:33:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReadableByteChannel.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Cloneable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:ERROR:745:745:747:32:41:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable op
+  location: class Apdujan, file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Iterator.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Path.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:File.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Calculator/src/Apdujan.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

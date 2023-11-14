@@ -1,0 +1,71 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System.out.print
+    
+    }
+
+            
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System.out.println
+    
+    }
+
+            
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:606:606:606:28:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:588:598:606:27:15:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:606:606:606:27:23:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:588:598:606:27:15:compiler.err.not.stmt:not a statement]

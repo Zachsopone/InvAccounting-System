@@ -1,0 +1,93 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test 
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:501:501:501:22:4:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:632:632:633:25:30:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable b
+  location: class test, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:497:497:501:21:9:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:632:632:633:25:25:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable b
+  location: class test, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:501:501:501:21:13:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:497:497:501:21:9:compiler.err.not.stmt:not a statement]

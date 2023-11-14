@@ -1,0 +1,47 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java
+----- Original text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        window.
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:201:201:201:17:2:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:201:201:201:15:16:compiler.err.expected:<identifier> expected]

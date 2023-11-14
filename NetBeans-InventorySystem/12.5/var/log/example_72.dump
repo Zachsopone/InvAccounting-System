@@ -1,0 +1,41 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println("Fixed decimal notation:");
+        System.out.printf("hours = %.2f, rate = %.2f, pay = %.2f, +  tolerance = %.2f%n%n",hours,rate,hours * rate, tolerance);
+        System.out.println("Scientific notation:");
+        System.out.printf("hours = %e , rate = %e, pay = %e, %n + tolerance = %e%n", hours );
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println("Fixed decimal notation:");
+        System.out.printf("hours = %.2f, rate = %.2f, pay = %.2f, +  tolerance = %.2f%n%n",hours,rate,hours * rate, tolerance);
+        System.out.println("Scientific notation:");
+        System.out.printf("hours = %e , rate = %e, pay = %e, %n + tolerance = %e%n", hours rate);
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:514:514:514:18:0:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:515:515:519:18:0:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:519:519:519:18:0:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:519:519:519:14:96:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:514:514:514:14:91:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:515:515:519:14:92:compiler.err.not.stmt:not a statement]

@@ -1,0 +1,65 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class computation {
+    
+    public static void compute()
+    {
+        int itemCodes = 0001;
+        
+        switch 
+        {
+            
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class computation {
+    
+    public static void compute()
+    {
+        int itemCodes = 0001, ;
+        
+        switch 
+        {
+            
+        }
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:374:374:374:18:1:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:384:384:384:19:1:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:348:348:348:15:30:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:348:348:348:15:30:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:374:374:374:17:15:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:384:384:384:18:9:compiler.err.illegal.start.of.expr:illegal start of expression]

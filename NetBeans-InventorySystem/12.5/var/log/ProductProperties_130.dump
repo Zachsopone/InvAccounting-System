@@ -1,0 +1,227 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java
+----- Original text: ---------------------------------------------
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+
+    public int getProdId() {
+        return ProductId;
+    }
+
+    public void setProdId(int ProductId) {
+        this.ProductId = ProductId;
+    }
+
+    public String getProdName() {
+        return ProductName;
+    }
+
+    public void setProdName(String ProductName) {
+        this.ProductName = ProductName;
+    }
+
+    public String getCategry() {
+        return Category;
+    }
+
+    public void setCategry(String Category) {
+        this.Category = Category;
+    }
+
+    public int getQuanty() {
+        return Quantity;
+    }
+
+    public void setQuanty(int Quantity) {
+        this.Quantity = Quantity;
+    }
+
+    public double getBuyingP() {
+        return BuyingPrice;
+    }
+
+    public void setBuyingP(double BuyingPrice) {
+        this.BuyingPrice = BuyingPrice;
+    }
+
+    public double getSellingP() {
+        return SellingPrice;
+    }
+
+    public void setSellingP(double SellingPrice) {
+        this.SellingPrice = SellingPrice;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCTNAME, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.ProductId=ID;
+    this.ProductName=PRODUCTNAME;
+    this.Category=CATEGORY;
+    this.Quantity=QUANTITY;
+    this.BuyingPrice=BUYINGPRICE;
+    this.SellingPrice=SELLINGPRICE;
+    }
+    public boolean updateProperty(ProductProperties property){
+    PreparedStatement st;
+    String updateQuery="update productstable set ProductId=?, ProductName=?, Category=?, Quantity=?, BuyingPrice=?, SellingPrice=?, ProductAdded=?";
+    try{
+        st=InventoryMain.GetConnection().prepareStatement(updateQuery);
+        st.setInt(1, property.getProdId());
+        st.
+    }catch(SQLException ex){
+            Logger.getLogger(ProductProperties.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return true;
+    }
+    
+    
+    
+    public boolean editProperty(ProductProperties property){
+    return true;
+    }
+    public boolean deleteProperty(int propertyId){
+    return true;
+    }
+    public ArrayList<ProductProperties> productList(){
+    return new ArrayList<ProductProperties>();
+    }
+}
+
+----- Updated text: ---------------------------------------------
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+
+    public int getProdId() {
+        return ProductId;
+    }
+
+    public void setProdId(int ProductId) {
+        this.ProductId = ProductId;
+    }
+
+    public String getProdName() {
+        return ProductName;
+    }
+
+    public void setProdName(String ProductName) {
+        this.ProductName = ProductName;
+    }
+
+    public String getCategry() {
+        return Category;
+    }
+
+    public void setCategry(String Category) {
+        this.Category = Category;
+    }
+
+    public int getQuanty() {
+        return Quantity;
+    }
+
+    public void setQuanty(int Quantity) {
+        this.Quantity = Quantity;
+    }
+
+    public double getBuyingP() {
+        return BuyingPrice;
+    }
+
+    public void setBuyingP(double BuyingPrice) {
+        this.BuyingPrice = BuyingPrice;
+    }
+
+    public double getSellingP() {
+        return SellingPrice;
+    }
+
+    public void setSellingP(double SellingPrice) {
+        this.SellingPrice = SellingPrice;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCTNAME, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.ProductId=ID;
+    this.ProductName=PRODUCTNAME;
+    this.Category=CATEGORY;
+    this.Quantity=QUANTITY;
+    this.BuyingPrice=BUYINGPRICE;
+    this.SellingPrice=SELLINGPRICE;
+    }
+    public boolean updateProperty(ProductProperties property){
+    PreparedStatement st;
+    String updateQuery="update productstable set ProductId=?, ProductName=?, Category=?, Quantity=?, BuyingPrice=?, SellingPrice=?, ProductAdded=?";
+    try{
+        st=InventoryMain.GetConnection().prepareStatement(updateQuery);
+        st.setInt(1, property.getProdId());
+        st.set
+    }catch(SQLException ex){
+            Logger.getLogger(ProductProperties.class.getName()).log(Level.SEVERE, null, ex);
+    }
+    return true;
+    }
+    
+    
+    
+    public boolean editProperty(ProductProperties property){
+    return true;
+    }
+    public boolean deleteProperty(int propertyId){
+    return true;
+    }
+    public ArrayList<ProductProperties> productList(){
+    return new ArrayList<ProductProperties>();
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:2284:2286:2290:92:11:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:WARNING:2685:2694:2713:-1:-1:compiler.warn.diamond.redundant.args:Redundant type arguments in new expression (use diamond operator instead)., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:2290:2290:2290:92:15:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:2284:2286:2290:92:11:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:WARNING:2685:2694:2713:108:25:compiler.warn.diamond.redundant.args:Redundant type arguments in new expression (use diamond operator instead)., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:2290:2290:2290:92:15:compiler.err.expected:';' expected]

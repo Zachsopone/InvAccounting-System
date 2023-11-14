@@ -1,0 +1,80 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Butaw c Ekel");
+                    break;
+                case 2:
+                    System.out.println("Butaw c Keim");
+                    break;
+                case 3:
+                    System.out.println("Butaw c Hans");
+                    break;
+                default:
+                    System.out.println("Pogi c Richard");
+                    break;
+                
+            }
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for 
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Butaw c Ekel");
+                    break;
+                case 2:
+                    System.out.println("Butaw c Keim");
+                    break;
+                case 3:
+                    System.out.println("Butaw c Hans");
+                    break;
+                default:
+                    System.out.println("Pogi c Richard");
+                    break;
+                
+            }
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:916:916:916:34:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:657:657:663:25:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:396:396:396:17:12:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:874:874:880:31:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:764:764:770:28:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:911:911:911:33:14:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:550:550:556:22:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:916:916:916:34:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:657:657:663:25:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:396:396:396:17:12:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:874:874:880:31:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:434:434:434:19:13:compiler.err.feature.not.supported.in.source.plural:switch expressions are not supported in -source 8
+  (use -source 14 or higher to enable switch expressions), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:764:764:770:28:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:911:911:911:33:14:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:550:550:556:22:21:compiler.err.break.outside.switch.expression:attempt to break out of a switch expression]

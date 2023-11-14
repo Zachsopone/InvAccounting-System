@@ -1,0 +1,74 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        switch (itemCode)
+        {
+            case 0001: 
+                
+                
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        switch (itemCode)
+        {
+            case 0001: 
+                
+                System
+                
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:526:526:532:22:9:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:532:532:532:23:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:486:486:490:19:18:compiler.err.prob.found.req:incompatible types: int cannot be converted to String], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:532:532:532:21:23:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:526:526:532:21:17:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:486:486:490:19:18:compiler.err.prob.found.req:incompatible types: int cannot be converted to String]

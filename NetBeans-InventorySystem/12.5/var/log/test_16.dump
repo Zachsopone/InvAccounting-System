@@ -1,0 +1,65 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Hello World");
+                    break;
+                case 2:
+                    System.out.println("Butaw c Keim");
+                
+                
+            }
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int choice = 1;
+            switch(choice){
+                case 1:
+                    System.out.println("Hello World");
+                    break;
+                case 2:
+                    System.out.println("Butaw c Keim");
+                case 
+                
+            }
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:674:674:674:29:0:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:674:674:674:26:13:compiler.err.illegal.start.of.expr:illegal start of expression]

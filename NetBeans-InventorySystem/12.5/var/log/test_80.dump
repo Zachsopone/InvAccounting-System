@@ -1,0 +1,101 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+                        traverseString(str);
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        
+                        break;
+                    default:
+                        String str;
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+                        traverseString(str);
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        
+                        break;
+                    default:
+                        String str =;
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:1128:1128:1128:39:11:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:763:763:766:28:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable str
+  location: class test], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:1128:1128:1128:38:37:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:763:763:766:28:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable str
+  location: class test]

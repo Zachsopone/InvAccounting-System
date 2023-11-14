@@ -1,0 +1,59 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class computation {
+    
+    public static void compute()
+    {
+        String itemCode;
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class computation {
+    
+    public static void compute()
+    {
+        String itemCode;
+        
+        swi
+        
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:361:361:364:16:1:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:364:364:364:16:4:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:361:361:364:17:9:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:364:364:364:17:12:compiler.err.expected:';' expected]

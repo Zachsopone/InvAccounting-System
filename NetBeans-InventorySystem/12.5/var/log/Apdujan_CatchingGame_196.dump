@@ -1,0 +1,109 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add(rat);
+    r=new Random();
+    Timer ratMoves=new Timer(ms, new ActionListener(){
+        @Override
+        public void actionPerformed(ActionEvent e) {
+        rat.setLocation(r.nextInt(getWidth()+50),r.nextInt(getHeight()+50));
+        }
+    });
+    ratMoves.start();
+    rat.addMouseListener(new MouseAdapter(){
+    public void mousePressed(MouseEvent m){
+    Toolkit.getDefaultToolkit().beep();
+    int x;
+    if (m.getSource() == plus) {
+      i++;
+      label.setText("" + i);
+    }
+    
+    System.out.println("Rat has been caught "+ x +" times!");
+    }
+    });
+    setExtendedState(MAXIMIZED_BOTH);
+    }
+    public static void main(String[] args) {
+    String diff=JOptionPane.showInputDialog("How fast is your rat?");
+    new Apdujan_CatchingGame(Integer.valueOf(diff));
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new JLabel(new ImageIcon("rat.png"));
+    getContentPane().add(rat);
+    r=new Random();
+    Timer ratMoves=new Timer(ms, new ActionListener(){
+        @Override
+        public void actionPerformed(ActionEvent e) {
+        rat.setLocation(r.nextInt(getWidth()+50),r.nextInt(getHeight()+50));
+        }
+    });
+    ratMoves.start();
+    rat.addMouseListener(new MouseAdapter(){
+    public void mousePressed(MouseEvent m){
+    Toolkit.getDefaultToolkit().beep();
+    int x;
+    if (m.get == plus) {
+      i++;
+      label.setText("" + i);
+    }
+    
+    System.out.println("Rat has been caught "+ x +" times!");
+    }
+    });
+    setExtendedState(MAXIMIZED_BOTH);
+    }
+    public static void main(String[] args) {
+    String diff=JOptionPane.showInputDialog("How fast is your rat?");
+    new Apdujan_CatchingGame(Integer.valueOf(diff));
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:915:915:916:32:26:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable i, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:862:863:867:30:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable get
+  location: variable m of type MouseEvent, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:896:896:901:32:7:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable label, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:885:885:886:31:7:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable i, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:871:871:875:30:18:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable plus], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:915:915:916:32:26:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable i, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:862:863:867:30:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable get
+  location: variable m of type MouseEvent, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:896:896:901:32:7:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable label, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:WARNING:524:524:689:19:54:compiler.warn.potential.lambda.found:This anonymous inner class creation can be turned into a lambda expression., file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:885:885:886:31:7:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable i, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:977:977:978:35:48:compiler.err.var.might.not.have.been.initialized:variable x might not have been initialized, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:871:871:875:30:18:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable plus]

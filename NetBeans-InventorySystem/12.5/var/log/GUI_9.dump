@@ -1,0 +1,53 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java
+----- Original text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        window.setSize(500,500);
+        window.setVisible(true);
+        window.set
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        
+        window.setSize(500,500);
+        window.setVisible(true);
+        window.setDe
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:272:272:272:18:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:260:266:272:17:15:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:272:272:272:17:21:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:260:266:272:17:15:compiler.err.not.stmt:not a statement]

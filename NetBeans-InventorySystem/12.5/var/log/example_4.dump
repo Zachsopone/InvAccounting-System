@@ -1,0 +1,35 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println ()
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:218:218:218:12:3:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:218:218:218:11:30:compiler.err.expected:';' expected]

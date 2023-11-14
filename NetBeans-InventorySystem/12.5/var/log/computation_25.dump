@@ -1,0 +1,71 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        if(itemCode == "0001")
+                {
+                    
+                    
+                    
+                    
+                    
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        if(itemCode == "0001")
+                {
+                    system
+                    
+                    
+                    
+                    
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:508:508:508:20:7:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:502:502:508:20:1:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:508:508:508:19:27:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:502:502:508:19:21:compiler.err.not.stmt:not a statement]

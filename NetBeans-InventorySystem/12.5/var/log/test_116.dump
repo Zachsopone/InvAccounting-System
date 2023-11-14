@@ -1,0 +1,97 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        Thread.sleep
+                        break;
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        Thread.sleep()
+                        break;
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:712:712:712:27:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:698:704:710:26:31:compiler.err.cant.apply.symbols:no suitable method found for sleep(no arguments)
+    method Thread.sleep(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method Thread.sleep(long,int) is not applicable
+      (actual and formal argument lists differ in length)], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:712:712:712:26:39:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:698:704:710:26:31:compiler.err.cant.apply.symbols:no suitable method found for sleep(no arguments)
+    method Thread.sleep(long) is not applicable
+      (actual and formal argument lists differ in length)
+    method Thread.sleep(long,int) is not applicable
+      (actual and formal argument lists differ in length)]

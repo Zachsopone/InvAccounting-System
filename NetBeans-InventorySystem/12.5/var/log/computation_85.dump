@@ -1,0 +1,171 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        //ITEM NUMBER 1
+        if(itemCode1 == 121 || itemCode1 == 232 ){
+            
+            if(itemCode1 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.print("   ");
+                    System.out.println(value);
+                    System.out.print("   ");
+                    System.out.println(value * quantity);
+                }
+            if(itemCode1 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print("   ");
+                System.out.println(value);
+                System.out.print("   ");
+                System.out.println(value * quantity);
+            }
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 1 !!!");
+        }
+        
+        //ITEM NUMBER 2
+        if(itemCode2 == 121 || itemCode2 == 232 ){
+        if(itemCode2 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.print(quantity2 + )
+                    System.out.print("   ");
+                }
+        if(itemCode2 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.print(quantity2 + "PC      " + value + "      " + value * quantity2 +" V");
+                System.out.println("   ");
+                
+            }
+        
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 2!!!");
+        }
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        //ITEM NUMBER 1
+        if(itemCode1 == 121 || itemCode1 == 232 ){
+            
+            if(itemCode1 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.print("   ");
+                    System.out.println(value);
+                    System.out.print("   ");
+                    System.out.println(value * quantity);
+                }
+            if(itemCode1 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print("   ");
+                System.out.println(value);
+                System.out.print("   ");
+                System.out.println(value * quantity);
+            }
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 1 !!!");
+        }
+        
+        //ITEM NUMBER 2
+        if(itemCode2 == 121 || itemCode2 == 232 ){
+        if(itemCode2 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.print(quantity2 + "")
+                    System.out.print("   ");
+                }
+        if(itemCode2 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.print(quantity2 + "PC      " + value + "      " + value * quantity2 +" V");
+                System.out.println("   ");
+                
+            }
+        
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 2!!!");
+        }
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:2051:2051:2051:61:2:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:2051:2051:2051:60:53:compiler.err.expected:';' expected]

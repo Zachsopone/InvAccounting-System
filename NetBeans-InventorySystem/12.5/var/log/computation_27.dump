@@ -1,0 +1,74 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        if(itemC
+                ode == "0001")
+                {
+                    system.out
+                            
+                    
+                    
+                    
+                    
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        String itemCode = itemInput.nextLine();
+        
+        if(itemCode == "0001")
+                {
+                    system.out
+                            
+                    
+                    
+                    
+                    
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:200:701:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:701:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:694:compute():null:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:694:null:null:,VARIABLE:332:375:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:332:339:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:352:374:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:356:363:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:364:373:in:java.io.InputStream:,IDENTIFIER:364:370:java.lang.System:java.lang.System:,null,VARIABLE:384:423:itemCode:java.lang.String:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:384:390:java.lang.String:java.lang.String:,null,METHOD_INVOCATION:402:422:nextLine():java.lang.String:,MEMBER_SELECT:402:420:nextLine():()java.lang.String:,IDENTIFIER:402:411:itemInput:java.util.Scanner:,IF:441:643:null:null:,PARENTHESIZED:443:463:null:boolean:,EQUAL_TO:444:462:null:boolean:,IDENTIFIER:444:452:itemCode:java.lang.String:,STRING_LITERAL:456:462:null:java.lang.String:,BLOCK:480:643:null:null:,EXPRESSION_STATEMENT:502:642:null:null:,ERRONEOUS:502:512:null:<any>:,MEMBER_SELECT:502:512:system.out:system.out:,IDENTIFIER:502:508:system:system:,null,null,, actual tree: COMPILATION_UNIT:200:701:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:701:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:694:compute():()void:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:694:null:null:,VARIABLE:332:375:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:332:339:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:352:374:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:356:363:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:364:373:in:java.io.InputStream:,IDENTIFIER:364:370:java.lang.System:java.lang.System:,null,VARIABLE:384:423:itemCode:java.lang.String:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:384:390:java.lang.String:java.lang.String:,null,METHOD_INVOCATION:402:422:nextLine():java.lang.String:,MEMBER_SELECT:402:420:nextLine():()java.lang.String:,IDENTIFIER:402:411:itemInput:java.util.Scanner:,IF:441:643:null:null:,PARENTHESIZED:443:463:null:boolean:,EQUAL_TO:444:462:null:boolean:,IDENTIFIER:444:452:itemCode:java.lang.String:,STRING_LITERAL:456:462:null:java.lang.String:,BLOCK:480:643:null:null:,EXPRESSION_STATEMENT:502:642:null:null:,ERRONEOUS:502:512:null:<any>:,MEMBER_SELECT:502:512:system.out:system.out:,IDENTIFIER:502:508:system:system:,null,null,

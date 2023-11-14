@@ -1,0 +1,103 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+            
+        String
+ 
+        }
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+          
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        String str = "Pogi c Richard";
+                        traverseString(str);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+            
+        String str
+ 
+        }
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+          
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        String str = "Pogi c Richard";
+                        traverseString(str);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:494:494:494:22:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:484:491:505:21:1:compiler.err.already.defined:variable str is already defined in method traverseString(String)], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:484:491:505:20:16:compiler.err.already.defined:variable str is already defined in method traverseString(String), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:494:494:494:20:19:compiler.err.expected:';' expected]

@@ -1,0 +1,81 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00 * quantity;             
+                }
+        if(itemCode == 002)
+            {
+                Syste
+            }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00 * quantity;             
+                }
+        if(itemCode == 002)
+            {
+                System.out.pr
+            }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:816:826:829:29:5:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:829:829:829:29:8:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:829:829:829:28:30:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:816:826:829:28:27:compiler.err.not.stmt:not a statement]

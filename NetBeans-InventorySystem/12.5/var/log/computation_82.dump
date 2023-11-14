@@ -1,0 +1,171 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        //ITEM NUMBER 1
+        if(itemCode1 == 121 || itemCode1 == 232 ){
+            
+            if(itemCode1 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.print("   ");
+                    System.out.println(value);
+                    System.out.print("   ");
+                    System.out.println(value * quantity);
+                }
+            if(itemCode1 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print("   ");
+                System.out.println(value);
+                System.out.print("   ");
+                System.out.println(value * quantity);
+            }
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 1 !!!");
+        }
+        
+        //ITEM NUMBER 2
+        if(itemCode2 == 121 || itemCode2 == 232 ){
+        if(itemCode2 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    Syste
+                    System.out.print("   ");
+                }
+        if(itemCode2 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.print(quantity2 + "PC      " + value + "      " + value * quantity2 +" V");
+                System.out.println("   ");
+                
+            }
+        
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 2!!!");
+        }
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        Scanner itemInput = new Scanner(System.in);
+        System.out.println("Item Code: ");
+        int itemCode1 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity = itemInput.nextInt();
+        
+        System.out.println("Item 2 Code: ");
+        int itemCode2 = itemInput.nextInt();
+        System.out.println("Quantity: ");
+        int quantity2 = itemInput.nextInt();
+        
+        //ITEM NUMBER 1
+        if(itemCode1 == 121 || itemCode1 == 232 ){
+            
+            if(itemCode1 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.println(quantity + "PC");
+                    System.out.print("   ");
+                    System.out.println(value);
+                    System.out.print("   ");
+                    System.out.println(value * quantity);
+                }
+            if(itemCode1 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.println(quantity + "PC");
+                System.out.print("   ");
+                System.out.println(value);
+                System.out.print("   ");
+                System.out.println(value * quantity);
+            }
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 1 !!!");
+        }
+        
+        //ITEM NUMBER 2
+        if(itemCode2 == 121 || itemCode2 == 232 ){
+        if(itemCode2 == 121)
+                {
+                    System.out.println("Juan Tasty Bread 500g");
+                    double value = 34.00;
+                    System.out.print
+                    System.out.print("   ");
+                }
+        if(itemCode2 == 232)
+            {
+                System.out.println("Surf Powder Rose Fresh 70g");
+                double value = 6.00;
+                System.out.print(quantity2 + "PC      " + value + "      " + value * quantity2 +" V");
+                System.out.println("   ");
+                
+            }
+        
+        }
+        else
+        {
+            System.out.println("INVALID ITEM NUMBER 2!!!");
+        }
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:200:2573:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:2573:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:2566:compute():null:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:2566:null:null:,VARIABLE:332:375:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:332:339:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:352:374:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:356:363:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:364:373:in:java.io.InputStream:,IDENTIFIER:364:370:java.lang.System:java.lang.System:,null,EXPRESSION_STATEMENT:384:418:null:null:,METHOD_INVOCATION:384:417:println(java.lang.String):void:,MEMBER_SELECT:384:402:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:384:394:out:java.io.PrintStream:,IDENTIFIER:384:390:java.lang.System:java.lang.System:,STRING_LITERAL:403:416:null:java.lang.String:,VARIABLE:427:463:itemCode1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:427:430:null:int:,null,METHOD_INVOCATION:443:462:nextInt():int:,MEMBER_SELECT:443:460:nextInt():()int:,IDENTIFIER:443:452:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:472:505:null:null:,METHOD_INVOCATION:472:504:println(java.lang.String):void:,MEMBER_SELECT:472:490:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:472:482:out:java.io.PrintStream:,IDENTIFIER:472:478:java.lang.System:java.lang.System:,STRING_LITERAL:491:503:null:java.lang.String:,VARIABLE:514:549:quantity:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:514:517:null:int:,null,METHOD_INVOCATION:529:548:nextInt():int:,MEMBER_SELECT:529:546:nextInt():()int:,IDENTIFIER:529:538:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:567:603:null:null:,METHOD_INVOCATION:567:602:println(java.lang.String):void:,MEMBER_SELECT:567:585:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:567:577:out:java.io.PrintStream:,IDENTIFIER:567:573:java.lang.System:java.lang.System:,STRING_LITERAL:586:601:null:java.lang.String:,VARIABLE:612:648:itemCode2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:612:615:null:int:,null,METHOD_INVOCATION:628:647:nextInt():int:,MEMBER_SELECT:628:645:nextInt():()int:,IDENTIFIER:628:637:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:657:690:null:null:,METHOD_INVOCATION:657:689:println(java.lang.String):void:,MEMBER_SELECT:657:675:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:657:667:out:java.io.PrintStream:,IDENTIFIER:657:663:java.lang.System:java.lang.System:,STRING_LITERAL:676:688:null:java.lang.String:,VARIABLE:699:735:quantity2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:699:702:null:int:,null,METHOD_INVOCATION:715:734:nextInt():int:,MEMBER_SELECT:715:732:nextInt():()int:,IDENTIFIER:715:724:itemInput:java.util.Scanner:,IF:777:1760:null:null:,PARENTHESIZED:779:818:null:boolean:,CONDITIONAL_OR:780:816:null:boolean:,EQUAL_TO:780:796:null:boolean:,IDENTIFIER:780:789:itemCode1:int:,INT_LITERAL:793:796:null:int:,EQUAL_TO:800:816:null:boolean:,IDENTIFIER:800:809:itemCode1:int:,INT_LITERAL:813:816:null:int:,BLOCK:818:1666:null:null:,IF:845:1260:null:null:,PARENTHESIZED:847:865:null:boolean:,EQUAL_TO:848:864:null:boolean:,IDENTIFIER:848:857:itemCode1:int:,INT_LITERAL:861:864:null:int:,BLOCK:882:1260:null:null:,EXPRESSION_STATEMENT:904:948:null:null:,METHOD_INVOCATION:904:947:println(java.lang.String):void:,MEMBER_SELECT:904:922:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:904:914:out:java.io.PrintStream:,IDENTIFIER:904:910:java.lang.System:java.lang.System:,STRING_LITERAL:923:946:null:java.lang.String:,VARIABLE:969:990:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:969:975:null:double:,null,DOUBLE_LITERAL:984:989:null:double:,EXPRESSION_STATEMENT:1011:1047:null:null:,METHOD_INVOCATION:1011:1046:println(java.lang.String):void:,MEMBER_SELECT:1011:1029:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1011:1021:out:java.io.PrintStream:,IDENTIFIER:1011:1017:java.lang.System:java.lang.System:,PLUS:1030:1045:null:java.lang.String:,IDENTIFIER:1030:1038:quantity:int:,STRING_LITERAL:1041:1045:null:java.lang.String:,EXPRESSION_STATEMENT:1068:1092:null:null:,METHOD_INVOCATION:1068:1091:print(java.lang.String):void:,MEMBER_SELECT:1068:1084:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1068:1078:out:java.io.PrintStream:,IDENTIFIER:1068:1074:java.lang.System:java.lang.System:,STRING_LITERAL:1085:1090:null:java.lang.String:,EXPRESSION_STATEMENT:1113:1139:null:null:,METHOD_INVOCATION:1113:1138:println(double):void:,MEMBER_SELECT:1113:1131:println(double):(double)void:,MEMBER_SELECT:1113:1123:out:java.io.PrintStream:,IDENTIFIER:1113:1119:java.lang.System:java.lang.System:,IDENTIFIER:1132:1137:value:double:,EXPRESSION_STATEMENT:1160:1184:null:null:,METHOD_INVOCATION:1160:1183:print(java.lang.String):void:,MEMBER_SELECT:1160:1176:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1160:1170:out:java.io.PrintStream:,IDENTIFIER:1160:1166:java.lang.System:java.lang.System:,STRING_LITERAL:1177:1182:null:java.lang.String:,EXPRESSION_STATEMENT:1205:1242:null:null:,METHOD_INVOCATION:1205:1241:println(double):void:,MEMBER_SELECT:1205:1223:println(double):(double)void:,MEMBER_SELECT:1205:1215:out:java.io.PrintStream:,IDENTIFIER:1205:1211:java.lang.System:java.lang.System:,MULTIPLY:1224:1240:null:double:,IDENTIFIER:1224:1229:value:double:,IDENTIFIER:1232:1240:quantity:int:,null,IF:1273:1656:null:null:,PARENTHESIZED:1275:1293:null:boolean:,EQUAL_TO:1276:1292:null:boolean:,IDENTIFIER:1276:1285:itemCode1:int:,INT_LITERAL:1289:1292:null:int:,BLOCK:1306:1656:null:null:,EXPRESSION_STATEMENT:1324:1373:null:null:,METHOD_INVOCATION:1324:1372:println(java.lang.String):void:,MEMBER_SELECT:1324:1342:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1324:1334:out:java.io.PrintStream:,IDENTIFIER:1324:1330:java.lang.System:java.lang.System:,STRING_LITERAL:1343:1371:null:java.lang.String:,VARIABLE:1390:1410:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:1390:1396:null:double:,null,DOUBLE_LITERAL:1405:1409:null:double:,EXPRESSION_STATEMENT:1427:1463:null:null:,METHOD_INVOCATION:1427:1462:println(java.lang.String):void:,MEMBER_SELECT:1427:1445:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1427:1437:out:java.io.PrintStream:,IDENTIFIER:1427:1433:java.lang.System:java.lang.System:,PLUS:1446:1461:null:java.lang.String:,IDENTIFIER:1446:1454:quantity:int:,STRING_LITERAL:1457:1461:null:java.lang.String:,EXPRESSION_STATEMENT:1480:1504:null:null:,METHOD_INVOCATION:1480:1503:print(java.lang.String):void:,MEMBER_SELECT:1480:1496:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1480:1490:out:java.io.PrintStream:,IDENTIFIER:1480:1486:java.lang.System:java.lang.System:,STRING_LITERAL:1497:1502:null:java.lang.String:,EXPRESSION_STATEMENT:1521:1547:null:null:,METHOD_INVOCATION:1521:1546:println(double):void:,MEMBER_SELECT:1521:1539:println(double):(double)void:,MEMBER_SELECT:1521:1531:out:java.io.PrintStream:,IDENTIFIER:1521:1527:java.lang.System:java.lang.System:,IDENTIFIER:1540:1545:value:double:,EXPRESSION_STATEMENT:1564:1588:null:null:,METHOD_INVOCATION:1564:1587:print(java.lang.String):void:,MEMBER_SELECT:1564:1580:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1564:1574:out:java.io.PrintStream:,IDENTIFIER:1564:1570:java.lang.System:java.lang.System:,STRING_LITERAL:1581:1586:null:java.lang.String:,EXPRESSION_STATEMENT:1605:1642:null:null:,METHOD_INVOCATION:1605:1641:println(double):void:,MEMBER_SELECT:1605:1623:println(double):(double)void:,MEMBER_SELECT:1605:1615:out:java.io.PrintStream:,IDENTIFIER:1605:1611:java.lang.System:java.lang.System:,MULTIPLY:1624:1640:null:double:,IDENTIFIER:1624:1629:value:double:,IDENTIFIER:1632:1640:quantity:int:,null,BLOCK:1688:1760:null:null:,EXPRESSION_STATEMENT:1702:1750:null:null:,METHOD_INVOCATION:1702:1749:println(java.lang.String):void:,MEMBER_SELECT:1702:1720:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1702:1712:out:java.io.PrintStream:,IDENTIFIER:1702:1708:java.lang.System:java.lang.System:,STRING_LITERAL:1721:1748:null:java.lang.String:,IF:1802:2533:null:null:,PARENTHESIZED:1804:1843:null:boolean:,CONDITIONAL_OR:1805:1841:null:boolean:,EQUAL_TO:1805:1821:null:boolean:,IDENTIFIER:1805:1814:itemCode2:int:,INT_LITERAL:1818:1821:null:int:,EQUAL_TO:1825:1841:null:boolean:,IDENTIFIER:1825:1834:itemCode2:int:,INT_LITERAL:1838:1841:null:int:,BLOCK:1843:2440:null:null:,IF:1853:2098:null:null:,PARENTHESIZED:1855:1873:null:boolean:,EQUAL_TO:1856:1872:null:boolean:,IDENTIFIER:1856:1865:itemCode2:int:,INT_LITERAL:1869:1872:null:int:,BLOCK:1890:2098:null:null:,EXPRESSION_STATEMENT:1912:1956:null:null:,METHOD_INVOCATION:1912:1955:println(java.lang.String):void:,MEMBER_SELECT:1912:1930:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1912:1922:out:java.io.PrintStream:,IDENTIFIER:1912:1918:java.lang.System:java.lang.System:,STRING_LITERAL:1931:1954:null:java.lang.String:,VARIABLE:1977:1998:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:1977:1983:null:double:,null,DOUBLE_LITERAL:1992:1997:null:double:,VARIABLE:2019:2062:System:java.lang.System.out.print:,MODIFIERS:-1:-1:null:null:,MEMBER_SELECT:2019:2035:java.lang.System.out.print:java.lang.System.out.print:,MEMBER_SELECT:2019:2029:java.lang.System.out:java.lang.System.out:,IDENTIFIER:2019:2025:java.lang.System:java.lang.System:,null,null,EXPRESSION_STATEMENT:2063:2080:null:null:,METHOD_INVOCATION:2063:2079:out.print:out.print:,MEMBER_SELECT:2063:2072:out.print:out.print:,IDENTIFIER:2063:2066:out:out:,STRING_LITERAL:2073:2078:null:java.lang.String:,null,IF:2107:2421:null:null:,PARENTHESIZED:2109:2127:null:boolean:,EQUAL_TO:2110:2126:null:boolean:,IDENTIFIER:2110:2119:itemCode2:int:,INT_LITERAL:2123:2126:null:int:,BLOCK:2140:2421:null:null:,EXPRESSION_STATEMENT:2158:2207:null:null:,METHOD_INVOCATION:2158:2206:println(java.lang.String):void:,MEMBER_SELECT:2158:2176:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2158:2168:out:java.io.PrintStream:,IDENTIFIER:2158:2164:java.lang.System:java.lang.System:,STRING_LITERAL:2177:2205:null:java.lang.String:,VARIABLE:2224:2244:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:2224:2230:null:double:,null,DOUBLE_LITERAL:2239:2243:null:double:,EXPRESSION_STATEMENT:2261:2347:null:null:,METHOD_INVOCATION:2261:2346:print(java.lang.String):void:,MEMBER_SELECT:2261:2277:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2261:2271:out:java.io.PrintStream:,IDENTIFIER:2261:2267:java.lang.System:java.lang.System:,PLUS:2278:2345:null:java.lang.String:,PLUS:2278:2339:null:java.lang.String:,PLUS:2278:2319:null:java.lang.String:,PLUS:2278:2308:null:java.lang.String:,PLUS:2278:2300:null:java.lang.String:,IDENTIFIER:2278:2287:quantity2:int:,STRING_LITERAL:2290:2300:null:java.lang.String:,IDENTIFIER:2303:2308:value:double:,STRING_LITERAL:2311:2319:null:java.lang.String:,MULTIPLY:2322:2339:null:double:,IDENTIFIER:2322:2327:value:double:,IDENTIFIER:2330:2339:quantity2:int:,STRING_LITERAL:2341:2345:null:java.lang.String:,EXPRESSION_STATEMENT:2364:2390:null:null:,METHOD_INVOCATION:2364:2389:println(java.lang.String):void:,MEMBER_SELECT:2364:2382:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2364:2374:out:java.io.PrintStream:,IDENTIFIER:2364:2370:java.lang.System:java.lang.System:,STRING_LITERAL:2383:2388:null:java.lang.String:,null,BLOCK:2462:2533:null:null:,EXPRESSION_STATEMENT:2476:2523:null:null:,METHOD_INVOCATION:2476:2522:println(java.lang.String):void:,MEMBER_SELECT:2476:2494:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2476:2486:out:java.io.PrintStream:,IDENTIFIER:2476:2482:java.lang.System:java.lang.System:,STRING_LITERAL:2495:2521:null:java.lang.String:,null,, actual tree: COMPILATION_UNIT:200:2573:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:2573:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:2566:compute():()void:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:2566:null:null:,VARIABLE:332:375:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:332:339:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:352:374:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:356:363:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:364:373:in:java.io.InputStream:,IDENTIFIER:364:370:java.lang.System:java.lang.System:,null,EXPRESSION_STATEMENT:384:418:null:null:,METHOD_INVOCATION:384:417:println(java.lang.String):void:,MEMBER_SELECT:384:402:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:384:394:out:java.io.PrintStream:,IDENTIFIER:384:390:java.lang.System:java.lang.System:,STRING_LITERAL:403:416:null:java.lang.String:,VARIABLE:427:463:itemCode1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:427:430:null:int:,null,METHOD_INVOCATION:443:462:nextInt():int:,MEMBER_SELECT:443:460:nextInt():()int:,IDENTIFIER:443:452:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:472:505:null:null:,METHOD_INVOCATION:472:504:println(java.lang.String):void:,MEMBER_SELECT:472:490:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:472:482:out:java.io.PrintStream:,IDENTIFIER:472:478:java.lang.System:java.lang.System:,STRING_LITERAL:491:503:null:java.lang.String:,VARIABLE:514:549:quantity:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:514:517:null:int:,null,METHOD_INVOCATION:529:548:nextInt():int:,MEMBER_SELECT:529:546:nextInt():()int:,IDENTIFIER:529:538:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:567:603:null:null:,METHOD_INVOCATION:567:602:println(java.lang.String):void:,MEMBER_SELECT:567:585:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:567:577:out:java.io.PrintStream:,IDENTIFIER:567:573:java.lang.System:java.lang.System:,STRING_LITERAL:586:601:null:java.lang.String:,VARIABLE:612:648:itemCode2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:612:615:null:int:,null,METHOD_INVOCATION:628:647:nextInt():int:,MEMBER_SELECT:628:645:nextInt():()int:,IDENTIFIER:628:637:itemInput:java.util.Scanner:,EXPRESSION_STATEMENT:657:690:null:null:,METHOD_INVOCATION:657:689:println(java.lang.String):void:,MEMBER_SELECT:657:675:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:657:667:out:java.io.PrintStream:,IDENTIFIER:657:663:java.lang.System:java.lang.System:,STRING_LITERAL:676:688:null:java.lang.String:,VARIABLE:699:735:quantity2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:699:702:null:int:,null,METHOD_INVOCATION:715:734:nextInt():int:,MEMBER_SELECT:715:732:nextInt():()int:,IDENTIFIER:715:724:itemInput:java.util.Scanner:,IF:777:1760:null:null:,PARENTHESIZED:779:818:null:boolean:,CONDITIONAL_OR:780:816:null:boolean:,EQUAL_TO:780:796:null:boolean:,IDENTIFIER:780:789:itemCode1:int:,INT_LITERAL:793:796:null:int:,EQUAL_TO:800:816:null:boolean:,IDENTIFIER:800:809:itemCode1:int:,INT_LITERAL:813:816:null:int:,BLOCK:818:1666:null:null:,IF:845:1260:null:null:,PARENTHESIZED:847:865:null:boolean:,EQUAL_TO:848:864:null:boolean:,IDENTIFIER:848:857:itemCode1:int:,INT_LITERAL:861:864:null:int:,BLOCK:882:1260:null:null:,EXPRESSION_STATEMENT:904:948:null:null:,METHOD_INVOCATION:904:947:println(java.lang.String):void:,MEMBER_SELECT:904:922:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:904:914:out:java.io.PrintStream:,IDENTIFIER:904:910:java.lang.System:java.lang.System:,STRING_LITERAL:923:946:null:java.lang.String:,VARIABLE:969:990:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:969:975:null:double:,null,DOUBLE_LITERAL:984:989:null:double:,EXPRESSION_STATEMENT:1011:1047:null:null:,METHOD_INVOCATION:1011:1046:println(java.lang.String):void:,MEMBER_SELECT:1011:1029:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1011:1021:out:java.io.PrintStream:,IDENTIFIER:1011:1017:java.lang.System:java.lang.System:,PLUS:1030:1045:null:java.lang.String:,IDENTIFIER:1030:1038:quantity:int:,STRING_LITERAL:1041:1045:null:java.lang.String:,EXPRESSION_STATEMENT:1068:1092:null:null:,METHOD_INVOCATION:1068:1091:print(java.lang.String):void:,MEMBER_SELECT:1068:1084:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1068:1078:out:java.io.PrintStream:,IDENTIFIER:1068:1074:java.lang.System:java.lang.System:,STRING_LITERAL:1085:1090:null:java.lang.String:,EXPRESSION_STATEMENT:1113:1139:null:null:,METHOD_INVOCATION:1113:1138:println(double):void:,MEMBER_SELECT:1113:1131:println(double):(double)void:,MEMBER_SELECT:1113:1123:out:java.io.PrintStream:,IDENTIFIER:1113:1119:java.lang.System:java.lang.System:,IDENTIFIER:1132:1137:value:double:,EXPRESSION_STATEMENT:1160:1184:null:null:,METHOD_INVOCATION:1160:1183:print(java.lang.String):void:,MEMBER_SELECT:1160:1176:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1160:1170:out:java.io.PrintStream:,IDENTIFIER:1160:1166:java.lang.System:java.lang.System:,STRING_LITERAL:1177:1182:null:java.lang.String:,EXPRESSION_STATEMENT:1205:1242:null:null:,METHOD_INVOCATION:1205:1241:println(double):void:,MEMBER_SELECT:1205:1223:println(double):(double)void:,MEMBER_SELECT:1205:1215:out:java.io.PrintStream:,IDENTIFIER:1205:1211:java.lang.System:java.lang.System:,MULTIPLY:1224:1240:null:double:,IDENTIFIER:1224:1229:value:double:,IDENTIFIER:1232:1240:quantity:int:,null,IF:1273:1656:null:null:,PARENTHESIZED:1275:1293:null:boolean:,EQUAL_TO:1276:1292:null:boolean:,IDENTIFIER:1276:1285:itemCode1:int:,INT_LITERAL:1289:1292:null:int:,BLOCK:1306:1656:null:null:,EXPRESSION_STATEMENT:1324:1373:null:null:,METHOD_INVOCATION:1324:1372:println(java.lang.String):void:,MEMBER_SELECT:1324:1342:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1324:1334:out:java.io.PrintStream:,IDENTIFIER:1324:1330:java.lang.System:java.lang.System:,STRING_LITERAL:1343:1371:null:java.lang.String:,VARIABLE:1390:1410:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:1390:1396:null:double:,null,DOUBLE_LITERAL:1405:1409:null:double:,EXPRESSION_STATEMENT:1427:1463:null:null:,METHOD_INVOCATION:1427:1462:println(java.lang.String):void:,MEMBER_SELECT:1427:1445:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1427:1437:out:java.io.PrintStream:,IDENTIFIER:1427:1433:java.lang.System:java.lang.System:,PLUS:1446:1461:null:java.lang.String:,IDENTIFIER:1446:1454:quantity:int:,STRING_LITERAL:1457:1461:null:java.lang.String:,EXPRESSION_STATEMENT:1480:1504:null:null:,METHOD_INVOCATION:1480:1503:print(java.lang.String):void:,MEMBER_SELECT:1480:1496:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1480:1490:out:java.io.PrintStream:,IDENTIFIER:1480:1486:java.lang.System:java.lang.System:,STRING_LITERAL:1497:1502:null:java.lang.String:,EXPRESSION_STATEMENT:1521:1547:null:null:,METHOD_INVOCATION:1521:1546:println(double):void:,MEMBER_SELECT:1521:1539:println(double):(double)void:,MEMBER_SELECT:1521:1531:out:java.io.PrintStream:,IDENTIFIER:1521:1527:java.lang.System:java.lang.System:,IDENTIFIER:1540:1545:value:double:,EXPRESSION_STATEMENT:1564:1588:null:null:,METHOD_INVOCATION:1564:1587:print(java.lang.String):void:,MEMBER_SELECT:1564:1580:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1564:1574:out:java.io.PrintStream:,IDENTIFIER:1564:1570:java.lang.System:java.lang.System:,STRING_LITERAL:1581:1586:null:java.lang.String:,EXPRESSION_STATEMENT:1605:1642:null:null:,METHOD_INVOCATION:1605:1641:println(double):void:,MEMBER_SELECT:1605:1623:println(double):(double)void:,MEMBER_SELECT:1605:1615:out:java.io.PrintStream:,IDENTIFIER:1605:1611:java.lang.System:java.lang.System:,MULTIPLY:1624:1640:null:double:,IDENTIFIER:1624:1629:value:double:,IDENTIFIER:1632:1640:quantity:int:,null,BLOCK:1688:1760:null:null:,EXPRESSION_STATEMENT:1702:1750:null:null:,METHOD_INVOCATION:1702:1749:println(java.lang.String):void:,MEMBER_SELECT:1702:1720:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1702:1712:out:java.io.PrintStream:,IDENTIFIER:1702:1708:java.lang.System:java.lang.System:,STRING_LITERAL:1721:1748:null:java.lang.String:,IF:1802:2533:null:null:,PARENTHESIZED:1804:1843:null:boolean:,CONDITIONAL_OR:1805:1841:null:boolean:,EQUAL_TO:1805:1821:null:boolean:,IDENTIFIER:1805:1814:itemCode2:int:,INT_LITERAL:1818:1821:null:int:,EQUAL_TO:1825:1841:null:boolean:,IDENTIFIER:1825:1834:itemCode2:int:,INT_LITERAL:1838:1841:null:int:,BLOCK:1843:2440:null:null:,IF:1853:2098:null:null:,PARENTHESIZED:1855:1873:null:boolean:,EQUAL_TO:1856:1872:null:boolean:,IDENTIFIER:1856:1865:itemCode2:int:,INT_LITERAL:1869:1872:null:int:,BLOCK:1890:2098:null:null:,EXPRESSION_STATEMENT:1912:1956:null:null:,METHOD_INVOCATION:1912:1955:println(java.lang.String):void:,MEMBER_SELECT:1912:1930:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:1912:1922:out:java.io.PrintStream:,IDENTIFIER:1912:1918:java.lang.System:java.lang.System:,STRING_LITERAL:1931:1954:null:java.lang.String:,VARIABLE:1977:1998:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:1977:1983:null:double:,null,DOUBLE_LITERAL:1992:1997:null:double:,VARIABLE:2019:2062:System:java.lang.System.out.print:,MODIFIERS:-1:-1:null:null:,MEMBER_SELECT:2019:2035:java.lang.System.out.print:java.lang.System.out.print:,MEMBER_SELECT:2019:2029:java.lang.System.out:java.lang.System.out:,IDENTIFIER:2019:2025:java.lang.System:java.lang.System:,null,null,EXPRESSION_STATEMENT:2063:2080:null:null:,METHOD_INVOCATION:2063:2079:out.print:out.print:,MEMBER_SELECT:2063:2072:out.print:out.print:,IDENTIFIER:2063:2066:out:out:,STRING_LITERAL:2073:2078:null:java.lang.String:,null,IF:2107:2421:null:null:,PARENTHESIZED:2109:2127:null:boolean:,EQUAL_TO:2110:2126:null:boolean:,IDENTIFIER:2110:2119:itemCode2:int:,INT_LITERAL:2123:2126:null:int:,BLOCK:2140:2421:null:null:,EXPRESSION_STATEMENT:2158:2207:null:null:,METHOD_INVOCATION:2158:2206:println(java.lang.String):void:,MEMBER_SELECT:2158:2176:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2158:2168:out:java.io.PrintStream:,IDENTIFIER:2158:2164:java.lang.System:java.lang.System:,STRING_LITERAL:2177:2205:null:java.lang.String:,VARIABLE:2224:2244:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:2224:2230:null:double:,null,DOUBLE_LITERAL:2239:2243:null:double:,EXPRESSION_STATEMENT:2261:2347:null:null:,METHOD_INVOCATION:2261:2346:print(java.lang.String):void:,MEMBER_SELECT:2261:2277:print(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2261:2271:out:java.io.PrintStream:,IDENTIFIER:2261:2267:java.lang.System:java.lang.System:,PLUS:2278:2345:null:java.lang.String:,PLUS:2278:2339:null:java.lang.String:,PLUS:2278:2319:null:java.lang.String:,PLUS:2278:2308:null:java.lang.String:,PLUS:2278:2300:null:java.lang.String:,IDENTIFIER:2278:2287:quantity2:int:,STRING_LITERAL:2290:2300:null:java.lang.String:,IDENTIFIER:2303:2308:value:double:,STRING_LITERAL:2311:2319:null:java.lang.String:,MULTIPLY:2322:2339:null:double:,IDENTIFIER:2322:2327:value:double:,IDENTIFIER:2330:2339:quantity2:int:,STRING_LITERAL:2341:2345:null:java.lang.String:,EXPRESSION_STATEMENT:2364:2390:null:null:,METHOD_INVOCATION:2364:2389:println(java.lang.String):void:,MEMBER_SELECT:2364:2382:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2364:2374:out:java.io.PrintStream:,IDENTIFIER:2364:2370:java.lang.System:java.lang.System:,STRING_LITERAL:2383:2388:null:java.lang.String:,null,BLOCK:2462:2533:null:null:,EXPRESSION_STATEMENT:2476:2523:null:null:,METHOD_INVOCATION:2476:2522:println(java.lang.String):void:,MEMBER_SELECT:2476:2494:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:2476:2486:out:java.io.PrintStream:,IDENTIFIER:2476:2482:java.lang.System:java.lang.System:,STRING_LITERAL:2495:2521:null:java.lang.String:,null,

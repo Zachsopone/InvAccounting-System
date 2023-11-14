@@ -1,0 +1,63 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        System.out.println("SUM: " + sum);
+        Thread.sleep(1000);
+        int difference = num1 - num2;
+        System.out.println("DIFFERENCE: " + difference);
+        Thread.sleep(1000);
+        int product = num1 * num2;
+        System.out.println("PRODUCT: " + product);
+        Thread.sleep(1000);
+        int quotient = num1 / num2;
+        System.out.println("QUOTIENT" + sum);
+        Thread.sleep(1000);
+        float modulo = num1 % num2;
+        Thread.sleep(1000);
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        System.out.println("SUM: " + sum);
+        Thread.sleep(1000);
+        int difference = num1 - num2;
+        System.out.println("DIFFERENCE: " + difference);
+        Thread.sleep(1000);
+        int product = num1 * num2;
+        System.out.println("PRODUCT: " + product);
+        Thread.sleep(1000);
+        int quotient = num1 / num2;
+        System.out.println("QUOTIENT: " + q);
+        Thread.sleep(1000);
+        float modulo = num1 % num2;
+        Thread.sleep(1000);
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:756:756:757:21:22:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable q
+  location: class nebu], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:756:756:757:20:43:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable q
+  location: class nebu]

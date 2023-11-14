@@ -1,0 +1,25 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/comprog/src/comprog.java
+----- Original text: ---------------------------------------------
+
+public class comprog {
+
+
+    public static void main(String[] args) {
+      S
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class comprog {
+
+
+    public static void main(String[] args) {
+      System
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:77:77:83:6:7:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:83:83:83:7:5:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:77:77:83:6:7:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:83:83:83:6:13:compiler.err.expected:';' expected]

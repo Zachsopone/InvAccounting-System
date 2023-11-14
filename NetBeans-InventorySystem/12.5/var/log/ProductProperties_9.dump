@@ -1,0 +1,63 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int Id;
+    private String Product;
+    private String Categry;
+    private int Quanty;
+    private double BuyingP;
+    private double SellingP;
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.Id=ID;
+    this.Product=PRODUCT;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int Id;
+    private String Product;
+    private String Categry;
+    private int Quanty;
+    private double BuyingP;
+    private double SellingP;
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.Id=ID;
+    this.Product=PRODUCT;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    this
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:699:699:699:27:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:695:695:699:26:5:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:699:699:699:26:9:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:695:695:699:26:5:compiler.err.not.stmt:not a statement]

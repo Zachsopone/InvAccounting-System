@@ -1,0 +1,47 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIU)
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXI)
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:1:448:apdujan.laboratory4:null:,PACKAGE:1:29:apdujan.laboratory4:null:,MEMBER_SELECT:9:28:apdujan.laboratory4:null:,IDENTIFIER:9:16:apdujan:null:,IMPORT:30:51:null:null:,MEMBER_SELECT:37:50:null:null:,MEMBER_SELECT:37:48:javax.swing:javax.swing:,IDENTIFIER:37:42:javax:javax:,IMPORT:52:70:null:null:,MEMBER_SELECT:59:69:null:null:,MEMBER_SELECT:59:67:java.awt:java.awt:,IDENTIFIER:59:63:java:java:,IMPORT:71:95:null:null:,MEMBER_SELECT:78:94:null:null:,MEMBER_SELECT:78:92:java.awt.event:java.awt.event:,MEMBER_SELECT:78:86:java.awt:java.awt:,IDENTIFIER:78:82:java:java:,IMPORT:96:120:null:null:,MEMBER_SELECT:103:119:java.util.Random:java.util.Random:,MEMBER_SELECT:103:112:java.util:java.util:,IDENTIFIER:103:107:java:java:,CLASS:122:448:apdujan.laboratory4.Apdujan_CatchingGame:apdujan.laboratory4.Apdujan_CatchingGame:,MODIFIERS:122:128:null:null:,IDENTIFIER:164:170:javax.swing.JFrame:javax.swing.JFrame:,VARIABLE:176:187:rat:javax.swing.JLabel:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:176:182:javax.swing.JLabel:javax.swing.JLabel:,null,null,VARIABLE:192:201:r:java.util.Random:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:192:198:java.util.Random:java.util.Random:,null,null,METHOD:206:346:Apdujan_CatchingGame(int):(int)void:,MODIFIERS:206:212:null:null:,null,VARIABLE:234:240:ms:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:234:237:null:int:,null,null,null,BLOCK:241:346:null:null:,EXPRESSION_STATEMENT:241:-1:null:null:,METHOD_INVOCATION:241:-1:JFrame():void:,IDENTIFIER:241:246:JFrame():()void:,EXPRESSION_STATEMENT:247:273:null:null:,METHOD_INVOCATION:247:272:setTitle(java.lang.String):void:,IDENTIFIER:247:255:setTitle(java.lang.String):(java.lang.String)void:,STRING_LITERAL:256:271:null:java.lang.String:,EXPRESSION_STATEMENT:278:306:null:null:,METHOD_INVOCATION:278:305:setLayout(java.awt.LayoutManager):void:,IDENTIFIER:278:287:setLayout(java.awt.LayoutManager):(java.awt.LayoutManager)void:,NEW_CLASS:288:304:FlowLayout():java.awt.FlowLayout:,null,IDENTIFIER:292:302:java.awt.FlowLayout:java.awt.FlowLayout:,null,EXPRESSION_STATEMENT:311:345:null:null:,METHOD_INVOCATION:311:340:setDefaultCloseOperation(int):<any>:,IDENTIFIER:311:335:setDefaultCloseOperation(int):<any>:,IDENTIFIER:336:339:EXI:EXI:,null,METHOD:351:441:main(java.lang.String[]):null:,MODIFIERS:351:364:null:null:,PRIMITIVE_TYPE:365:369:null:void:,VARIABLE:375:388:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:375:383:null:java.lang.String[]:,IDENTIFIER:375:381:java.lang.String:java.lang.String:,null,null,null,BLOCK:390:441:null:null:,null,, actual tree: COMPILATION_UNIT:1:448:apdujan.laboratory4:null:,PACKAGE:1:29:apdujan.laboratory4:null:,MEMBER_SELECT:9:28:apdujan.laboratory4:null:,IDENTIFIER:9:16:apdujan:null:,IMPORT:30:51:null:null:,MEMBER_SELECT:37:50:null:null:,MEMBER_SELECT:37:48:javax.swing:javax.swing:,IDENTIFIER:37:42:javax:javax:,IMPORT:52:70:null:null:,MEMBER_SELECT:59:69:null:null:,MEMBER_SELECT:59:67:java.awt:java.awt:,IDENTIFIER:59:63:java:java:,IMPORT:71:95:null:null:,MEMBER_SELECT:78:94:null:null:,MEMBER_SELECT:78:92:java.awt.event:java.awt.event:,MEMBER_SELECT:78:86:java.awt:java.awt:,IDENTIFIER:78:82:java:java:,IMPORT:96:120:null:null:,MEMBER_SELECT:103:119:java.util.Random:java.util.Random:,MEMBER_SELECT:103:112:java.util:java.util:,IDENTIFIER:103:107:java:java:,CLASS:122:448:apdujan.laboratory4.Apdujan_CatchingGame:apdujan.laboratory4.Apdujan_CatchingGame:,MODIFIERS:122:128:null:null:,IDENTIFIER:164:170:javax.swing.JFrame:javax.swing.JFrame:,VARIABLE:176:187:rat:javax.swing.JLabel:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:176:182:javax.swing.JLabel:javax.swing.JLabel:,null,null,VARIABLE:192:201:r:java.util.Random:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:192:198:java.util.Random:java.util.Random:,null,null,METHOD:206:346:Apdujan_CatchingGame(int):(int)void:,MODIFIERS:206:212:null:null:,null,VARIABLE:234:240:ms:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:234:237:null:int:,null,null,null,BLOCK:241:346:null:null:,EXPRESSION_STATEMENT:241:-1:null:null:,METHOD_INVOCATION:241:-1:JFrame():void:,IDENTIFIER:241:246:JFrame():()void:,EXPRESSION_STATEMENT:247:273:null:null:,METHOD_INVOCATION:247:272:setTitle(java.lang.String):void:,IDENTIFIER:247:255:setTitle(java.lang.String):(java.lang.String)void:,STRING_LITERAL:256:271:null:java.lang.String:,EXPRESSION_STATEMENT:278:306:null:null:,METHOD_INVOCATION:278:305:setLayout(java.awt.LayoutManager):void:,IDENTIFIER:278:287:setLayout(java.awt.LayoutManager):(java.awt.LayoutManager)void:,NEW_CLASS:288:304:FlowLayout():java.awt.FlowLayout:,null,IDENTIFIER:292:302:java.awt.FlowLayout:java.awt.FlowLayout:,null,EXPRESSION_STATEMENT:311:345:null:null:,METHOD_INVOCATION:311:340:setDefaultCloseOperation(int):<any>:,IDENTIFIER:311:335:setDefaultCloseOperation(int):<any>:,IDENTIFIER:336:339:EXI:EXI:,null,METHOD:351:441:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:351:364:null:null:,PRIMITIVE_TYPE:365:369:null:void:,VARIABLE:375:388:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:375:383:null:java.lang.String[]:,IDENTIFIER:375:381:java.lang.String:java.lang.String:,null,null,null,BLOCK:390:441:null:null:,null,

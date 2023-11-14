@@ -1,0 +1,49 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println ("Fixed decimal notation:");
+        System.out.printf "hours = %.2f, rate = %.2f, pay = %.2f, + "tolerance = %.2f%n%n",hours,rate,hours * rate, tolerance");
+        System.out.println ("Scientific notation:");
+        System.out.printf
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println ("Fixed decimal notation:");
+        System.out.printf"hours = %.2f, rate = %.2f, pay = %.2f, + "tolerance = %.2f%n%n",hours,rate,hours * rate, tolerance");
+        System.out.println ("Scientific notation:");
+        System.out.printf
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:270:270:270:12:26:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:330:330:331:12:86:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable n
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:325:325:325:12:81:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:333:333:333:12:89:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:451:451:451:14:25:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:434:444:451:14:18:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:332:332:333:12:88:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable n
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:253:263:270:12:19:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:270:270:270:12:26:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:330:330:331:12:86:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable n
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:325:325:325:12:81:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:434:444:451:14:19:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:451:451:451:14:26:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:333:333:333:12:89:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:332:332:333:12:88:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable n
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:253:263:270:12:19:compiler.err.not.stmt:not a statement]

@@ -1,0 +1,115 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java
+----- Original text: ---------------------------------------------
+package apdujan_laboratory1;
+public class computeProg {
+    public int addOperation(int x, int y, int z){
+        int sum=x+y+z;
+        return sum;
+    }
+    public int subOperation(int x, int y, int z){
+        int diff=x+y+z;
+        return diff;
+    }
+    public void calcChoice(){
+        System.out.println("First Number: "); 
+        x=.nextInt();
+        System.out.println("Second Number: ");
+        y=scan.nextInt();
+        System.out.println("Third Number: ");
+        z=scan.nextInt();
+        System.out.println("1 Addition");
+        System.out.println("2 Subtraction");
+        System.out.println("Select operation:");
+        choice=scan.nextInt();
+    }
+}
+
+----- Updated text: ---------------------------------------------
+package apdujan_laboratory1;
+public class computeProg {
+    public int addOperation(int x, int y, int z){
+        int sum=x+y+z;
+        return sum;
+    }
+    public int subOperation(int x, int y, int z){
+        int diff=x+y+z;
+        return diff;
+    }
+    public void calcChoice(){
+        System.out.println("First Number: "); 
+        x=input.nextInt();
+        System.out.println("Second Number: ");
+        y=scan.nextInt();
+        System.out.println("Third Number: ");
+        z=scan.nextInt();
+        System.out.println("1 Addition");
+        System.out.println("2 Subtraction");
+        System.out.println("Select operation:");
+        choice=scan.nextInt();
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:489:489:493:17:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:341:341:342:13:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable x
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:649:649:655:21:14:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable choice
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:29:36:679:2:8:compiler.err.class.public.should.be.in.file:class computeProg is public, should be declared in a file named computeProg.java, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:656:656:660:21:21:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:415:415:416:15:14:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:417:417:421:15:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:487:487:488:17:14:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:343:343:348:13:11:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable input
+  location: class computeProg], actual diags: [file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:649:649:655:21:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable choice
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:656:656:660:21:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:489:489:493:17:11:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:341:341:342:13:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable x
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:417:417:421:15:11:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable scan
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:415:415:416:15:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:29:36:679:2:8:compiler.err.class.public.should.be.in.file:class computeProg is public, should be declared in a file named computeProg.java, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:487:487:488:17:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class computeProg, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/myCalculator.java:ERROR:343:343:348:13:11:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable input
+  location: class computeProg]

@@ -1,0 +1,75 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ClassNotFoundException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Type.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor$OfField.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:GenericDeclaration.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Class.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AnnotatedElement.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:376:389:429:16:22:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception ClassNotFoundException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReflectiveOperationException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ClassNotFoundException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Type.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor$OfField.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:GenericDeclaration.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Class.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AnnotatedElement.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:376:389:429:16:22:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception ClassNotFoundException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReflectiveOperationException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]Expected tree: COMPILATION_UNIT:231:443:unnamed package:null:,null,CLASS:231:443:InventoryMain:InventoryMain:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryMain():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:327:436:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:327:340:null:null:,PRIMITIVE_TYPE:341:345:null:void:,VARIABLE:351:364:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:351:359:null:java.lang.String[]:,IDENTIFIER:351:357:java.lang.String:java.lang.String:,null,null,null,BLOCK:366:436:null:null:,EXPRESSION_STATEMENT:376:430:null:null:,METHOD_INVOCATION:376:429:forName(java.lang.String):java.lang.Class<capture#97 of ?>:,MEMBER_SELECT:376:389:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:376:381:java.lang.Class:java.lang.Class:,STRING_LITERAL:390:428:null:java.lang.String:,null,, actual tree: COMPILATION_UNIT:231:443:unnamed package:null:,null,CLASS:231:443:InventoryMain:InventoryMain:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryMain():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:327:436:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:327:340:null:null:,PRIMITIVE_TYPE:341:345:null:void:,VARIABLE:351:364:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:351:359:null:java.lang.String[]:,IDENTIFIER:351:357:java.lang.String:java.lang.String:,null,null,null,BLOCK:366:436:null:null:,EXPRESSION_STATEMENT:376:430:null:null:,METHOD_INVOCATION:376:429:forName(java.lang.String):java.lang.Class<capture#829 of ?>:,MEMBER_SELECT:376:389:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:376:381:java.lang.Class:java.lang.Class:,STRING_LITERAL:390:428:null:java.lang.String:,null,

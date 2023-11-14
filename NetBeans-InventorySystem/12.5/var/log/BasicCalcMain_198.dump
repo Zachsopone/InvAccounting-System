@@ -1,0 +1,27 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    comp
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    compute
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:110:7:5:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:110:110:110:8:3:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:110:110:110:7:12:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:110:7:5:compiler.err.not.stmt:not a statement]

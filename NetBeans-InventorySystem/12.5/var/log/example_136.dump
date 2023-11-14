@@ -1,0 +1,39 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   S
+   
+}
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   St
+   
+}
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:221:221:221:13:1:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:219:219:221:12:4:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:221:221:221:12:6:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:219:219:221:12:4:compiler.err.not.stmt:not a statement]

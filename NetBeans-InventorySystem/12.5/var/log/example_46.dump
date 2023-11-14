@@ -1,0 +1,35 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+   
+    static final double PI = 3.14159265;
+
+    public static void main(String[] args) {
+     
+        double radius = 12.67;
+        double height 
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+   
+    static final double PI = 3.14159265;
+
+    public static void main(String[] args) {
+     
+        double radius = 12.67;
+        double height = 12.00
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:181:181:181:10:7:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:181:181:181:9:30:compiler.err.expected:';' expected]

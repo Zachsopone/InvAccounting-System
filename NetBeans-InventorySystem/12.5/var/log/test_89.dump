@@ -1,0 +1,101 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+            wait
+ 
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+          
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        
+                        break;
+                    default:
+                        String str = "Pogi c Richard";
+                        traverseString(str);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    static void traverseString(String str)
+    {
+        for (int i = 0; i < str.length(); i++) {
+            System.out.print(str.charAt(i));
+            wait()
+ 
+        }
+    }
+    
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+          
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        
+                        break;
+                    default:
+                        String str = "Pogi c Richard";
+                        traverseString(str);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:475:475:479:19:13:compiler.err.non-static.cant.be.ref:non-static method wait() cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:481:481:481:19:19:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:475:475:479:19:13:compiler.err.non-static.cant.be.ref:non-static method wait() cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:481:481:481:19:19:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:475:479:481:19:17:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown]

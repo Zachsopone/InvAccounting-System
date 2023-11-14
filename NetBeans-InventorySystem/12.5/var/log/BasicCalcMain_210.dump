@@ -1,0 +1,39 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(){
+        
+    
+    }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(){
+        case
+    
+    }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:196:196:196:14:1:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:171:171:9:12:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:196:196:196:12:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:171:171:9:12:compiler.err.illegal.start.of.expr:illegal start of expression]

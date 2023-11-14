@@ -1,0 +1,73 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        int quantity = 0;
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    int 
+                         
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        int quantity = 0;
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    int value = 
+                         
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:611:611:655:24:7:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:611:611:655:23:32:compiler.err.illegal.start.of.expr:illegal start of expression]

@@ -1,0 +1,93 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        System.out.
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        System.out.println
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:478:478:487:18:31:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:419:419:428:17:24:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:375:381:385:15:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class out
+  location: class System, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:522:522:531:19:31:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:418:418:418:17:23:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:375:381:385:15:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class out
+  location: class System, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:522:522:531:19:24:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:419:419:428:17:17:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:418:418:418:17:16:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:478:478:487:18:24:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation]

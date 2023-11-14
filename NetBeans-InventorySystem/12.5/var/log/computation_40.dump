@@ -1,0 +1,89 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        S
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        System
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:466:466:475:18:29:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:407:407:416:17:22:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:406:406:406:17:21:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:510:510:519:19:29:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:406:406:406:17:16:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:466:466:475:18:24:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:510:510:519:19:24:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java:ERROR:407:407:416:17:17:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable itemInput
+  location: class computation]

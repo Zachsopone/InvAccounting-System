@@ -1,0 +1,81 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public int sum(){
+            int sum = num1 + num2;
+            return sum;
+        }
+        public int difference(){
+        int difference = num1 - num2;
+        return difference;
+        }
+        public int product(){
+        int product = num1 * num2;
+        return product;
+        }
+        public int quotient(){
+        int quotient = num1 / num2;
+        return 
+        }
+        public int modulo(){
+        int modulo = num1 % num2;
+        
+        
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator);
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public int sum(){
+            int sum = num1 + num2;
+            return sum;
+        }
+        public int difference(){
+        int difference = num1 - num2;
+        return difference;
+        }
+        public int product(){
+        int product = num1 * num2;
+        return product;
+        }
+        public int quotient(){
+        int quotient = num1 / num2;
+        return quotient
+        }
+        public int modulo(){
+        int modulo = num1 % num2;
+        
+        
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator);
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:690:690:690:-1:-1:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:594:594:594:24:24:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:690:690:690:30:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:594:594:594:24:24:compiler.err.expected:';' expected]

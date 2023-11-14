@@ -1,0 +1,43 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java
+----- Original text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new 
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:166:166:166:14:6:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:190:190:190:18:1:compiler.err.expected2:'(' or '[' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:166:166:166:13:28:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:190:190:190:16:5:compiler.err.expected2:'(' or '[' expected]

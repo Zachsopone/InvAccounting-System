@@ -1,0 +1,33 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   S
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:222:222:222:10:5:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:216:216:222:9:4:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:222:222:222:9:10:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:216:216:222:9:4:compiler.err.not.stmt:not a statement]

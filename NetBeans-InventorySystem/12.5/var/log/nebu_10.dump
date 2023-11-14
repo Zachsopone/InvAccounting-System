@@ -1,0 +1,25 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.)
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.In)
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:134:134:134:5:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:124:130:133:4:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable In
+  location: class System], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:134:134:134:4:44:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:124:130:133:4:40:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable In
+  location: class System]

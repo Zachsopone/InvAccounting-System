@@ -1,0 +1,71 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System
+    
+    }
+
+            
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System.
+    
+    }
+
+            
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:595:595:595:28:1:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:595:595:595:27:12:compiler.err.expected:<identifier> expected]

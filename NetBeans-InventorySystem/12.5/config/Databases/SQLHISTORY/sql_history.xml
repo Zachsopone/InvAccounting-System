@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<history>
+<sql date="1638976892273" url="jdbc:mysql://localhost:3306/inventoryms">SELECT * FROM categorytable LIMIT 100</sql>
+<sql date="1637916322690" url=""></sql>
+<sql date="1638975533887" url="jdbc:mysql://localhost:3306/inventoryms">SELECT * FROM productstable LIMIT 100</sql>
+<sql date="1638163266951" url="jdbc:mysql://localhost:3306/inventorysql">SELECT * FROM producttbl LIMIT 100</sql>
+<sql date="1641403253143" url="jdbc:mysql://localhost:3306/inventoryms">SELECT * FROM salestable LIMIT 100</sql>
+<sql date="1639210325383" url="jdbc:mysql://localhost:3306/inventoryms">SELECT * FROM users LIMIT 100</sql>
+</history>

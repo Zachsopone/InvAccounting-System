@@ -1,0 +1,87 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabase();
+    cn=datasource.getconnection();
+    
+    return cn;
+    }
+}
+----- Updated text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName();
+    cn=datasource.getconnection();
+    
+    return cn;
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:814:824:838:32:22:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getconnection()
+  location: variable datasource of type MysqlDataSource, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:777:787:803:31:15:compiler.err.cant.apply.symbol:method setDatabaseName in class MysqlDataSource cannot be applied to given types;
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:814:824:838:32:18:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getconnection()
+  location: variable datasource of type MysqlDataSource, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:777:787:803:31:15:compiler.err.cant.apply.symbol:method setDatabaseName in class MysqlDataSource cannot be applied to given types;
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length]

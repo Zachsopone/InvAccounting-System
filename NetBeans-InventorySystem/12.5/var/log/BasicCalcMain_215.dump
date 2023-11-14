@@ -1,0 +1,39 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.c){
+        case: 1;
+    
+    }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.){
+        case: 1;
+    
+    }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:190:190:190:10:12:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:175:175:175:9:16:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:192:192:193:10:14:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:176:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:175:175:175:9:16:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:192:192:193:10:15:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:176:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:190:190:190:10:13:compiler.err.illegal.start.of.expr:illegal start of expression]

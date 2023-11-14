@@ -1,0 +1,43 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        Thread.sleep(1000);
+        int difference = num1 - num2;
+        Thread.sleep(1000);
+        int product = num1 * num2;
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) throws InterruptedException {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        Thread.sleep(1000);
+        int difference = num1 - num2;
+        Thread.sleep(1000);
+        int product = num1 * num2;
+        int 
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:507:507:510:16:4:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:510:510:510:17:2:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:510:510:510:15:12:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:507:507:510:15:9:compiler.err.not.stmt:not a statement]

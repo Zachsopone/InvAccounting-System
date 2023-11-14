@@ -1,0 +1,37 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        num1 + num2 = a
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        
+        int num1 = sc.nextInt();
+        System.out.println("Enter 2nd number: ");
+        int num2 = sc.nextInt();
+        num1 + num2 = 
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:319:324:330:10:14:compiler.err.unexpected.type:unexpected type
+  required: variable
+  found:    value, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:338:338:338:11:4:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:338:338:338:11:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:319:324:330:10:14:compiler.err.unexpected.type:unexpected type
+  required: variable
+  found:    value]

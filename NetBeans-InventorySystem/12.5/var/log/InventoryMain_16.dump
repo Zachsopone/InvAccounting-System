@@ -1,0 +1,57 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+     try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+            } catch (ClassNotFoundException ex) {
+                Logger.getLogger(Products.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}
+----- Updated text: ---------------------------------------------
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+     try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+        } catch (ClassNotFoundException ex) {
+                Logger.getLogger(Products.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+}
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:1:700:unnamed package:null:,null,IMPORT:1:31:null:null:,MEMBER_SELECT:8:30:java.sql.DriverManager:java.sql.DriverManager:,MEMBER_SELECT:8:16:java.sql:java.sql:,IDENTIFIER:8:12:java:java:,IMPORT:32:61:null:null:,MEMBER_SELECT:39:60:java.sql.SQLException:java.sql.SQLException:,MEMBER_SELECT:39:47:java.sql:java.sql:,IDENTIFIER:39:43:java:java:,IMPORT:62:93:null:null:,MEMBER_SELECT:69:92:java.util.logging.Level:java.util.logging.Level:,MEMBER_SELECT:69:86:java.util.logging:java.util.logging:,MEMBER_SELECT:69:78:java.util:java.util:,IDENTIFIER:69:73:java:java:,IMPORT:94:126:null:null:,MEMBER_SELECT:101:125:java.util.logging.Logger:java.util.logging.Logger:,MEMBER_SELECT:101:118:java.util.logging:java.util.logging:,MEMBER_SELECT:101:110:java.util:java.util:,IDENTIFIER:101:105:java:java:,CLASS:360:700:InventoryMain:InventoryMain:,MODIFIERS:360:366:null:null:,null,METHOD:367:-1:InventoryMain():()void:,MODIFIERS:367:-1:null:null:,null,null,BLOCK:367:-1:null:null:,EXPRESSION_STATEMENT:367:-1:null:null:,METHOD_INVOCATION:367:-1:Object():void:,IDENTIFIER:367:372:Object():()void:,null,METHOD:394:698:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:394:407:null:null:,PRIMITIVE_TYPE:408:412:null:void:,VARIABLE:418:431:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:418:426:null:java.lang.String[]:,IDENTIFIER:418:424:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:440:462:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,IDENTIFIER:464:476:java.sql.SQLException:java.sql.SQLException:,BLOCK:477:698:null:null:,TRY:484:692:null:null:,BLOCK:488:558:null:null:,EXPRESSION_STATEMENT:506:548:null:null:,METHOD_INVOCATION:506:547:forName(java.lang.String):java.lang.Class<capture#905 of ?>:,MEMBER_SELECT:506:519:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:506:511:java.lang.Class:java.lang.Class:,STRING_LITERAL:520:546:null:java.lang.String:,CATCH:559:692:null:null:,VARIABLE:566:591:ex:java.lang.ClassNotFoundException:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:566:588:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,null,null,BLOCK:593:692:null:null:,EXPRESSION_STATEMENT:611:682:null:null:,METHOD_INVOCATION:611:681:log(java.util.logging.Level,java.lang.String,java.lang.Throwable):void:,MEMBER_SELECT:611:657:log(java.util.logging.Level,java.lang.String,java.lang.Throwable):(java.util.logging.Level,java.lang.String,java.lang.Throwable)void:,METHOD_INVOCATION:611:653:getLogger(java.lang.String):java.util.logging.Logger:,MEMBER_SELECT:611:627:getLogger(java.lang.String):(java.lang.String)java.util.logging.Logger:,IDENTIFIER:611:617:java.util.logging.Logger:java.util.logging.Logger:,METHOD_INVOCATION:628:652:getName():java.lang.String:,MEMBER_SELECT:628:650:getName():()java.lang.String:,MEMBER_SELECT:628:642:class:java.lang.Class<Products>:,IDENTIFIER:628:636:Products:Products:,MEMBER_SELECT:658:670:SEVERE:java.util.logging.Level:,IDENTIFIER:658:663:java.util.logging.Level:java.util.logging.Level:,NULL_LITERAL:672:676:null:<nulltype>:,IDENTIFIER:678:680:ex:java.lang.ClassNotFoundException:,null,null,, actual tree: COMPILATION_UNIT:1:700:unnamed package:null:,null,IMPORT:1:31:null:null:,MEMBER_SELECT:8:30:java.sql.DriverManager:java.sql.DriverManager:,MEMBER_SELECT:8:16:java.sql:java.sql:,IDENTIFIER:8:12:java:java:,IMPORT:32:61:null:null:,MEMBER_SELECT:39:60:java.sql.SQLException:java.sql.SQLException:,MEMBER_SELECT:39:47:java.sql:java.sql:,IDENTIFIER:39:43:java:java:,IMPORT:62:93:null:null:,MEMBER_SELECT:69:92:java.util.logging.Level:java.util.logging.Level:,MEMBER_SELECT:69:86:java.util.logging:java.util.logging:,MEMBER_SELECT:69:78:java.util:java.util:,IDENTIFIER:69:73:java:java:,IMPORT:94:126:null:null:,MEMBER_SELECT:101:125:java.util.logging.Logger:java.util.logging.Logger:,MEMBER_SELECT:101:118:java.util.logging:java.util.logging:,MEMBER_SELECT:101:110:java.util:java.util:,IDENTIFIER:101:105:java:java:,CLASS:360:700:InventoryMain:InventoryMain:,MODIFIERS:360:366:null:null:,null,METHOD:367:-1:InventoryMain():()void:,MODIFIERS:367:-1:null:null:,null,null,BLOCK:367:-1:null:null:,EXPRESSION_STATEMENT:367:-1:null:null:,METHOD_INVOCATION:367:-1:Object():void:,IDENTIFIER:367:372:Object():()void:,null,METHOD:394:698:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:394:407:null:null:,PRIMITIVE_TYPE:408:412:null:void:,VARIABLE:418:431:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:418:426:null:java.lang.String[]:,IDENTIFIER:418:424:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:440:462:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,IDENTIFIER:464:476:java.sql.SQLException:java.sql.SQLException:,BLOCK:477:698:null:null:,TRY:484:692:null:null:,BLOCK:488:558:null:null:,EXPRESSION_STATEMENT:506:548:null:null:,METHOD_INVOCATION:506:547:forName(java.lang.String):java.lang.Class<capture#763 of ?>:,MEMBER_SELECT:506:519:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:506:511:java.lang.Class:java.lang.Class:,STRING_LITERAL:520:546:null:java.lang.String:,CATCH:559:692:null:null:,VARIABLE:566:591:ex:java.lang.ClassNotFoundException:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:566:588:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,null,null,BLOCK:593:692:null:null:,EXPRESSION_STATEMENT:611:682:null:null:,METHOD_INVOCATION:611:681:log(java.util.logging.Level,java.lang.String,java.lang.Throwable):void:,MEMBER_SELECT:611:657:log(java.util.logging.Level,java.lang.String,java.lang.Throwable):(java.util.logging.Level,java.lang.String,java.lang.Throwable)void:,METHOD_INVOCATION:611:653:getLogger(java.lang.String):java.util.logging.Logger:,MEMBER_SELECT:611:627:getLogger(java.lang.String):(java.lang.String)java.util.logging.Logger:,IDENTIFIER:611:617:java.util.logging.Logger:java.util.logging.Logger:,METHOD_INVOCATION:628:652:getName():java.lang.String:,MEMBER_SELECT:628:650:getName():()java.lang.String:,MEMBER_SELECT:628:642:class:java.lang.Class<Products>:,IDENTIFIER:628:636:Products:Products:,MEMBER_SELECT:658:670:SEVERE:java.util.logging.Level:,IDENTIFIER:658:663:java.util.logging.Level:java.util.logging.Level:,NULL_LITERAL:672:676:null:<nulltype>:,IDENTIFIER:678:680:ex:java.lang.ClassNotFoundException:,null,null,

@@ -1,0 +1,93 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        TimeUnit.SECONDS.sleep(1);
+                        break;
+                    
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        TimeUnit.SECONDS.sleep(1);
+                        break;
+                    TimeUnit.SECONDS.sleep(1);
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:814:836:839:30:18:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:814:814:840:29:21:compiler.err.unreachable.stmt:unreachable statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:736:758:761:27:47:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:814:836:839:29:43:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:814:814:840:29:21:compiler.err.unreachable.stmt:unreachable statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:736:758:761:27:47:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown]

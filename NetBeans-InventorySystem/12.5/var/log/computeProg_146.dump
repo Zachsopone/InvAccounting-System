@@ -1,0 +1,198 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java
+----- Original text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+
+public class computeProg {
+     
+    private int a, b, c, select;
+
+    public int addOperation() {       
+    int sum=this.a+this.b;   
+    return sum; 
+    }    
+    public int subOperation() {        
+    int diff=this.a-this.b;
+    return diff;    
+    }    
+    public double circleOperation() {
+    double circarea=3.1415929*this.c*this.c;
+    return circarea;
+    }   
+    public double cylinderOperation(){
+    double cylarea=2*(this.a*this.a)+this.b*(2*this.a)*22/7;
+    return cylarea;
+    }   
+    public void calcChoice() {       
+    System.out.println("1. Addition");        
+    System.out.println("2. Subtraction");        
+    System.out.println("3. Area of Circle");        
+    System.out.println("4. Area of Cylinder");        
+    System.out.println("Enter your Choice ");    
+    }       
+    public void getInput()throws IOException {
+    BufferedReader r=new BufferedReader (new InputStreamReader(System.in));
+    select=Integer.valueOf(r.readLine());
+    System.out.print("Enter first number: ");        
+    a=Integer.valueOf(r.readLine());        
+    System.out.print("Enter second number: ");        
+    b=Integer.valueOf(r.readLine()); 
+    }
+    public void calcProcess() {
+    if(select==1){               
+    System.out.print("The sum is "+addOperation());   
+    }else if(select==2){
+    System.out.print("The difference is "+subOperation());        
+    break;        
+    case 3:        
+    System.out.print("Enter radius ");        
+    c=Integer.valueOf(r.readLine());        
+    System.out.print("The difference is "+circleOperation());        
+    break;        
+    case 4:        
+    getInput();        
+    System.out.print("The difference is "+ cylinderOperation());
+    default:        
+    System.out.print("Wrong Option !");        
+    break;        
+    }    
+    }
+}
+
+----- Updated text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+
+public class computeProg {
+     
+    private int a, b, c, select;
+
+    public int addOperation() {       
+    int sum=this.a+this.b;   
+    return sum; 
+    }    
+    public int subOperation() {        
+    int diff=this.a-this.b;
+    return diff;    
+    }    
+    public double circleOperation() {
+    double circarea=3.1415929*this.c*this.c;
+    return circarea;
+    }   
+    public double cylinderOperation(){
+    double cylarea=2*(this.a*this.a)+this.b*(2*this.a)*22/7;
+    return cylarea;
+    }   
+    public void calcChoice() {       
+    System.out.println("1. Addition");        
+    System.out.println("2. Subtraction");        
+    System.out.println("3. Area of Circle");        
+    System.out.println("4. Area of Cylinder");        
+    System.out.println("Enter your Choice ");    
+    }       
+    public void getInput()throws IOException {
+    BufferedReader r=new BufferedReader (new InputStreamReader(System.in));
+    select=Integer.valueOf(r.readLine());
+    System.out.print("Enter first number: ");        
+    a=Integer.valueOf(r.readLine());        
+    System.out.print("Enter second number: ");        
+    b=Integer.valueOf(r.readLine()); 
+    }
+    public void calcProcess() {
+    if(select==1){               
+    System.out.print("The sum is "+addOperation());   
+    }else if(select==2){
+    System.out.print("The difference is "+subOperation());
+    
+    break;        
+    case 3:        
+    System.out.print("Enter radius ");        
+    c=Integer.valueOf(r.readLine());        
+    System.out.print("The difference is "+circleOperation());        
+    break;        
+    case 4:        
+    getInput();        
+    System.out.print("The difference is "+ cylinderOperation());
+    default:        
+    System.out.print("Wrong Option !");        
+    break;        
+    }    
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:ERROR:1428:1428:1434:44:2:compiler.err.break.outside.switch.loop:break outside switch or loop, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Reader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:NumberFormatException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:ERROR:1447:1447:1447:45:2:compiler.err.orphaned:orphaned case, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IllegalArgumentException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:BufferedReader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStreamReader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Number.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:ERROR:1447:1447:1447:46:5:compiler.err.orphaned:orphaned case, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Reader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:NumberFormatException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:ERROR:1428:1428:1434:45:5:compiler.err.break.outside.switch.loop:break outside switch or loop, file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IllegalArgumentException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:BufferedReader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStreamReader.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Number.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/computeProg.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

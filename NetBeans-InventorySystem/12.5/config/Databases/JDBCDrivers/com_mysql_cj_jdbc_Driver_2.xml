@@ -1,0 +1,11 @@
+<?xml version='1.0'?>
+<!DOCTYPE driver PUBLIC '-//NetBeans//DTD JDBC Driver 1.1//EN' 'http://www.netbeans.org/dtds/jdbc-driver-1_1.dtd'>
+<driver>
+  <name value='MySQL (Connector/J driver) (2)'/>
+  <display-name value='MySQL (Connector/J driver) (2)'/>
+  <class value='com.mysql.cj.jdbc.Driver'/>
+  <urls>
+    <url value='file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/Derby/db-derby-10.15.2.0-bin/lib/mysql-connector-java-8.0.21.jar'/>
+    <url value='file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/Derby/db-derby-10.15.2.0-bin/lib/mysql-connector-java-8.0.27.jar'/>
+  </urls>
+</driver>

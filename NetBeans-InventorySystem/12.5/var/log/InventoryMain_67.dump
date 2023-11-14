@@ -1,0 +1,85 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try{
+    cn=datasource.getConnection();
+    }catch (SQLException)
+    return cn;
+    }
+}
+----- Updated text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try{
+    cn=datasource.getConnection();
+    }catch (SQLException )
+    return cn;
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:921:921:921:35:27:compiler.err.expected:'{' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:919:919:919:35:25:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:907:907:919:35:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class SQLException
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:943:943:943:-1:-1:compiler.err.premature.eof:reached end of file while parsing], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:944:944:944:38:2:compiler.err.premature.eof:reached end of file while parsing, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:921:921:921:35:27:compiler.err.expected:'{' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:919:919:919:35:25:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:907:907:919:35:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class SQLException
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:614:943:944:38:1:compiler.err.missing.ret.stmt:missing return statement]

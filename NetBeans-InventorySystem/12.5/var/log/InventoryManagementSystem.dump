@@ -1,0 +1,72 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryManagementSystem {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryManagementSystem {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       Class.forName("org.apache.derby.jdbc.ClientDriver")
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor$OfField.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:ERROR:438:438:438:16:59:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:GenericDeclaration.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AnnotatedElement.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Type.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:ERROR:438:438:438:16:59:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReflectiveOperationException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AnnotatedElement.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Class.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor$OfField.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:ERROR:387:400:438:16:21:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception ClassNotFoundException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:GenericDeclaration.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ClassNotFoundException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Type.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/InventoryManagementSystem/src/InventoryManagementSystem.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:TypeDescriptor.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]Expected tree: COMPILATION_UNIT:231:451:unnamed package:null:,null,CLASS:231:451:InventoryManagementSystem:InventoryManagementSystem:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryManagementSystem():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:339:444:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:339:352:null:null:,PRIMITIVE_TYPE:353:357:null:void:,VARIABLE:363:376:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:363:371:null:java.lang.String[]:,IDENTIFIER:363:369:java.lang.String:java.lang.String:,null,null,null,BLOCK:378:444:null:null:,EXPRESSION_STATEMENT:387:443:null:null:,METHOD_INVOCATION:387:438:forName(java.lang.String):java.lang.Class<capture#332 of ?>:,MEMBER_SELECT:387:400:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:387:392:java.lang.Class:java.lang.Class:,STRING_LITERAL:401:437:null:java.lang.String:,null,, actual tree: COMPILATION_UNIT:231:451:unnamed package:null:,null,CLASS:231:451:InventoryManagementSystem:InventoryManagementSystem:,MODIFIERS:231:237:null:null:,null,METHOD:238:-1:InventoryManagementSystem():()void:,MODIFIERS:238:-1:null:null:,null,null,BLOCK:238:-1:null:null:,EXPRESSION_STATEMENT:238:-1:null:null:,METHOD_INVOCATION:238:-1:Object():void:,IDENTIFIER:238:243:Object():()void:,null,METHOD:339:444:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:339:352:null:null:,PRIMITIVE_TYPE:353:357:null:void:,VARIABLE:363:376:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:363:371:null:java.lang.String[]:,IDENTIFIER:363:369:java.lang.String:java.lang.String:,null,null,null,BLOCK:378:444:null:null:,EXPRESSION_STATEMENT:387:443:null:null:,METHOD_INVOCATION:387:438:forName(java.lang.String):java.lang.Class<capture#410 of ?>:,MEMBER_SELECT:387:400:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:387:392:java.lang.Class:java.lang.Class:,STRING_LITERAL:401:437:null:java.lang.String:,null,

@@ -1,0 +1,51 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    new
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    new 
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:387:387:387:17:6:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:381:381:381:16:8:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:387:387:387:17:5:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:381:381:381:16:8:compiler.err.expected:<identifier> expected]

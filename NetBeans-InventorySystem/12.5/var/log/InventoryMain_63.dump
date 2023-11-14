@@ -1,0 +1,81 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try
+    cn=datasource.getConnection();
+    
+    return cn;
+    }
+}
+----- Updated text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try{
+    cn=datasource.getConnection();
+    
+    return cn;
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:921:921:921:-1:-1:compiler.err.premature.eof:reached end of file while parsing, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:855:855:855:33:5:compiler.err.try.without.catch.finally.or.resource.decls:'try' without 'catch', 'finally' or resource declarations], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:867:891:893:34:32:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception SQLException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:855:855:855:33:5:compiler.err.try.without.catch.finally.or.resource.decls:'try' without 'catch', 'finally' or resource declarations, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:922:922:922:38:2:compiler.err.premature.eof:reached end of file while parsing]

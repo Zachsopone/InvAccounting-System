@@ -1,0 +1,95 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    public void setName(String str){
+        this.setName(str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        String str = "Butaw c Ekel";
+                        setName();
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    public void setName(String str){
+        this.str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        String str = "Butaw c Ekel";
+                        setName();
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:365:369:373:16:13:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:655:655:662:-1:-1:compiler.err.cant.apply.symbol:method setName in class test cannot be applied to given types;
+  required: java.lang.String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:655:655:662:26:25:compiler.err.cant.apply.symbol:method setName in class test cannot be applied to given types;
+  required: String
+  found:    no arguments
+  reason: actual and formal argument lists differ in length, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:365:369:373:16:13:compiler.err.not.stmt:not a statement]

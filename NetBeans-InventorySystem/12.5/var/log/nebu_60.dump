@@ -1,0 +1,45 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu();
+        System.out.println(this );
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu();
+        System.out.println(this nebu);
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:471:471:475:15:28:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:475:475:475:15:32:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:480:480:480:16:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:476:476:480:15:33:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:480:480:480:15:37:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:471:471:475:15:28:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:475:475:475:15:32:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:476:476:480:15:33:compiler.err.not.stmt:not a statement]

@@ -1,0 +1,39 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   System.out.printf("%5d%7.2f%")
+   
+}
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x = 658.75;
+   
+   String str = "Java Program.";
+   
+   System.out.println("1234567890123456789 + 01234567890");
+   
+   System.out.printf("%5d%7.2f%1")
+   
+}
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:250:250:250:13:1:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:250:250:250:12:35:compiler.err.expected:';' expected]

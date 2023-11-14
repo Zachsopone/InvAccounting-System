@@ -1,0 +1,325 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java
+----- Original text: ---------------------------------------------
+
+package jmenutest;
+
+
+import javax.swing.JMenu;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+import javax.swing.KeyStroke;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JRadioButtonMenuItem;
+import java.awt.event.KeyEvent;
+import java.awt.event.InputEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
+import javax.swing.JPopupMenu;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
+import javax.swing.UIManager;
+import javax.swing.JToolBar;
+import javax.swing.JButton;
+import java.awt.Container;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class JMenuTest extends JFrame implements ActionListener {
+
+     private JMenuBar menuBar = new JMenuBar();
+    private JMenu fileMenu = new JMenu ("File");
+    private JMenu editMenu = new JMenu ("Edit");
+    private JMenu helpMenu = new JMenu ("Help");
+    private JMenuItem newMenuItem = new JMenuItem("New", 'n');
+    private JMenuItem openMenuItem = new JMenuItem("Open", 'o');
+    private JMenuItem saveMenuItem = new JMenuItem("Save", 's');
+    private JMenuItem saveAsMenuItem = new JMenuItem("Save As", 118);
+    private JMenuItem exitMenuItem = new JMenuItem("Exit", 120);
+    
+    private JMenuItem cutMenuItem = new JMenuItem("Cut",new ImageIcon("cut.png"));
+    private JMenuItem copyMenuItem = new JMenuItem("Copy",'c');
+    private JMenuItem pasteMenuItem = new JMenuItem("Paste",new ImageIcon("save.png"));
+    private JMenu optionMenu = new JMenu("Options");
+    
+    private JCheckBoxMenuItem readOnlyItem = new JCheckBoxMenuItem("Read-Only");
+    private ButtonGroup group = new ButtonGroup();
+    private JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+    private JRadioButtonMenuItem overTypeItem = new JRadioButtonMenuItem("Overtype");
+    
+    private JPopupMenu popup = new JPopupMenu();
+    private JMenuItem aboutMenuItem = new JMenuItem("About MenuTest");
+    private JMenuItem helpMenuItem = new JMenuItem("Help Contents");
+    
+    private JToolBar toolBar = new JToolBar();
+    String iconFiles[] = {"Java.png","open.png","copy.png","save.png"};
+    String buttonLabels[] = {"JTable","TreeDemo","JTabblePane","JDesktopPane"};
+    ImageIcon icons[] = new ImageIcon[iconFiles.length];
+    JButton buttons[] = new JButton[buttonLabels.length];
+    
+  
+    
+    
+   =public JMenuTest() {
+        // TODO code application logic here
+    }
+    
+}
+
+    
+    
+    {
+         super("Menu Test");
+         
+         setJMenuBar(menuBar);
+         menuBar.add(fileMenu);
+         menuBar.add(editMenu);
+         menuBar.add(helpMenu);
+         
+         fileMenu.add(newMenuItem);
+         fileMenu.add(openMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(saveMenuItem);
+         fileMenu.add(saveAsMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(exitMenuItem);
+         
+         editMenu.add(cutMenuItem);
+         editMenu.add(copyMenuItem);
+         editMenu.add(pasteMenuItem);
+         editMenu.addSeparator();
+         editMenu.add(optionMenu);
+         
+         optionMenu.add(readOnlyItem);
+         optionMenu.addSeparator();
+         optionMenu.add(insertItem);
+         optionMenu.add(overTypeItem);
+         
+         group.add(insertItem);
+         group.add(overTypeItem);
+         
+         copyMenuItem.setIcon(new ImageIcon("copy.png"));
+         
+         copyMenuItem.setAccelerator(
+           KeyStroke.getKeyStroke(KeyEvent.VK_C,InputEvent.ALT_MASK));
+         
+         pasteMenuItem.setHorizontalTextPosition(SwingConstants.LEFT);
+                
+         fileMenu.setMnemonic('F');
+         editMenu.setMnemonic('e');
+         helpMenu.setMnemonic('H');
+         
+         exitMenuItem.setAccelerator(
+             KeyStroke.getKeyStroke(KeyEvent.VK_X, InputEvent.CTRL_MASK));
+         
+         exitMenuItem.addActionListener(this);
+         readOnlyItem.addActionListener(this);
+         
+         popup.add(aboutMenuItem);
+         popup.add(helpMenuItem);
+         
+         aboutMenuItem.addActionListener(this);
+         
+          //1. install a mouseListerner
+         addMouseListener(
+            new MouseAdapter()
+            {
+                //2. add the ff code
+                public void mouseReleased(MouseEvent e)
+                {
+                   if(e.isPopupTrigger()) 
+                   {
+                       popup.show(e.getComponent(), e.getX(), e.getY());
+                   }
+                }
+            }
+         );
+         
+              //creating toolbar
+         Container c = getContentPane();
+         c.setBackground(Color.white);
+         c.setLayout(new BorderLayout());
+         
+         for(int i=0; i <buttonLabels.length; i++)
+         {
+           icons[i] = new ImageIcon(iconFiles[i]);
+           buttons[i] = new JButton(icons[i]);
+           buttons[i].add
+
+----- Updated text: ---------------------------------------------
+
+package jmenutest;
+
+
+import javax.swing.JMenu;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+
+import javax.swing.KeyStroke;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JRadioButtonMenuItem;
+import java.awt.event.KeyEvent;
+import java.awt.event.InputEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
+import javax.swing.JPopupMenu;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
+import javax.swing.UIManager;
+import javax.swing.JToolBar;
+import javax.swing.JButton;
+import java.awt.Container;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class JMenuTest extends JFrame implements ActionListener {
+
+     private JMenuBar menuBar = new JMenuBar();
+    private JMenu fileMenu = new JMenu ("File");
+    private JMenu editMenu = new JMenu ("Edit");
+    private JMenu helpMenu = new JMenu ("Help");
+    private JMenuItem newMenuItem = new JMenuItem("New", 'n');
+    private JMenuItem openMenuItem = new JMenuItem("Open", 'o');
+    private JMenuItem saveMenuItem = new JMenuItem("Save", 's');
+    private JMenuItem saveAsMenuItem = new JMenuItem("Save As", 118);
+    private JMenuItem exitMenuItem = new JMenuItem("Exit", 120);
+    
+    private JMenuItem cutMenuItem = new JMenuItem("Cut",new ImageIcon("cut.png"));
+    private JMenuItem copyMenuItem = new JMenuItem("Copy",'c');
+    private JMenuItem pasteMenuItem = new JMenuItem("Paste",new ImageIcon("save.png"));
+    private JMenu optionMenu = new JMenu("Options");
+    
+    private JCheckBoxMenuItem readOnlyItem = new JCheckBoxMenuItem("Read-Only");
+    private ButtonGroup group = new ButtonGroup();
+    private JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+    private JRadioButtonMenuItem overTypeItem = new JRadioButtonMenuItem("Overtype");
+    
+    private JPopupMenu popup = new JPopupMenu();
+    private JMenuItem aboutMenuItem = new JMenuItem("About MenuTest");
+    private JMenuItem helpMenuItem = new JMenuItem("Help Contents");
+    
+    private JToolBar toolBar = new JToolBar();
+    String iconFiles[] = {"Java.png","open.png","copy.png","save.png"};
+    String buttonLabels[] = {"JTable","TreeDemo","JTabblePane","JDesktopPane"};
+    ImageIcon icons[] = new ImageIcon[iconFiles.length];
+    JButton buttons[] = new JButton[buttonLabels.length];
+    
+  
+    
+    
+   =public JMenuTest() {
+       
+       
+       
+       
+       
+       
+       
+    }
+    
+}
+
+    
+    
+    {
+         super("Menu Test");
+         
+         setJMenuBar(menuBar);
+         menuBar.add(fileMenu);
+         menuBar.add(editMenu);
+         menuBar.add(helpMenu);
+         
+         fileMenu.add(newMenuItem);
+         fileMenu.add(openMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(saveMenuItem);
+         fileMenu.add(saveAsMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(exitMenuItem);
+         
+         editMenu.add(cutMenuItem);
+         editMenu.add(copyMenuItem);
+         editMenu.add(pasteMenuItem);
+         editMenu.addSeparator();
+         editMenu.add(optionMenu);
+         
+         optionMenu.add(readOnlyItem);
+         optionMenu.addSeparator();
+         optionMenu.add(insertItem);
+         optionMenu.add(overTypeItem);
+         
+         group.add(insertItem);
+         group.add(overTypeItem);
+         
+         copyMenuItem.setIcon(new ImageIcon("copy.png"));
+         
+         copyMenuItem.setAccelerator(
+           KeyStroke.getKeyStroke(KeyEvent.VK_C,InputEvent.ALT_MASK));
+         
+         pasteMenuItem.setHorizontalTextPosition(SwingConstants.LEFT);
+                
+         fileMenu.setMnemonic('F');
+         editMenu.setMnemonic('e');
+         helpMenu.setMnemonic('H');
+         
+         exitMenuItem.setAccelerator(
+             KeyStroke.getKeyStroke(KeyEvent.VK_X, InputEvent.CTRL_MASK));
+         
+         exitMenuItem.addActionListener(this);
+         readOnlyItem.addActionListener(this);
+         
+         popup.add(aboutMenuItem);
+         popup.add(helpMenuItem);
+         
+         aboutMenuItem.addActionListener(this);
+         
+          //1. install a mouseListerner
+         addMouseListener(
+            new MouseAdapter()
+            {
+                //2. add the ff code
+                public void mouseReleased(MouseEvent e)
+                {
+                   if(e.isPopupTrigger()) 
+                   {
+                       popup.show(e.getComponent(), e.getX(), e.getY());
+                   }
+                }
+            }
+         );
+         
+              //creating toolbar
+         Container c = getContentPane();
+         c.setBackground(Color.white);
+         c.setLayout(new BorderLayout());
+         
+         for(int i=0; i <buttonLabels.length; i++)
+         {
+           icons[i] = new ImageIcon(iconFiles[i]);
+           buttons[i] = new JButton(icons[i]);
+           buttons[i].add
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4878:4878:4879:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2823:2823:2830:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3305:3305:3317:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4238:4238:4241:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4175:4175:4187:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3414:3414:3424:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5109:5109:5114:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3062:3062:3065:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4079:4079:4083:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4018:4018:4032:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5142:5142:5146:-1:-1:compiler.err.premature.eof:reached end of file while parsing, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3390:3390:3402:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4919:4919:4928:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3752:3752:3756:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4141:4141:4158:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4605:4605:4606:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4670:4670:4675:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4998:4998:5004:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2979:2979:2991:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4701:4701:4705:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3101:3101:3113:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3450:3450:3460:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3887:3887:3895:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3296:3296:3304:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3720:3720:3729:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3425:3425:3437:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3743:3743:3751:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3330:3330:3338:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3461:3461:3464:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4443:4443:4455:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4709:4709:4710:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2604:2604:2604:72:4:compiler.err.illegal.start.of.type:illegal start of type, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2910:2910:2921:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3025:3025:3028:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4551:4551:4562:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2710:2710:2710:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3568:3568:3573:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3923:3923:3931:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4047:4047:4056:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4311:4311:4324:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3198:3198:3209:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2760:2760:2771:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4969:4969:4969:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2831:2831:2834:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3185:3185:3193:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3757:3757:3767:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5048:5048:5057:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3267:3267:3270:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4005:4005:4017:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3194:3194:3197:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4982:4982:4984:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3625:3625:3632:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3339:3339:3342:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5058:5058:5067:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4267:4267:4272:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2942:2942:2945:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2605:2605:2605:72:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2799:2799:2802:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4128:4128:4140:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4933:4933:4945:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3959:3959:3967:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4683:4683:4695:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2855:2855:2862:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2863:2863:2866:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3230:3230:3233:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3637:3637:3646:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2933:2933:2941:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5092:5092:5093:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5006:5006:5007:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3465:3465:3475:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3053:3053:3061:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3386:3386:3389:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3932:3932:3943:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3138:3138:3146:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4070:4070:4078:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3016:3016:3024:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3693:3693:3707:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2906:2906:2909:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3896:3896:3907:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5101:5101:5108:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3498:3498:3501:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4277:4277:4289:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4409:4409:4425:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4242:4242:4255:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3375:3375:3385:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5039:5039:5040:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2970:2970:2978:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3839:3839:3853:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4562:4562:4563:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4085:4085:4095:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3258:3258:3266:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5131:5131:5138:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3221:3221:3229:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2946:2946:2958:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4917:4917:4918:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4837:4837:4847:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3968:3968:3979:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4057:4057:4069:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4676:4676:4680:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3029:3029:3041:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4894:4894:4899:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3147:3147:3150:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3487:3487:3497:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4537:4537:4550:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3546:3546:3556:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3799:3799:3812:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4985:4985:4997:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3854:3854:3858:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3343:3343:3353:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4273:4273:4276:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3502:3502:3514:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4900:4900:4905:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2791:2791:2798:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3234:3234:3246:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4325:4325:4342:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4739:4739:4739:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3092:3092:3100:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2867:2867:2875:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3271:3271:3284:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5084:5084:5091:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2772:2772:2779:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2897:2897:2905:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3536:3536:3541:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4232:4232:4237:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4847:4847:4849:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4711:4711:4715:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3680:3680:3692:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2803:2803:2811:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2835:2835:2843:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4525:4532:4532:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:882:889:2694:37:8:compiler.err.does.not.override.abstract:JMenuTest is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3813:3813:3838:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4880:4880:4893:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5139:5139:5140:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4977:4977:4978:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3151:3151:3163:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3612:3612:3624:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3574:3574:3577:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4699:4699:4700:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4607:4607:4621:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4188:4188:4205:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3730:3730:3742:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4096:4096:4105:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5115:5115:5116:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4851:4851:4865:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3768:3768:3776:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3542:3542:3545:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3578:3578:3590:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3066:3066:3080:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4681:4681:4682:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5033:5033:5038:-1:-1:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5068:5068:5069:-1:-1:compiler.err.expected3:class, interface, or enum expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2942:2942:2945:95:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4128:4128:4140:130:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4998:4998:5004:158:39:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4851:4851:4865:154:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3887:3887:3895:123:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2970:2970:2978:96:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3185:3185:3193:102:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3637:3637:3646:116:35:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3375:3375:3385:108:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4837:4837:4847:154:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5131:5131:5138:162:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3267:3267:3270:104:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4238:4238:4241:133:16:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3414:3414:3424:109:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4242:4242:4255:133:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3271:3271:3284:104:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3461:3461:3464:110:21:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4188:4188:4205:131:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2855:2855:2862:92:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2897:2897:2905:94:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5058:5058:5067:160:37:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3450:3450:3460:110:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3799:3799:3812:121:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3330:3330:3338:106:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3305:3305:3317:105:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2946:2946:2958:95:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5084:5084:5091:161:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5115:5115:5116:161:43:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4175:4175:4187:131:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4562:4562:4563:143:54:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3574:3574:3577:114:16:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2933:2933:2941:95:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2604:2604:2604:72:4:compiler.err.illegal.start.of.type:illegal start of type, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3092:3092:3100:99:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3578:3578:3590:114:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3230:3230:3233:103:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5109:5109:5114:161:37:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3680:3680:3692:118:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3568:3568:3573:114:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2772:2772:2779:89:22:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3612:3612:3624:116:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4676:4676:4680:147:30:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3066:3066:3080:98:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3343:3343:3353:106:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4607:4607:4621:145:25:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4711:4711:4715:147:65:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3625:3625:3632:116:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4551:4551:4562:143:43:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4277:4277:4289:134:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5092:5092:5093:161:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3386:3386:3389:108:21:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5139:5139:5140:162:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3053:3053:3061:98:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4739:4739:4739:148:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3854:3854:3858:121:65:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4311:4311:4324:136:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3743:3743:3751:119:35:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4985:4985:4997:158:26:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2823:2823:2830:91:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4681:4681:4682:147:35:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3029:3029:3041:97:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4894:4894:4899:155:26:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3768:3768:3776:119:60:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3502:3502:3514:111:25:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2605:2605:2605:72:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3693:3693:3707:118:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4709:4709:4710:147:63:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4141:4141:4158:130:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5142:5142:5146:162:23:compiler.err.premature.eof:reached end of file while parsing, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3062:3062:3065:98:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4605:4605:4606:145:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4977:4977:4978:158:18:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3147:3147:3150:100:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2979:2979:2991:96:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3487:3487:3497:111:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3730:3730:3742:119:22:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2910:2910:2921:94:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4933:4933:4945:156:26:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4018:4018:4032:127:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3234:3234:3246:103:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3198:3198:3209:102:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4880:4880:4893:155:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3151:3151:3163:100:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3016:3016:3024:97:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4537:4537:4550:143:29:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5039:5039:5040:160:18:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4670:4670:4675:147:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4847:4847:4849:154:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2799:2799:2802:90:18:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4085:4085:4095:128:52:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5101:5101:5108:161:29:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3221:3221:3229:103:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5033:5033:5038:160:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4409:4409:4425:139:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4919:4919:4928:156:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5006:5006:5007:158:47:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4525:4532:4532:143:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2791:2791:2798:90:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3752:3752:3756:119:44:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4917:4917:4918:156:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5068:5068:5069:160:47:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4325:4325:4342:136:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2803:2803:2811:90:22:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3720:3720:3729:119:12:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4079:4079:4083:128:46:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3757:3757:3767:119:49:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4096:4096:4105:128:63:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4005:4005:4017:127:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4683:4683:4695:147:37:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3932:3932:3943:124:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2760:2760:2771:89:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3101:3101:3113:99:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3968:3968:3979:125:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4070:4070:4078:128:37:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5048:5048:5057:160:27:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3813:3813:3838:121:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3425:3425:3437:109:21:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4232:4232:4237:133:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2867:2867:2875:92:22:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3498:3498:3501:111:21:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2863:2863:2866:92:18:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3296:3296:3304:105:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3536:3536:3541:113:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2831:2831:2834:91:18:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4699:4699:4700:147:53:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4057:4057:4069:128:24:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4982:4982:4984:158:23:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3839:3839:3853:121:50:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:882:889:2694:37:8:compiler.err.does.not.override.abstract:JMenuTest is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4047:4047:4056:128:14:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2710:2710:2710:86:5:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4701:4701:4705:147:55:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3194:3194:3197:102:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4900:4900:4905:155:32:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3546:3546:3556:113:20:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3339:3339:3342:106:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4969:4969:4969:158:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3390:3390:3402:108:25:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3896:3896:3907:123:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4878:4878:4879:155:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3258:3258:3266:104:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3138:3138:3146:100:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4267:4267:4272:134:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3025:3025:3028:97:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4273:4273:4276:134:16:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3959:3959:3967:125:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3465:3465:3475:110:25:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:4443:4443:4455:140:17:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2835:2835:2843:91:22:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:2906:2906:2909:94:19:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3923:3923:3931:124:10:compiler.err.expected3:class, interface, or enum expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:3542:3542:3545:113:16:compiler.err.expected3:class, interface, or enum expected]

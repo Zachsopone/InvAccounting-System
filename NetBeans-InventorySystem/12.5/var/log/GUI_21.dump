@@ -1,0 +1,79 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java
+----- Original text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        JLabel label = new JLabel();
+        
+        label.setBounds(1)
+        window.setSize(600,600);
+        window.setVisible(true);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setTitle("Hans Gabriel");
+        window.add(label);
+        
+        
+        
+       
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package gui;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+        
+        
+public class GUI {
+
+
+    
+    public static void main(String[] args) {
+       
+        JFrame window = new JFrame();
+        JLabel label = new JLabel();
+        
+        label.setBounds(100,100,100)
+        window.setSize(600,600);
+        window.setVisible(true);
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setTitle("Hans Gabriel");
+        window.add(label);
+        
+        
+        
+       
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:286:286:286:18:10:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:258:263:273:17:14:compiler.err.cant.apply.symbols:no suitable method found for setBounds(int,int,int)
+    method Component.setBounds(int,int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method Component.setBounds(Rectangle) is not applicable
+      (actual and formal argument lists differ in length)], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:258:263:273:17:14:compiler.err.cant.apply.symbols:no suitable method found for setBounds(int,int,int)
+    method Component.setBounds(int,int,int,int) is not applicable
+      (actual and formal argument lists differ in length)
+    method Component.setBounds(Rectangle) is not applicable
+      (actual and formal argument lists differ in length), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/GUI/src/gui/GUI.java:ERROR:286:286:286:17:37:compiler.err.expected:';' expected]

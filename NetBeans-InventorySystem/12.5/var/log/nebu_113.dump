@@ -1,0 +1,99 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        float num1 = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float num2 = number.nextFloat();
+                
+        nebu calculator = new nebu();
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        float num1 = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float num2 = number.nextFloat();
+                
+        nebu calculator = new nebu(float num1);
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1090:1090:1096:38:36:compiler.err.unexpected.type:unexpected type
+  required: value
+  found:    class, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1100:1100:1100:39:8:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1096:1096:1096:39:4:compiler.err.dot.class.expected:'.class' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1090:1090:1096:38:36:compiler.err.unexpected.type:unexpected type
+  required: value
+  found:    class, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1096:1096:1096:38:42:compiler.err.dot.class.expected:'.class' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1100:1100:1100:38:46:compiler.err.expected:';' expected]

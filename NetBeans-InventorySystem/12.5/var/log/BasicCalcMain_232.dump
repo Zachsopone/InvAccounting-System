@@ -1,0 +1,103 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.select){
+        case 1:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+        case 2:
+            num.getInput();
+            System.out.println("The  is "+addOperation()+"\n");
+            break;
+        case 3:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+        case 4:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+    }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new computeProg();
+    num.calcChoice();
+    switch(num.select){
+        case 1:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+        case 2:
+            num.getInput();
+            System.out.println("The defference is  is "+addOperation()+"\n");
+            break;
+        case 3:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+        case 4:
+            num.getInput();
+            System.out.println("The sum is "+addOperation()+"\n");
+            break;
+    }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:544:544:556:20:60:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:674:674:686:24:60:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:182:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:273:273:285:12:46:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:483:486:495:20:2:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:174:181:9:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable select
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:212:215:224:11:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:613:616:625:24:2:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:342:345:354:15:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:414:414:426:16:57:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:142:145:156:8:8:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method calcChoice()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:170:170:182:9:11:compiler.err.illegal.parenthesized.expression:illegal parenthesized expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:273:273:285:12:46:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:483:486:495:19:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:171:174:181:9:15:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable select
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:212:215:224:11:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:544:544:556:20:46:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:613:616:625:23:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:674:674:686:24:46:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:342:345:354:15:16:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method getInput()
+  location: variable num of type computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:414:414:426:16:57:compiler.err.cant.resolve.location.args:cannot find symbol
+  symbol:   method addOperation()
+  location: class BasicCalcMain]

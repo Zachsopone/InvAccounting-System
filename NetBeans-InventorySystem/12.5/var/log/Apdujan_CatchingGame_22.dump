@@ -1,0 +1,55 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java
+----- Original text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new 
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.laboratory4;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import java.util.Random;
+
+public class Apdujan_CatchingGame extends JFrame{
+    JLabel rat;
+    Random r;
+    public Apdujan_CatchingGame(int ms){
+    setTitle("Catch the rat");
+    setLayout(new FlowLayout());
+    setDefaultCloseOperation(EXIT_ON_CLOSE);
+    setVisible(true);
+    rat=new J:
+    }
+    public static void main(String[] args) {
+    new Apdujan_CatchingGame(500);
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:387:387:387:17:1:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:386:386:387:16:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class J
+  location: class Apdujan_CatchingGame], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:387:387:387:16:14:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory4/src/apdujan/laboratory4/Apdujan_CatchingGame.java:ERROR:386:386:387:16:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class J
+  location: class Apdujan_CatchingGame]

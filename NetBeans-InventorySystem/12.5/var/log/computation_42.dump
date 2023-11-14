@@ -1,0 +1,77 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Resibo/src/resibo/computation.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        System.out.println()
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package resibo;
+
+import java.util.Scanner;
+
+public class computation {
+    
+    public static void compute()
+    {
+        
+        System.out.println("Item Code: ");
+        System.out.println(:)
+        
+        Scanner itemInput = new Scanner(System.in);
+        int itemCode = itemInput.nextInt();
+        int quantity = itemInput.nextInt();
+        
+        
+        if(itemCode == 0001)
+                {
+                    System.out.println("JUAN TASTY BREAD");
+                    double value = 34.00;
+                             
+                }
+        
+        
+        
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:200:818:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:818:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:811:compute():null:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:811:null:null:,EXPRESSION_STATEMENT:332:366:null:null:,METHOD_INVOCATION:332:365:println(java.lang.String):void:,MEMBER_SELECT:332:350:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:332:342:out:java.io.PrintStream:,IDENTIFIER:332:338:java.lang.System:java.lang.System:,STRING_LITERAL:351:364:null:java.lang.String:,EXPRESSION_STATEMENT:375:394:null:null:,METHOD_INVOCATION:375:394:println(char[]):<any>:,MEMBER_SELECT:375:393:println(char[]):<any>:,MEMBER_SELECT:375:385:out:java.io.PrintStream:,IDENTIFIER:375:381:java.lang.System:java.lang.System:,ERRONEOUS:394:394:null:<any>:,VARIABLE:414:457:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:414:421:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:434:456:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:438:445:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:446:455:in:java.io.InputStream:,IDENTIFIER:446:452:java.lang.System:java.lang.System:,null,VARIABLE:466:501:itemCode:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:466:469:null:int:,null,METHOD_INVOCATION:481:500:nextInt():int:,MEMBER_SELECT:481:498:nextInt():()int:,IDENTIFIER:481:490:itemInput:java.util.Scanner:,VARIABLE:510:545:quantity:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:510:513:null:int:,null,METHOD_INVOCATION:525:544:nextInt():int:,MEMBER_SELECT:525:542:nextInt():()int:,IDENTIFIER:525:534:itemInput:java.util.Scanner:,IF:572:760:null:null:,PARENTHESIZED:574:592:null:boolean:,EQUAL_TO:575:591:null:boolean:,IDENTIFIER:575:583:itemCode:int:,INT_LITERAL:587:591:null:int:,BLOCK:609:760:null:null:,EXPRESSION_STATEMENT:631:670:null:null:,METHOD_INVOCATION:631:669:println(java.lang.String):void:,MEMBER_SELECT:631:649:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:631:641:out:java.io.PrintStream:,IDENTIFIER:631:637:java.lang.System:java.lang.System:,STRING_LITERAL:650:668:null:java.lang.String:,VARIABLE:691:712:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:691:697:null:double:,null,DOUBLE_LITERAL:706:711:null:double:,null,null,, actual tree: COMPILATION_UNIT:200:818:resibo:null:,PACKAGE:200:215:resibo:null:,IDENTIFIER:208:214:resibo:null:,IMPORT:217:242:null:null:,MEMBER_SELECT:224:241:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:224:233:java.util:java.util:,IDENTIFIER:224:228:java:java:,CLASS:244:818:resibo.computation:resibo.computation:,MODIFIERS:244:250:null:null:,null,METHOD:251:-1:computation():()void:,MODIFIERS:251:-1:null:null:,null,null,BLOCK:251:-1:null:null:,EXPRESSION_STATEMENT:251:-1:null:null:,METHOD_INVOCATION:251:-1:Object():void:,IDENTIFIER:251:256:Object():()void:,null,METHOD:280:811:compute():()void:,MODIFIERS:280:293:null:null:,PRIMITIVE_TYPE:294:298:null:void:,null,BLOCK:313:811:null:null:,EXPRESSION_STATEMENT:332:366:null:null:,METHOD_INVOCATION:332:365:println(java.lang.String):void:,MEMBER_SELECT:332:350:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:332:342:out:java.io.PrintStream:,IDENTIFIER:332:338:java.lang.System:java.lang.System:,STRING_LITERAL:351:364:null:java.lang.String:,EXPRESSION_STATEMENT:375:394:null:null:,METHOD_INVOCATION:375:394:println(char[]):<any>:,MEMBER_SELECT:375:393:println(char[]):<any>:,MEMBER_SELECT:375:385:out:java.io.PrintStream:,IDENTIFIER:375:381:java.lang.System:java.lang.System:,ERRONEOUS:394:394:null:<any>:,VARIABLE:414:457:itemInput:java.util.Scanner:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:414:421:java.util.Scanner:java.util.Scanner:,null,NEW_CLASS:434:456:Scanner(java.io.InputStream):java.util.Scanner:,null,IDENTIFIER:438:445:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:446:455:in:java.io.InputStream:,IDENTIFIER:446:452:java.lang.System:java.lang.System:,null,VARIABLE:466:501:itemCode:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:466:469:null:int:,null,METHOD_INVOCATION:481:500:nextInt():int:,MEMBER_SELECT:481:498:nextInt():()int:,IDENTIFIER:481:490:itemInput:java.util.Scanner:,VARIABLE:510:545:quantity:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:510:513:null:int:,null,METHOD_INVOCATION:525:544:nextInt():int:,MEMBER_SELECT:525:542:nextInt():()int:,IDENTIFIER:525:534:itemInput:java.util.Scanner:,IF:572:760:null:null:,PARENTHESIZED:574:592:null:boolean:,EQUAL_TO:575:591:null:boolean:,IDENTIFIER:575:583:itemCode:int:,INT_LITERAL:587:591:null:int:,BLOCK:609:760:null:null:,EXPRESSION_STATEMENT:631:670:null:null:,METHOD_INVOCATION:631:669:println(java.lang.String):void:,MEMBER_SELECT:631:649:println(java.lang.String):(java.lang.String)void:,MEMBER_SELECT:631:641:out:java.io.PrintStream:,IDENTIFIER:631:637:java.lang.System:java.lang.System:,STRING_LITERAL:650:668:null:java.lang.String:,VARIABLE:691:712:value:double:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:691:697:null:double:,null,DOUBLE_LITERAL:706:711:null:double:,null,null,

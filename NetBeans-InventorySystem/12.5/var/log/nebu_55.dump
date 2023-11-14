@@ -1,0 +1,41 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu 
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:429:429:429:16:4:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:429:429:429:14:24:compiler.err.expected:';' expected]

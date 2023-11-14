@@ -1,0 +1,145 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+package apdujan_laboratory1;
+import java.util.Scanner;
+public class BasicCalcMain {
+    public static void main(String[]args) {
+	int x=0; y, z, 
+        int select;
+        Scanner scan=new Scanner(System.in);
+        computeProg num=new computeProg();
+        num.calcChoice();
+        select=scan.nextInt();
+        if(select==1){
+            System.out.println("The sum is " + num.addOperation(x, y, z));  
+        }else if(select==2){
+            System.out.println("The difference is " + num.subOperation(x, y, z));
+        }else{
+            System.out.println("Wrong Option!");
+        }
+        System.out.println("First Number: "); 
+        x=scan.nextInt();
+        System.out.println("Second Number: ");
+        y=scan.nextInt();
+        System.out.println("Third Number: ");
+        z=scan.nextInt();
+    }
+}
+
+----- Updated text: ---------------------------------------------
+package apdujan_laboratory1;
+import java.util.Scanner;
+public class BasicCalcMain {
+    public static void main(String[]args) {
+	int x=0;
+        y, z, 
+        int select;
+        Scanner scan=new Scanner(System.in);
+        computeProg num=new computeProg();
+        num.calcChoice();
+        select=scan.nextInt();
+        if(select==1){
+            System.out.println("The sum is " + num.addOperation(x, y, z));  
+        }else if(select==2){
+            System.out.println("The difference is " + num.subOperation(x, y, z));
+        }else{
+            System.out.println("Wrong Option!");
+        }
+        System.out.println("First Number: "); 
+        x=scan.nextInt();
+        System.out.println("Second Number: ");
+        y=scan.nextInt();
+        System.out.println("Third Number: ");
+        z=scan.nextInt();
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:803:803:804:23:17:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:521:521:522:15:1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:524:524:525:15:4:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:146:146:147:6:2:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:147:147:147:6:3:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Iterator.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:408:408:409:12:76:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Path.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReadableByteChannel.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:File.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:149:149:150:6:5:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:731:731:732:21:17:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:411:411:412:13:2:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Scanner.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:150:150:150:6:6:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:InputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Void.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:731:731:732:22:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:146:146:147:6:9:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Flushable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Double.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Boolean.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Readable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:149:149:150:6:12:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Byte.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:OutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:FilterOutputStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:524:524:525:15:78:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:803:803:804:24:9:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Constable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:521:521:522:15:75:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Iterator.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Character.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Float.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:411:411:412:13:71:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable z
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:PrintStream.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:147:147:147:6:10:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Long.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Appendable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Short.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Closeable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:408:408:409:13:68:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable y
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Path.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Comparable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ReadableByteChannel.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Cloneable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:File.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:System.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:ERROR:150:150:150:6:13:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:CharSequence.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Integer.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:ConstantDesc.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Scanner.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Documents/NetBeansProjects/Apdujan.Laboratory1/src/apdujan_laboratory1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

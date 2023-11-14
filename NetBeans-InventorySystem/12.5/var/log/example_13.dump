@@ -1,0 +1,37 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println ("Fixed decimal notation:");
+        System.out.printf ("hours = %.2f, rate = %.2f, pay =")
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+
+    public static void main(String[] args) {
+     
+        double hours = 35.45;
+        double rate = 15.00;
+        double tolerance = 0.01000;
+        
+        
+        System.out.println ("Fixed decimal notation:");
+        System.out.printf ("hours = %.2f, rate = %.2f, pay = ")
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:308:308:308:13:1:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:308:308:308:12:64:compiler.err.expected:';' expected]

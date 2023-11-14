@@ -1,0 +1,207 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+    public int getProductId() {
+        return ProductId;
+    }
+
+    public void setProductId(int Id) {
+        this.Id = Id;
+    }
+
+    public String getProduct() {
+        return Product;
+    }
+
+    public void setProduct(String Product) {
+        this.Product = Product;
+    }
+
+    public String getCategry() {
+        return Categry;
+    }
+
+    public void setCategry(String Categry) {
+        this.Categry = Categry;
+    }
+
+    public int getQuanty() {
+        return Quanty;
+    }
+
+    public void setQuanty(int Quanty) {
+        this.Quanty = Quanty;
+    }
+
+    public double getBuyingP() {
+        return BuyingP;
+    }
+
+    public void setBuyingP(double BuyingP) {
+        this.BuyingP = BuyingP;
+    }
+
+    public double getSellingP() {
+        return SellingP;
+    }
+
+    public void setSellingP(double SellingP) {
+        this.SellingP = SellingP;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.Id=ID;
+    this.Product=PRODUCT;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    this.BuyingP=BUYINGPRICE;
+    this.SellingP=SELLINGPRICE;
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class ProductProperties {
+    
+    private int ProductId;
+    private String ProductName;
+    private String Category;
+    private int Quantity;
+    private double BuyingPrice;
+    private double SellingPrice;
+
+    public int getProductId() {
+        return ProductId;
+    }
+
+    public void setProductId(int Id) {
+        this.Id = ProductId;
+    }
+
+    public String getProduct() {
+        return Product;
+    }
+
+    public void setProduct(String Product) {
+        this.Product = Product;
+    }
+
+    public String getCategry() {
+        return Categry;
+    }
+
+    public void setCategry(String Categry) {
+        this.Categry = Categry;
+    }
+
+    public int getQuanty() {
+        return Quanty;
+    }
+
+    public void setQuanty(int Quanty) {
+        this.Quanty = Quanty;
+    }
+
+    public double getBuyingP() {
+        return BuyingP;
+    }
+
+    public void setBuyingP(double BuyingP) {
+        this.BuyingP = BuyingP;
+    }
+
+    public double getSellingP() {
+        return SellingP;
+    }
+
+    public void setSellingP(double SellingP) {
+        this.SellingP = SellingP;
+    }
+
+    
+    public ProductProperties(){
+    }
+    public ProductProperties(int ID, String PRODUCT, String CATEGORY, int QUANTITY, double BUYINGPRICE, double SELLINGPRICE){
+    this.Id=ID;
+    this.Product=PRODUCT;
+    this.Categry=CATEGORY;
+    this.Quanty=QUANTITY;
+    this.BuyingP=BUYINGPRICE;
+    this.SellingP=SELLINGPRICE;
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:562:566:569:24:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Id, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1070:1070:1077:-1:-1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable BuyingP
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:786:786:793:-1:-1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Categry
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1139:1143:1151:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1291:1295:1304:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1539:1543:1551:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:707:711:719:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Product, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1219:1219:1227:-1:-1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable SellingP
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1497:1501:1504:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Id, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:930:930:936:-1:-1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Quanty
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1513:1517:1525:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Product, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:993:997:1004:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1592:1596:1604:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1566:1570:1577:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1622:1626:1635:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:638:638:645:-1:-1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Product
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:855:859:867:-1:-1:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1497:1501:1504:71:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Id, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1592:1596:1604:75:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1291:1295:1304:64:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1513:1517:1525:72:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Product, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:562:566:569:24:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Id, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:786:786:793:36:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Categry
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1139:1143:1151:56:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable BuyingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:855:859:867:40:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:993:997:1004:48:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1219:1219:1227:60:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable SellingP
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1539:1543:1551:73:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Categry, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:638:638:645:28:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Product
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:930:930:936:44:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Quanty
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1566:1570:1577:74:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Quanty, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1070:1070:1077:52:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable BuyingP
+  location: class ProductProperties, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:1622:1626:1635:76:9:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable SellingP, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/ProductProperties.java:ERROR:707:711:719:32:13:compiler.err.cant.resolve:cannot find symbol
+  symbol: variable Product]

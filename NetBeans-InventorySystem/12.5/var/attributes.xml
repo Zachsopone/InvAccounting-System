@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|Categories.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|InventoryForm.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|InventorySystem.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|LoginPanel.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|Products.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|InventoryManagementSystem|src|main|java|com|mycompany|inventorymanagementsystem|Users.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|AppData|Local|NetBeans|Cache|12.5|index|s174|java|15|gensrc|javafx|util|Callback.java">
+        <attr name="classfile-binaryName" stringvalue="javafx/util/Callback"/>
+        <attr name="classfile-root" urlvalue="jar:file:/C:/Program%20Files/Java/jdk1.8.0_311/jre/lib/ext/jfxrt.jar!/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="5D939256A20D98965740A359004EA1D6"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|AppData|Local|NetBeans|Cache|12.5|mavencachedirs|1447241226|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/C:/InventoryManagementSystem/"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|AppData|Roaming|NetBeans|12.5|derby|InventoryManagementSystem|src|Sales.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|Desktop|2ND SEM JAVA|Chat|src|client.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|Desktop|2ND SEM JAVA|Chat|src|server.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|Desktop|2ND SEM JAVA|Week11|src|SwingAdd.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|InventoryManagementSystem|src|Categories.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|InventoryManagementSystem|src|InventoryForm.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|InventoryManagementSystem|src|InventorySystem.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|InventoryManagementSystem|src|LoginPanel.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="C:|Users|GIGABYTE|InventoryManagementSystem|src|Users.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+</attributes>

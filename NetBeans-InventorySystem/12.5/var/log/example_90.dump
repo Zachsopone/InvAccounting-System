@@ -1,0 +1,33 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f")
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, ")
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:292:292:292:10:2:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:292:292:292:9:80:compiler.err.expected:';' expected]

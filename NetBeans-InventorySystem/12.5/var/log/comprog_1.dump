@@ -1,0 +1,25 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/comprog/src/comprog.java
+----- Original text: ---------------------------------------------
+
+public class comprog {
+
+
+    public static void main(String[] args) {
+      System.out.println
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class comprog {
+
+
+    public static void main(String[] args) {
+      System.out.println()
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:97:97:97:7:1:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/comprog/src/comprog.java:ERROR:97:97:97:6:27:compiler.err.expected:';' expected]

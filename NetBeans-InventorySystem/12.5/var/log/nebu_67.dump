@@ -1,0 +1,49 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1 = 0;
+        int num2 = 0;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = 
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1 = 0;
+        int num2 = 0;
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new ()
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:491:491:491:17:6:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:488:488:488:17:3:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:491:491:491:16:33:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:488:488:488:16:30:compiler.err.expected:<identifier> expected]

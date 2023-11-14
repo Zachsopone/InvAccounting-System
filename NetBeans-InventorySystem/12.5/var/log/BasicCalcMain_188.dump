@@ -1,0 +1,46 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+import java.util.*;
+
+public class BasicCalcMain {
+  public static void main(String[] args) throws IOException {
+  computeProg num=new computeProg();
+  num.calcChoice();
+  num.getInput();
+  num.calcProcess(); 
+  }
+}
+
+----- Updated text: ---------------------------------------------
+package apdujan.lab1;
+import java.io.*;
+import java.util.*;
+
+public class BasicCalcMain {
+  public static void main(String[] args) throws IOException {
+  computeProg num=new computeProg();
+  num.calcChoice();
+  num.calcProcess(); 
+  }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:RuntimeException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Error.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:String.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:IOException.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Exception.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Throwable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Serializable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:AutoCloseable.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded., file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/BasicCalcMain.java:WARNING:-1:-1:-1:-1:-1:compiler.warn.big.major.version:Object.class: major version 61 is newer than 60, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.]

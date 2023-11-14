@@ -1,0 +1,97 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try{
+    cn=datasource.getConnection();
+    }catch (SQLException ex){
+    Logger.getLogger(InventoryMain.class.getName()).log()
+    }
+    return cn;
+    }
+}
+----- Updated text: ---------------------------------------------
+
+
+import com.mysql.cj.jdbc.MysqlDataSource;
+import java.sql.Connection;
+
+
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+    
+    private static String servername="localhost";
+    private static String dbname="inventoryms";
+    private static String username="root";
+    private static Integer portnumber=3306;
+    private static String password="";
+    
+    public static Connection GetConnection(){
+    Connection cn=null;
+    MysqlDataSource datasource = new  MysqlDataSource();
+    datasource.setServerName(servername);
+    datasource.setUser(username);
+    datasource.setDatabaseName(dbname);
+    datasource.setPassword(password);
+    try{
+    cn=datasource.getConnection();
+    }catch (SQLException ex){
+    Logger.getLogger(InventoryMain.class.getName()).log(level)
+    }
+    return cn;
+    }
+}
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:981:981:986:36:57:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable level
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:929:929:935:36:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Logger
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:987:987:987:37:5:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:907:907:919:35:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class SQLException
+  location: class InventoryMain], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:981:981:986:36:57:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable level
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:929:929:935:36:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable Logger
+  location: class InventoryMain, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:987:987:987:36:63:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:907:907:919:35:13:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class SQLException
+  location: class InventoryMain]

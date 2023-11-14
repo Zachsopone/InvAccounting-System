@@ -1,0 +1,65 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14**height
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*thi*height
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:518:518:518:23:63:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:508:508:511:23:53:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable thi
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:512:512:518:23:57:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:454:523:524:24:5:compiler.err.missing.ret.stmt:missing return statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:518:518:518:23:63:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:508:508:511:23:53:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable thi
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:512:512:518:23:57:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg]

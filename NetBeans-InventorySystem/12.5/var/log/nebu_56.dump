@@ -1,0 +1,45 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new 
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+    Scanner sc = new Scanner(System.in);
+ 
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int sum = num1 + num2;
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+ 
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new n
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:442:442:442:15:6:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:436:436:437:14:31:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class n
+  location: class nebu], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:442:442:442:15:5:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:436:436:437:14:31:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class n
+  location: class nebu]

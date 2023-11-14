@@ -1,0 +1,191 @@
+Coupling error:
+class file file:/C:/Users/GIGABYTE/AppData/Local/NetBeans/Cache/12.5/index/s202/java/15/classes/apdujan/lab1/computeProg.sig
+source file file:/C:/Users/GIGABYTE/Apdujan.Laboratory1/src/apdujan/lab1/ComputeProg.java
+----- Source file content: ----------------------------------------
+package apdujan.lab1;
+import java.util.*;
+
+public class computeProg {
+     BufferedReader r=new BufferedReader (new InputStreamReader(System.in));
+
+    private int a, b, c, select;
+
+    public int addOperation() {       
+    int sum=this.a+this.b;   
+    return sum; 
+    }    
+    public int subOperation() {        
+    int diff=this.a-this.b;
+    return diff;    
+    }    
+    public int circleOperation() {
+    int circarea=3.1415929*this.c*this.c;
+    return area;
+    }   
+    public int cylinderOperation(){
+    int cylarea=2(this.a*this.a)+this.b(2*this.a)*22/7;
+    return cylarea;
+    }   
+    public void calcChoice() {       
+    System.out.println("1. Addition");        
+    System.out.println("2. Subtraction");        
+    System.out.println("3. Area of Circle");        
+    System.out.println("4. Area of Cylinder");        
+    System.out.println("Enter your Choice ");    
+    }    
+    public void getInput(){        
+    System.out.print("Enter first number: ");        
+    a=Integer.valueOf(r.readLine());        
+    System.out.print("Enter second number: ");        
+    b=Integer.valueOf(r.readLine());    
+    }    
+    public void calcProcess() {        
+    select=Integer.valueOf(r.readLine());        
+    switch(select){        
+    case 1:        
+    getInput();        
+    System.out.print("The sum is "+addOperation());   
+    break;
+    case 2:        
+    getInput();        
+    System.out.print("The difference is "+subOperation());        
+    break;        
+    case 3:        
+    System.out.print("Enter radius ");        
+    c=Integer.valueOf(r.readLine());        
+    System.out.print("The difference is "+circleOperation());        
+    break;        
+    case 4:        
+    getInput();        
+    System.out.print("The difference is "+ cylinderOperation());
+    default:        
+    System.out.print("Wrong Option !");        
+    break;        
+    }    
+   }
+}
+
+----- Trees: -------------------------------------------------------
+VARIABLE: a
+----- Stack trace: ---------------------------------------------
+com.sun.tools.javac.util.CouplingAbort
+	at org.netbeans.modules.java.source.nbjavac.parsing.TreeLoader.couplingError(TreeLoader.java:271)
+	at com.sun.tools.javac.comp.MemberEnter.visitVarDef(MemberEnter.java:459)
+	at com.sun.tools.javac.tree.JCTree$JCVariableDecl.accept(JCTree.java:998)
+	at com.sun.tools.javac.comp.MemberEnter.memberEnter(MemberEnter.java:172)
+	at com.sun.tools.javac.comp.MemberEnter.memberEnter(MemberEnter.java:184)
+	at com.sun.tools.javac.comp.TypeEnter$MembersPhase.finishClass(TypeEnter.java:1115)
+	at com.sun.tools.javac.comp.TypeEnter$MembersPhase.runPhase(TypeEnter.java:1055)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.doCompleteEnvs(TypeEnter.java:302)
+	at com.sun.tools.javac.comp.TypeEnter$AbstractMembersPhase.doCompleteEnvs(TypeEnter.java:961)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:271)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:286)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:286)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:286)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:286)
+	at com.sun.tools.javac.comp.TypeEnter$Phase.completeEnvs(TypeEnter.java:286)
+	at com.sun.tools.javac.comp.TypeEnter.complete(TypeEnter.java:218)
+	at com.sun.tools.javac.code.Symbol.complete(Symbol.java:684)
+	at com.sun.tools.javac.code.Symbol$ClassSymbol.complete(Symbol.java:1435)
+	at com.sun.tools.javac.comp.Enter.complete(Enter.java:820)
+	at com.sun.tools.javac.main.JavaCompiler.readSourceFile(JavaCompiler.java:877)
+	at com.sun.tools.javac.main.JavaCompiler.readSourceFile(JavaCompiler.java:827)
+	at com.sun.tools.javac.main.JavaCompiler.lambda$new$0(JavaCompiler.java:362)
+	at com.sun.tools.javac.code.ClassFinder.fillIn(ClassFinder.java:388)
+	at com.sun.tools.javac.code.ClassFinder.complete(ClassFinder.java:301)
+	at com.sun.tools.javac.code.Symbol.complete(Symbol.java:684)
+	at com.sun.tools.javac.code.Symbol$ClassSymbol.complete(Symbol.java:1435)
+	at com.sun.tools.javac.code.Symbol.apiComplete(Symbol.java:690)
+	at com.sun.tools.javac.code.Symbol$TypeSymbol.getEnclosedElements(Symbol.java:864)
+	at com.sun.tools.javac.code.Symbol$TypeSymbol.getEnclosedElements(Symbol.java:799)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.visitMethod(NPECheck.java:1160)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.visitMethod(NPECheck.java:546)
+	at com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:940)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:90)
+	at org.netbeans.api.java.source.support.CancellableTreeScanner.scan(CancellableTreeScanner.java:69)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.scan(NPECheck.java:653)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.scan(NPECheck.java:546)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:109)
+	at org.netbeans.api.java.source.support.CancellableTreeScanner.scan(CancellableTreeScanner.java:78)
+	at com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:117)
+	at com.sun.source.util.TreeScanner.visitClass(TreeScanner.java:193)
+	at com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:846)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:90)
+	at org.netbeans.api.java.source.support.CancellableTreeScanner.scan(CancellableTreeScanner.java:69)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.scan(NPECheck.java:653)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.scan(NPECheck.java:546)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:109)
+	at org.netbeans.api.java.source.support.CancellableTreeScanner.scan(CancellableTreeScanner.java:78)
+	at com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:117)
+	at com.sun.source.util.TreeScanner.visitCompilationUnit(TreeScanner.java:148)
+	at com.sun.tools.javac.tree.JCTree$JCCompilationUnit.accept(JCTree.java:605)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:90)
+	at org.netbeans.api.java.source.support.CancellableTreeScanner.scan(CancellableTreeScanner.java:69)
+	at org.netbeans.modules.java.hints.bugs.NPECheck$VisitorImpl.scan(NPECheck.java:653)
+	at org.netbeans.modules.java.hints.bugs.NPECheck.computeExpressionsState(NPECheck.java:503)
+	at org.netbeans.modules.java.hints.bugs.NPECheck.methodInvocation(NPECheck.java:308)
+	at jdk.internal.reflect.GeneratedMethodAccessor104.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:317)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:798)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:90)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:676)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:610)
+	at com.sun.source.util.TreeScanner.visitExpressionStatement(TreeScanner.java:456)
+	at com.sun.tools.javac.tree.JCTree$JCExpressionStatement.accept(JCTree.java:1555)
+	at com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:86)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:69)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:682)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:610)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:109)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:78)
+	at com.sun.source.util.TreeScanner.visitBlock(TreeScanner.java:254)
+	at com.sun.tools.javac.tree.JCTree$JCBlock.accept(JCTree.java:1074)
+	at com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:86)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:69)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:682)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:610)
+	at com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:94)
+	at com.sun.source.util.TreeScanner.visitMethod(TreeScanner.java:212)
+	at com.sun.tools.javac.tree.JCTree$JCMethodDecl.accept(JCTree.java:940)
+	at com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:86)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:69)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:682)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:610)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:109)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:78)
+	at com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:117)
+	at com.sun.source.util.TreeScanner.visitClass(TreeScanner.java:193)
+	at com.sun.tools.javac.tree.JCTree$JCClassDecl.accept(JCTree.java:846)
+	at com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:86)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:69)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:682)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:610)
+	at com.sun.source.util.TreeScanner.scan(TreeScanner.java:109)
+	at org.netbeans.api.java.source.support.CancellableTreePathScanner.scan(CancellableTreePathScanner.java:78)
+	at com.sun.source.util.TreeScanner.scanAndReduce(TreeScanner.java:117)
+	at com.sun.source.util.TreeScanner.visitCompilationUnit(TreeScanner.java:148)
+	at com.sun.tools.javac.tree.JCTree$JCCompilationUnit.accept(JCTree.java:605)
+	at com.sun.source.util.TreePathScanner.scan(TreePathScanner.java:60)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scan(HintsInvoker.java:701)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHintsImpl(HintsInvoker.java:245)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:228)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:193)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:166)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:128)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:65)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:273)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:561)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$RequestPerformer.run(TaskProcessor.java:786)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:279)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$RequestPerformer.execute(TaskProcessor.java:702)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:663)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1418)
+	at org.netbeans.modules.openide.util.GlobalLookup.execute(GlobalLookup.java:45)
+	at org.openide.util.lookup.Lookups.executeWith(Lookups.java:278)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)

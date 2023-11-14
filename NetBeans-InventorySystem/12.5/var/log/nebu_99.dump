@@ -1,0 +1,95 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        in0t product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public int modulo(){
+        int modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner num1 = new Scanner(System.in);
+        System.out.println("Enter 1st number: ")
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+         product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public int modulo(){
+        int modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner num1 = new Scanner(System.in);
+        System.out.println("Enter 1st number: ")
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:492:492:499:20:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable product
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:454:454:461:19:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable product
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:893:893:893:-1:-1:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:492:492:499:20:16:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable product
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:454:454:461:19:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable product
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:889:889:889:33:49:compiler.err.expected:';' expected]

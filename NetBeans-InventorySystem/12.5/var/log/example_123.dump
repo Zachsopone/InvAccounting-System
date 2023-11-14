@@ -1,0 +1,24 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+}
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+ 
+    public static void main(String[] args) {
+   int num = 763;
+   double x 
+}
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:100:100:100:9:0:compiler.err.expected:';' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:100:100:100:6:12:compiler.err.expected:';' expected]

@@ -1,0 +1,45 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + PI = .%.2f%n%n",radius, height, PI * radius * radius * height, PI);
+   
+   System.out.println("Three decimal places: ");
+   System.out.printf
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + PI = .%.2f%n%n",radius, height, PI * radius * radius * height, PI);
+   
+   System.out.println("Three decimal places: ");
+   System.out.printf()
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:435:435:435:13:2:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:416:426:433:12:14:compiler.err.cant.apply.symbols:no suitable method found for printf(no arguments)
+    method PrintStream.printf(String,Object...) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.printf(Locale,String,Object...) is not applicable
+      (actual and formal argument lists differ in length)], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:416:426:433:12:14:compiler.err.cant.apply.symbols:no suitable method found for printf(no arguments)
+    method PrintStream.printf(String,Object...) is not applicable
+      (actual and formal argument lists differ in length)
+    method PrintStream.printf(Locale,String,Object...) is not applicable
+      (actual and formal argument lists differ in length), file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:435:435:435:12:23:compiler.err.expected:';' expected]

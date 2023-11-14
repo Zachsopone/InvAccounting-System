@@ -1,0 +1,37 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new compute Prog();
+    num.
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+
+public class BasicCalcMain {
+
+    public static void main(String[] args) {
+    computeProg num=new compute Prog();
+    num.Cla==
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:143:150:157:9:3:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:123:123:130:7:25:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class compute
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:131:131:131:7:33:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:114:7:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class computeProg
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:157:157:157:10:4:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:143:150:157:8:12:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:157:157:157:9:5:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:123:123:130:7:25:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class compute
+  location: class BasicCalcMain, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:131:131:131:7:33:compiler.err.expected2:'(' or '[' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/BasicCalcMain.java:ERROR:103:103:114:7:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class computeProg
+  location: class BasicCalcMain]

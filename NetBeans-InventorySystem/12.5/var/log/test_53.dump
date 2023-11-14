@@ -1,0 +1,89 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+                        for 
+                        Thread.sleep(1000);
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        Thread.sleep(1000);
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        Thread.sleep(1000);
+                        break;
+                    default:
+                        System.out.println("Pogi c Richard");
+                        Thread.sleep(1000);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+public class test {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        for(int choice=1;choice<5;choice++){
+            //int choice = 1;
+                switch(choice){
+                    case 1:
+                        System.out.println("Butaw c Ekel");
+                        for char in
+                        Thread.sleep(1000);
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        Thread.sleep(1000);
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        Thread.sleep(1000);
+                        break;
+                    default:
+                        System.out.println("Pogi c Richard");
+                        Thread.sleep(1000);
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:615:615:615:22:36:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:684:684:684:24:25:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:607:607:607:22:28:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:640:652:658:23:37:compiler.err.prob.found.req:incompatible types: void cannot be converted to boolean], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:615:615:615:22:36:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:684:684:684:24:25:compiler.err.illegal.start.of.expr:illegal start of expression, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:607:607:607:22:28:compiler.err.expected:'(' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:640:652:658:23:37:compiler.err.prob.found.req:incompatible types: void cannot be converted to boolean, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:803:815:821:27:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:1132:1144:1150:35:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:966:978:984:31:37:compiler.err.unreported.exception.need.to.catch.or.throw:unreported exception InterruptedException; must be caught or declared to be thrown]

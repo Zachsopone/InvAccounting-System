@@ -1,0 +1,37 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + PI = .%.2f%n%n",radius height, PI * radius * radius )
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + PI = .%.2f%n%n",radius height, PI * radius * radius * he)
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:315:315:321:9:103:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:321:321:321:9:109:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:323:344:348:9:132:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:348:348:348:10:3:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:346:346:348:10:1:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable he
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:314:314:314:9:102:compiler.err.expected:')' expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:348:348:348:9:136:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:315:315:321:9:103:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:321:321:321:9:109:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:323:344:348:9:132:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:346:346:348:9:134:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable he
+  location: class example, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:314:314:314:9:102:compiler.err.expected:')' expected]

@@ -1,0 +1,33 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + "PI )
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+    static final double PI = 3.14159265;
+    public static void main(String[] args) {
+   
+   double radius = 12.67;
+   double height = 12.00;
+   System.out.println("Two decimal places: ");
+   System.out.printf("Line 9: radius = %.2f, + height = %.2f, volume + %.2f, + "PI =)
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:293:293:293:9:81:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:297:297:297:10:1:compiler.err.illegal.start.of.expr:illegal start of expression], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:293:293:293:9:81:compiler.err.expected:')' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:297:297:297:9:85:compiler.err.illegal.start.of.expr:illegal start of expression]

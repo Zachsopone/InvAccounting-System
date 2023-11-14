@@ -1,0 +1,69 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*radius+2*pi*radius*height
+    }
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*+2*pi*radius*height
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:513:513:513:23:58:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:500:500:506:23:45:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:507:507:513:23:52:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:497:497:499:23:42:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable pi
+  location: class computeProg], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:513:513:513:23:58:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:454:518:519:24:5:compiler.err.missing.ret.stmt:missing return statement, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:500:500:506:23:45:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable radius
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:507:507:513:23:52:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable height
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:497:497:499:23:42:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable pi
+  location: class computeProg]

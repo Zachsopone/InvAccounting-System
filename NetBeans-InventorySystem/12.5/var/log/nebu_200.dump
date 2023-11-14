@@ -1,0 +1,127 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(float num1, float num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            if(sum / (int)sum == 0){
+                return sum;
+            }else{
+                return (int)sum;
+            }
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        int a = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float b = number.nextFloat();
+                
+        nebu calculator = new nebu(a, b);
+        System.out.println(calculator.sum());
+        Thread.sleep(1000);
+        System.out.println(calculator.difference());
+        Thread.sleep(1000);
+        System.out.println(calculator.product());
+        Thread.sleep(1000);
+        System.out.println(calculator.quotient());
+        Thread.sleep(1000);
+        System.out.println(calculator.modulo());
+        Thread.sleep(1000);
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(float num1, float num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            if(sum / (int)sum == 0){
+                return sum;
+            }else{
+                return (int)sum;
+            }
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+         a = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float b = number.nextFloat();
+                
+        nebu calculator = new nebu(a, b);
+        System.out.println(calculator.sum());
+        Thread.sleep(1000);
+        System.out.println(calculator.difference());
+        Thread.sleep(1000);
+        System.out.println(calculator.product());
+        Thread.sleep(1000);
+        System.out.println(calculator.quotient());
+        Thread.sleep(1000);
+        System.out.println(calculator.modulo());
+        Thread.sleep(1000);
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1190:1190:1191:42:38:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable a
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1026:1026:1027:38:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable a
+  location: class nebu], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1026:1026:1027:38:10:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable a
+  location: class nebu, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1190:1190:1191:42:36:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable a
+  location: class nebu]

@@ -1,0 +1,37 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java
+----- Original text: ---------------------------------------------
+
+public class example {
+   
+    static final double PI = 3.14159265;
+
+    public static void main(String[] args) {
+     
+        double radius = 12.67;
+        double height = 12.00;
+        
+        System
+              
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+
+public class example {
+   
+    static final double PI = 3.14159265;
+
+    public static void main(String[] args) {
+     
+        double radius = 12.67;
+        double height = 12.00;
+        
+        System.out
+              
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:210:210:210:12:4:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:200:206:210:11:15:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:200:206:210:11:15:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/Example/src/example.java:ERROR:210:210:210:11:19:compiler.err.expected:';' expected]

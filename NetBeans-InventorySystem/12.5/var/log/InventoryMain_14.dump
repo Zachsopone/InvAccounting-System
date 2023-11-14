@@ -1,0 +1,49 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+    
+    }
+}
+----- Updated text: ---------------------------------------------
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException, SQLException {
+     try {
+                Class.forName("com.mysql.cj.jdbc.Driver");
+            } catch (ClassNotFoundException ex) {
+                Logger.getLogger(Products.class.getName()).log(Level.SEVERE, null, ex);
+            }
+    }
+}
+----- Errors: ---------------------------------------------
+Expected tree: COMPILATION_UNIT:1:643:unnamed package:null:,null,IMPORT:1:31:null:null:,MEMBER_SELECT:8:30:java.sql.DriverManager:java.sql.DriverManager:,MEMBER_SELECT:8:16:java.sql:java.sql:,IDENTIFIER:8:12:java:java:,IMPORT:32:61:null:null:,MEMBER_SELECT:39:60:java.sql.SQLException:java.sql.SQLException:,MEMBER_SELECT:39:47:java.sql:java.sql:,IDENTIFIER:39:43:java:java:,CLASS:295:643:InventoryMain:InventoryMain:,MODIFIERS:295:301:null:null:,null,METHOD:302:-1:InventoryMain():()void:,MODIFIERS:302:-1:null:null:,null,null,BLOCK:302:-1:null:null:,EXPRESSION_STATEMENT:302:-1:null:null:,METHOD_INVOCATION:302:-1:Object():void:,IDENTIFIER:302:307:Object():()void:,null,METHOD:329:641:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:329:342:null:null:,PRIMITIVE_TYPE:343:347:null:void:,VARIABLE:353:366:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:353:361:null:java.lang.String[]:,IDENTIFIER:353:359:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:375:397:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,IDENTIFIER:399:411:java.sql.SQLException:java.sql.SQLException:,BLOCK:412:641:null:null:,TRY:419:635:null:null:,BLOCK:423:497:null:null:,EXPRESSION_STATEMENT:441:483:null:null:,METHOD_INVOCATION:441:482:forName(java.lang.String):java.lang.Class<capture#843 of ?>:,MEMBER_SELECT:441:454:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:441:446:java.lang.Class:java.lang.Class:,STRING_LITERAL:455:481:null:java.lang.String:,CATCH:498:635:null:null:,VARIABLE:505:530:ex:java.lang.ClassNotFoundException:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:505:527:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,null,null,BLOCK:532:635:null:null:,EXPRESSION_STATEMENT:550:621:null:null:,METHOD_INVOCATION:550:620:Logger.getLogger.log:<any>:,MEMBER_SELECT:550:596:Logger.getLogger.log:<any>:,METHOD_INVOCATION:550:592:Logger.getLogger:Logger.getLogger:,MEMBER_SELECT:550:566:Logger.getLogger:Logger.getLogger:,IDENTIFIER:550:556:Logger:Logger:,METHOD_INVOCATION:567:591:getName():java.lang.String:,MEMBER_SELECT:567:589:getName():()java.lang.String:,MEMBER_SELECT:567:581:class:java.lang.Class<Products>:,IDENTIFIER:567:575:Products:Products:,MEMBER_SELECT:597:609:Level.SEVERE:Level.SEVERE:,IDENTIFIER:597:602:Level:Level:,NULL_LITERAL:611:615:null:<nulltype>:,IDENTIFIER:617:619:ex:java.lang.ClassNotFoundException:,null,null,, actual tree: COMPILATION_UNIT:1:643:unnamed package:null:,null,IMPORT:1:31:null:null:,MEMBER_SELECT:8:30:java.sql.DriverManager:java.sql.DriverManager:,MEMBER_SELECT:8:16:java.sql:java.sql:,IDENTIFIER:8:12:java:java:,IMPORT:32:61:null:null:,MEMBER_SELECT:39:60:java.sql.SQLException:java.sql.SQLException:,MEMBER_SELECT:39:47:java.sql:java.sql:,IDENTIFIER:39:43:java:java:,CLASS:295:643:InventoryMain:InventoryMain:,MODIFIERS:295:301:null:null:,null,METHOD:302:-1:InventoryMain():()void:,MODIFIERS:302:-1:null:null:,null,null,BLOCK:302:-1:null:null:,EXPRESSION_STATEMENT:302:-1:null:null:,METHOD_INVOCATION:302:-1:Object():void:,IDENTIFIER:302:307:Object():()void:,null,METHOD:329:641:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:329:342:null:null:,PRIMITIVE_TYPE:343:347:null:void:,VARIABLE:353:366:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:353:361:null:java.lang.String[]:,IDENTIFIER:353:359:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:375:397:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,IDENTIFIER:399:411:java.sql.SQLException:java.sql.SQLException:,BLOCK:412:641:null:null:,TRY:419:635:null:null:,BLOCK:423:497:null:null:,EXPRESSION_STATEMENT:441:483:null:null:,METHOD_INVOCATION:441:482:forName(java.lang.String):java.lang.Class<capture#75 of ?>:,MEMBER_SELECT:441:454:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:441:446:java.lang.Class:java.lang.Class:,STRING_LITERAL:455:481:null:java.lang.String:,CATCH:498:635:null:null:,VARIABLE:505:530:ex:java.lang.ClassNotFoundException:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:505:527:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,null,null,BLOCK:532:635:null:null:,EXPRESSION_STATEMENT:550:621:null:null:,METHOD_INVOCATION:550:620:Logger.getLogger.log:<any>:,MEMBER_SELECT:550:596:Logger.getLogger.log:<any>:,METHOD_INVOCATION:550:592:Logger.getLogger:Logger.getLogger:,MEMBER_SELECT:550:566:Logger.getLogger:Logger.getLogger:,IDENTIFIER:550:556:Logger:Logger:,METHOD_INVOCATION:567:591:getName():java.lang.String:,MEMBER_SELECT:567:589:getName():()java.lang.String:,MEMBER_SELECT:567:581:class:java.lang.Class<Products>:,IDENTIFIER:567:575:Products:Products:,MEMBER_SELECT:597:609:Level.SEVERE:Level.SEVERE:,IDENTIFIER:597:602:Level:Level:,NULL_LITERAL:611:615:null:<nulltype>:,IDENTIFIER:617:619:ex:java.lang.ClassNotFoundException:,null,null,

@@ -1,0 +1,46 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java
+----- Original text: ---------------------------------------------
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException {
+
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+}
+
+----- Updated text: ---------------------------------------------
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+public class InventoryMain {
+
+    public static void main(String[] args) throws ClassNotFoundException {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:461:461:461:-1:-1:compiler.err.premature.eof:reached end of file while parsing], actual diags: [file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/12.5/derby/InventoryManagementSystem/src/InventoryMain.java:ERROR:460:460:460:19:2:compiler.err.premature.eof:reached end of file while parsing]Expected tree: COMPILATION_UNIT:1:461:unnamed package:null:,null,IMPORT:1:32:null:null:,MEMBER_SELECT:8:31:java.util.logging.Level:java.util.logging.Level:,MEMBER_SELECT:8:25:java.util.logging:java.util.logging:,MEMBER_SELECT:8:17:java.util:java.util:,IDENTIFIER:8:12:java:java:,IMPORT:33:65:null:null:,MEMBER_SELECT:40:64:java.util.logging.Logger:java.util.logging.Logger:,MEMBER_SELECT:40:57:java.util.logging:java.util.logging:,MEMBER_SELECT:40:49:java.util:java.util:,IDENTIFIER:40:44:java:java:,CLASS:298:461:InventoryMain:InventoryMain:,MODIFIERS:298:304:null:null:,null,METHOD:305:-1:InventoryMain():()void:,MODIFIERS:305:-1:null:null:,null,null,BLOCK:305:-1:null:null:,EXPRESSION_STATEMENT:305:-1:null:null:,METHOD_INVOCATION:305:-1:Object():void:,IDENTIFIER:305:310:Object():()void:,null,METHOD:332:460:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:332:345:null:null:,PRIMITIVE_TYPE:346:350:null:void:,VARIABLE:356:369:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:356:364:null:java.lang.String[]:,IDENTIFIER:356:362:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:378:400:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,BLOCK:401:460:null:null:,EXPRESSION_STATEMENT:415:457:null:null:,METHOD_INVOCATION:415:456:forName(java.lang.String):java.lang.Class<capture#817 of ?>:,MEMBER_SELECT:415:428:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:415:420:java.lang.Class:java.lang.Class:,STRING_LITERAL:429:455:null:java.lang.String:,null,, actual tree: COMPILATION_UNIT:1:461:unnamed package:null:,null,IMPORT:1:32:null:null:,MEMBER_SELECT:8:31:java.util.logging.Level:java.util.logging.Level:,MEMBER_SELECT:8:25:java.util.logging:java.util.logging:,MEMBER_SELECT:8:17:java.util:java.util:,IDENTIFIER:8:12:java:java:,IMPORT:33:65:null:null:,MEMBER_SELECT:40:64:java.util.logging.Logger:java.util.logging.Logger:,MEMBER_SELECT:40:57:java.util.logging:java.util.logging:,MEMBER_SELECT:40:49:java.util:java.util:,IDENTIFIER:40:44:java:java:,CLASS:298:461:InventoryMain:InventoryMain:,MODIFIERS:298:304:null:null:,null,METHOD:305:-1:InventoryMain():()void:,MODIFIERS:305:-1:null:null:,null,null,BLOCK:305:-1:null:null:,EXPRESSION_STATEMENT:305:-1:null:null:,METHOD_INVOCATION:305:-1:Object():void:,IDENTIFIER:305:310:Object():()void:,null,METHOD:332:460:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:332:345:null:null:,PRIMITIVE_TYPE:346:350:null:void:,VARIABLE:356:369:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:356:364:null:java.lang.String[]:,IDENTIFIER:356:362:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:378:400:java.lang.ClassNotFoundException:java.lang.ClassNotFoundException:,BLOCK:401:460:null:null:,EXPRESSION_STATEMENT:415:457:null:null:,METHOD_INVOCATION:415:456:forName(java.lang.String):java.lang.Class<capture#751 of ?>:,MEMBER_SELECT:415:428:forName(java.lang.String):(java.lang.String)java.lang.Class<?>:,IDENTIFIER:415:420:java.lang.Class:java.lang.Class:,STRING_LITERAL:429:455:null:java.lang.String:,null,

@@ -1,0 +1,89 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    public void setName(String str){
+        this.setName(str);
+        System.out.println(setName());
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        String str = "Butaw c Ekel";
+                        
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.Scanner;
+import java.io.*;
+import java.util.*;
+public class test {
+    
+    public void setName(String str){
+        this.setName(str);
+        System.out.println(setName(str));
+    }
+    
+    public static void main(String[] args) {
+        
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        String str = "Butaw c Ekel";
+                        
+                        break;
+                    case 2:
+                        System.out.println("Butaw c Keim");
+                        break;
+                    case 3:
+                        System.out.println("Butaw c Hans");
+                        break;
+                    default:
+                        
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:411:418:423:18:2:compiler.err.void.not.allowed.here:'void' type not allowed here], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:411:418:423:17:35:compiler.err.void.not.allowed.here:'void' type not allowed here]

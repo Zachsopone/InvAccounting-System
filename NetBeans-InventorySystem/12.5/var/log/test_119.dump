@@ -1,0 +1,89 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java
+----- Original text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.*;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        TimeUnit.SECONDS
+                        break;
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Updated text: ---------------------------------------------
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+/**
+ *
+ * @author GIGABYTE
+ */
+import java.util.*;
+import java.io.*;
+import java.util.*;
+public class test {
+    private String str;
+    public void setName(String str){
+        this.str = str;
+        System.out.println(str);
+    }
+    
+    public static void main(String[] args) {
+        test b = new test();
+        for(int choice=1;choice<5;choice++){
+                switch(choice){
+                    case 1:
+                        b.setName("Butaw c Ekel");
+                        TimeUnit.SECONDS.
+                        break;
+                    case 2:
+                        b.setName("Butaw c Hans");
+                        break;
+                    case 3:
+                        b.setName("Butaw c Keim");
+                        break;
+                    default:
+                        b.setName("Pogi c Richard");
+                        break;
+
+            }
+        }
+    }
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:709:709:709:27:1:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/asd/src/test.java:ERROR:709:709:709:26:42:compiler.err.expected:<identifier> expected]

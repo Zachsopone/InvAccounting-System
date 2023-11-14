@@ -1,0 +1,95 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java
+----- Original text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System.out.println("1. Addition");
+    System.out.println("2. Subtraction");
+    System.out.println("3. Area of Circle");
+    System.out.println("4. Area of Cylinder");
+    }
+    public void getInput() throws IOException {
+    Buffer.
+    System.out.println("1. Addition");
+    System.out.println("2. Subtraction");
+    System.out.println("3. Area of Circle");
+    System.out.println("4. Area of Cylinder");
+    }    
+            
+}
+
+----- Updated text: ---------------------------------------------
+
+package apdujan.lab3;
+import java.io.*;
+        
+public class computeProg {
+    
+    private int a, b, select;
+    private double c, d;
+    
+    public int addOperation(){
+    int sum=this.a+this.b;
+    return sum;
+    }
+    public int subOperation(){
+    int diff=this.a+this.b;
+    return diff;
+    }
+    public double circleOperation(){
+    double circleArea=3.14159*(this.c*this.c);
+    return circleArea;
+    }
+    public double cylinderOperation(){
+    double cylinderArea=2*3.14*this.c*this.c+2*3.14*this.c*this.d;
+    return cylinderArea;
+    }
+    public void calcChoice(){
+    System.out.println("1. Addition");
+    System.out.println("2. Subtraction");
+    System.out.println("3. Area of Circle");
+    System.out.println("4. Area of Cylinder");
+    }
+    public void getInput() throws IOException {
+    BufferReader
+    System.out.println("1. Addition");
+    System.out.println("2. Subtraction");
+    System.out.println("3. Area of Circle");
+    System.out.println("4. Area of Cylinder");
+    }    
+            
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:838:838:838:34:11:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:815:815:827:33:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class BufferReader
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:839:839:842:34:12:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable out
+  location: class computeProg], actual diags: [file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:838:838:838:34:11:compiler.err.expected:';' expected, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:871:871:877:35:5:compiler.err.var.might.not.have.been.initialized:variable System might not have been initialized, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:815:815:827:33:5:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   class BufferReader
+  location: class computeProg, file:/C:/Users/GIGABYTE/Apdujan.Laboratory3/src/apdujan/lab3/computeProg.java:ERROR:839:839:842:34:12:compiler.err.cant.resolve.location:cannot find symbol
+  symbol:   variable out
+  location: class computeProg]

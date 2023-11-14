@@ -1,0 +1,95 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        float num1 = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float num2 = number.nextFloat();
+                
+        nebu calculator = new nebu(this.num1, this.num2);
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        float num1;
+        float num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public float sum(){
+            float sum = num1 + num2;
+            return sum;
+        }
+        public float difference(){
+        float difference = num1 - num2;
+        return difference;
+        }
+        public float product(){
+        float product = num1 * num2;
+        return product;
+        }
+        public float quotient(){
+        float quotient = num1 / num2;
+        return quotient;
+        }
+        public float modulo(){
+        float modulo = num1 % num2;
+        return modulo;
+        }
+       
+    public static void main(String[] args) throws InterruptedException {
+        Scanner number = new Scanner(System.in);
+        System.out.println("Enter 1st number: ");
+        float a = number.nextFloat();
+        System.out.println("Enter 2nd number: ");
+        float num2 = number.nextFloat();
+                
+        nebu calculator = new nebu(this.num1, this.num2);
+        System.out.println(calculator.sum());
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1098:1098:1102:38:44:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1087:1087:1091:38:33:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1087:1091:1096:38:37:compiler.err.prob.found.req:incompatible types: possible lossy conversion from float to int], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1098:1098:1102:38:47:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1087:1091:1096:38:40:compiler.err.prob.found.req:incompatible types: possible lossy conversion from float to int, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:1087:1087:1091:38:36:compiler.err.non-static.cant.be.ref:non-static variable this cannot be referenced from a static context]

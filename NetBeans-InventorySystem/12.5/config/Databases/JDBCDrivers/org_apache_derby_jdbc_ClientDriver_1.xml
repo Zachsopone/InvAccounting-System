@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<!DOCTYPE driver PUBLIC '-//NetBeans//DTD JDBC Driver 1.1//EN' 'http://www.netbeans.org/dtds/jdbc-driver-1_1.dtd'>
+<driver>
+  <name value='Java DB (Network)'/>
+  <display-name value='Java DB (Network)'/>
+  <class value='org.apache.derby.jdbc.ClientDriver'/>
+  <urls>
+    <url value='file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/Derby/db-derby-10.15.2.0-bin/lib/derbyclient.jar'/>
+    <url value='file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/Derby/db-derby-10.15.2.0-bin/lib/derby.jar'/>
+    <url value='file:/C:/Users/GIGABYTE/AppData/Roaming/NetBeans/Derby/db-derby-10.15.2.0-bin/lib/derbynet.jar'/>
+  </urls>
+</driver>

@@ -1,0 +1,305 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java
+----- Original text: ---------------------------------------------
+
+package jmenutest;
+
+
+import javax.swing.JMenu;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.KeyStroke;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JRadioButtonMenuItem;
+import java.awt.event.KeyEvent;
+import java.awt.event.InputEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
+import javax.swing.JPopupMenu;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
+import javax.swing.UIManager;
+import javax.swing.JToolBar;
+import javax.swing.JButton;
+import java.awt.Container;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+
+
+public class JMenuTest extends JFrame implements ActionListener {
+
+     private JMenuBar menuBar = new JMenuBar();
+    private JMenu fileMenu = new JMenu ("File");
+    private JMenu editMenu = new JMenu ("Edit");
+    private JMenu helpMenu = new JMenu ("Help");
+    private JMenuItem newMenuItem = new JMenuItem("New", 'n');
+    private JMenuItem openMenuItem = new JMenuItem("Open", 'o');
+    private JMenuItem saveMenuItem = new JMenuItem("Save", 's');
+    private JMenuItem saveAsMenuItem = new JMenuItem("Save As", 118);
+    private JMenuItem exitMenuItem = new JMenuItem("Exit", 120);
+    
+    private JMenuItem cutMenuItem = new JMenuItem("Cut",new ImageIcon("cut.png"));
+    private JMenuItem copyMenuItem = new JMenuItem("Copy",'c');
+    private JMenuItem pasteMenuItem = new JMenuItem("Paste",new ImageIcon("save.png"));
+    private JMenu optionMenu = new JMenu("Options");
+    
+    private JCheckBoxMenuItem readOnlyItem = new JCheckBoxMenuItem("Read-Only");
+    private ButtonGroup group = new ButtonGroup();
+    private JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+    private JRadioButtonMenuItem overTypeItem = new JRadioButtonMenuItem("Overtype");
+    
+    private JPopupMenu popup = new JPopupMenu();
+    private JMenuItem aboutMenuItem = new JMenuItem("About MenuTest");
+    private JMenuItem helpMenuItem = new JMenuItem("Help Contents");
+    
+    private JToolBar toolBar = new JToolBar();
+    String iconFiles[] = {"Java.png","open.png","copy.png","save.png"};
+    String buttonLabels[] = {"JTable","TreeDemo","JTabblePane","JDesktopPane"};
+    ImageIcon icons[] = new ImageIcon[iconFiles.length];
+    JButton buttons[] = new JButton[buttonLabels.length];
+    
+  
+    
+    
+  public JMenuTest() {
+       
+        super("Menu Test");
+         
+         setJMenuBar(menuBar);
+         menuBar.add(fileMenu);
+         menuBar.add(editMenu);
+         menuBar.add(helpMenu);
+         
+         fileMenu.add(newMenuItem);
+         fileMenu.add(openMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(saveMenuItem);
+         fileMenu.add(saveAsMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(exitMenuItem);
+         
+         editMenu.add(cutMenuItem);
+         editMenu.add(copyMenuItem);
+         editMenu.add(pasteMenuItem);
+         editMenu.addSeparator();
+         editMenu.add(optionMenu);
+         
+         optionMenu.add(readOnlyItem);
+         optionMenu.addSeparator();
+         optionMenu.add(insertItem);
+         optionMenu.add(overTypeItem);
+         
+         group.add(insertItem);
+         group.add(overTypeItem);
+         
+         copyMenuItem.setIcon(new ImageIcon("copy.png"));
+         
+         copyMenuItem.setAccelerator(
+           KeyStroke.getKeyStroke(KeyEvent.VK_C,InputEvent.ALT_MASK));
+         
+         pasteMenuItem.setHorizontalTextPosition(SwingConstants.LEFT);
+                
+         fileMenu.setMnemonic('F');
+         editMenu.setMnemonic('e');
+         helpMenu.setMnemonic('H');
+         
+         exitMenuItem.setAccelerator(
+             KeyStroke.getKeyStroke(KeyEvent.VK_X, InputEvent.CTRL_MASK));
+         
+         exitMenuItem.addActionListener(this);
+         readOnlyItem.addActionListener(this);
+         
+         popup.add(aboutMenuItem);
+         popup.add(helpMenuItem);
+         
+         aboutMenuItem.addActionListener(this);
+         
+          //1. install a mouseListerner
+         addMouseListener(
+            new MouseAdapter()
+            {
+                //2. add the ff code
+                public void mouseReleased(MouseEvent e)
+                {
+                   if(e.isPopupTrigger()) 
+                   {
+                       popup.show(e.getComponent(), e.getX(), e.getY());
+                   }
+                }
+            }
+         );
+         
+              //creating toolbar
+         Container c = getContentPane();
+         c.setBackground(Color.white);
+         c.setLayout(new BorderLayout());
+         
+         for(int i=0; i <buttonLabels.length; i++)
+         {
+           icons[i] = new ImageIcon(iconFiles[i]);
+           buttons[i] = new JButton(icons[i]);
+           buttons[i].addActionevent;       
+    }
+    
+}
+
+        
+----- Updated text: ---------------------------------------------
+
+package jmenutest;
+
+
+import javax.swing.JMenu;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.KeyStroke;
+import javax.swing.ImageIcon;
+import javax.swing.SwingConstants;
+import javax.swing.JCheckBoxMenuItem;
+import javax.swing.JRadioButtonMenuItem;
+import java.awt.event.KeyEvent;
+import java.awt.event.InputEvent;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.ButtonGroup;
+import javax.swing.event.MenuEvent;
+import javax.swing.event.MenuListener;
+import javax.swing.JPopupMenu;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseAdapter;
+import javax.swing.UIManager;
+import javax.swing.JToolBar;
+import javax.swing.JButton;
+import java.awt.Container;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+
+
+public class JMenuTest extends JFrame implements ActionListener {
+
+     private JMenuBar menuBar = new JMenuBar();
+    private JMenu fileMenu = new JMenu ("File");
+    private JMenu editMenu = new JMenu ("Edit");
+    private JMenu helpMenu = new JMenu ("Help");
+    private JMenuItem newMenuItem = new JMenuItem("New", 'n');
+    private JMenuItem openMenuItem = new JMenuItem("Open", 'o');
+    private JMenuItem saveMenuItem = new JMenuItem("Save", 's');
+    private JMenuItem saveAsMenuItem = new JMenuItem("Save As", 118);
+    private JMenuItem exitMenuItem = new JMenuItem("Exit", 120);
+    
+    private JMenuItem cutMenuItem = new JMenuItem("Cut",new ImageIcon("cut.png"));
+    private JMenuItem copyMenuItem = new JMenuItem("Copy",'c');
+    private JMenuItem pasteMenuItem = new JMenuItem("Paste",new ImageIcon("save.png"));
+    private JMenu optionMenu = new JMenu("Options");
+    
+    private JCheckBoxMenuItem readOnlyItem = new JCheckBoxMenuItem("Read-Only");
+    private ButtonGroup group = new ButtonGroup();
+    private JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+    private JRadioButtonMenuItem overTypeItem = new JRadioButtonMenuItem("Overtype");
+    
+    private JPopupMenu popup = new JPopupMenu();
+    private JMenuItem aboutMenuItem = new JMenuItem("About MenuTest");
+    private JMenuItem helpMenuItem = new JMenuItem("Help Contents");
+    
+    private JToolBar toolBar = new JToolBar();
+    String iconFiles[] = {"Java.png","open.png","copy.png","save.png"};
+    String buttonLabels[] = {"JTable","TreeDemo","JTabblePane","JDesktopPane"};
+    ImageIcon icons[] = new ImageIcon[iconFiles.length];
+    JButton buttons[] = new JButton[buttonLabels.length];
+    
+  
+    
+    
+  public JMenuTest() {
+       
+        super("Menu Test");
+         
+         setJMenuBar(menuBar);
+         menuBar.add(fileMenu);
+         menuBar.add(editMenu);
+         menuBar.add(helpMenu);
+         
+         fileMenu.add(newMenuItem);
+         fileMenu.add(openMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(saveMenuItem);
+         fileMenu.add(saveAsMenuItem);
+         fileMenu.addSeparator(); //separator
+         fileMenu.add(exitMenuItem);
+         
+         editMenu.add(cutMenuItem);
+         editMenu.add(copyMenuItem);
+         editMenu.add(pasteMenuItem);
+         editMenu.addSeparator();
+         editMenu.add(optionMenu);
+         
+         optionMenu.add(readOnlyItem);
+         optionMenu.addSeparator();
+         optionMenu.add(insertItem);
+         optionMenu.add(overTypeItem);
+         
+         group.add(insertItem);
+         group.add(overTypeItem);
+         
+         copyMenuItem.setIcon(new ImageIcon("copy.png"));
+         
+         copyMenuItem.setAccelerator(
+           KeyStroke.getKeyStroke(KeyEvent.VK_C,InputEvent.ALT_MASK));
+         
+         pasteMenuItem.setHorizontalTextPosition(SwingConstants.LEFT);
+                
+         fileMenu.setMnemonic('F');
+         editMenu.setMnemonic('e');
+         helpMenu.setMnemonic('H');
+         
+         exitMenuItem.setAccelerator(
+             KeyStroke.getKeyStroke(KeyEvent.VK_X, InputEvent.CTRL_MASK));
+         
+         exitMenuItem.addActionListener(this);
+         readOnlyItem.addActionListener(this);
+         
+         popup.add(aboutMenuItem);
+         popup.add(helpMenuItem);
+         
+         aboutMenuItem.addActionListener(this);
+         
+          //1. install a mouseListerner
+         addMouseListener(
+            new MouseAdapter()
+            {
+                //2. add the ff code
+                public void mouseReleased(MouseEvent e)
+                {
+                   if(e.isPopupTrigger()) 
+                   {
+                       popup.show(e.getComponent(), e.getX(), e.getY());
+                   }
+                }
+            }
+         );
+         
+              //creating toolbar
+         Container c = getContentPane();
+         c.setBackground(Color.white);
+         c.setLayout(new BorderLayout());
+         
+         for(int i=0; i <buttonLabels.length; i++)
+         {
+           icons[i] = new ImageIcon(iconFiles[i]);
+           buttons[i] = new JButton(icons[i]);
+           buttons[i].addActione;       
+    }
+    
+}
+
+        
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:851:858:5071:33:8:compiler.err.does.not.override.abstract:JMenuTest is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5065:5065:5065:-1:-1:compiler.err.premature.eof:reached end of file while parsing, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5019:5029:5040:145:22:compiler.err.not.stmt:not a statement], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:851:858:5071:33:8:compiler.err.does.not.override.abstract:JMenuTest is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5019:5029:5040:145:22:compiler.err.not.stmt:not a statement, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/JMenuTest/src/jmenutest/JMenuTest.java:ERROR:5061:5061:5061:148:2:compiler.err.premature.eof:reached end of file while parsing]

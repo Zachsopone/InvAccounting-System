@@ -1,0 +1,61 @@
+Incorrectly reparsed file: file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java
+----- Original text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public int sum(){
+            int sum = num1 + num2;
+            S
+        }
+        
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator);
+        
+        
+    }
+    
+}
+
+----- Updated text: ---------------------------------------------
+import java.util.Scanner;
+public class nebu {
+        int num1;
+        int num2;
+        
+        public nebu(int num1, int num2){
+            this.num1 = num1;
+            this.num2 = num2;
+        }
+        public int sum(){
+            int sum = num1 + num2;
+            System.
+        }
+        
+        int difference = num1 - num2;
+        int product = num1 * num2;
+        int quotient = num1 / num2;
+        float modulo = num1 % num2;
+        
+    public static void main(String[] args) throws InterruptedException {
+        nebu calculator = new nebu(4,4);
+        System.out.println(calculator);
+        
+        
+    }
+    
+}
+
+----- Errors: ---------------------------------------------
+Expected diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:282:282:282:12:20:compiler.err.expected:<identifier> expected], actual diags: [file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:282:282:282:12:20:compiler.err.expected:<identifier> expected, file:/C:/Users/GIGABYTE/Desktop/2ND%20SEM%20JAVA/netb/src/nebu.java:ERROR:226:291:292:13:9:compiler.err.missing.ret.stmt:missing return statement]Expected tree: COMPILATION_UNIT:0:640:unnamed package:null:,null,IMPORT:0:25:null:null:,MEMBER_SELECT:7:24:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:7:16:java.util:java.util:,IDENTIFIER:7:11:java:java:,CLASS:26:640:nebu:nebu:,MODIFIERS:26:32:null:null:,null,VARIABLE:54:63:num1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:54:57:null:int:,null,null,VARIABLE:72:81:num2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:72:75:null:int:,null,null,METHOD:99:201:nebu(int,int):(int,int)void:,MODIFIERS:99:105:null:null:,null,VARIABLE:111:119:num1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:111:114:null:int:,null,null,VARIABLE:121:129:num2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:121:124:null:int:,null,null,null,BLOCK:130:201:null:null:,EXPRESSION_STATEMENT:130:-1:null:null:,METHOD_INVOCATION:130:-1:Object():void:,IDENTIFIER:130:135:Object():()void:,EXPRESSION_STATEMENT:144:161:null:null:,ASSIGNMENT:144:160:null:int:,MEMBER_SELECT:144:153:num1:int:,IDENTIFIER:144:148:this:nebu:,IDENTIFIER:156:160:num1:int:,EXPRESSION_STATEMENT:174:191:null:null:,ASSIGNMENT:174:190:null:int:,MEMBER_SELECT:174:183:num2:int:,IDENTIFIER:174:178:this:nebu:,IDENTIFIER:186:190:num2:int:,null,METHOD:210:292:sum():()int:,MODIFIERS:210:216:null:null:,PRIMITIVE_TYPE:217:220:null:int:,null,BLOCK:226:292:null:null:,VARIABLE:240:262:sum:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:240:243:null:int:,null,PLUS:250:261:null:int:,IDENTIFIER:250:254:num1:int:,IDENTIFIER:257:261:num2:int:,EXPRESSION_STATEMENT:275:291:null:null:,MEMBER_SELECT:275:291:java.lang.System.<error>:java.lang.System.<error>:,IDENTIFIER:275:281:java.lang.System:java.lang.System:,null,VARIABLE:310:339:difference:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:310:313:null:int:,null,MINUS:327:338:null:int:,IDENTIFIER:327:331:num1:int:,IDENTIFIER:334:338:num2:int:,VARIABLE:348:374:product:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:348:351:null:int:,null,MULTIPLY:362:373:null:int:,IDENTIFIER:362:366:num1:int:,IDENTIFIER:369:373:num2:int:,VARIABLE:383:410:quotient:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:383:386:null:int:,null,DIVIDE:398:409:null:int:,IDENTIFIER:398:402:num1:int:,IDENTIFIER:405:409:num2:int:,VARIABLE:419:446:modulo:float:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:419:424:null:float:,null,REMAINDER:434:445:null:int:,IDENTIFIER:434:438:num1:int:,IDENTIFIER:441:445:num2:int:,METHOD:460:633:main(java.lang.String[]):null:,MODIFIERS:460:473:null:null:,PRIMITIVE_TYPE:474:478:null:void:,VARIABLE:484:497:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:484:492:null:java.lang.String[]:,IDENTIFIER:484:490:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:506:526:java.lang.InterruptedException:java.lang.InterruptedException:,BLOCK:527:633:null:null:,VARIABLE:537:569:null:null:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:537:541:null:null:,null,NEW_CLASS:555:568:null:null:,null,IDENTIFIER:559:563:null:null:,INT_LITERAL:564:565:null:null:,INT_LITERAL:566:567:null:null:,null,EXPRESSION_STATEMENT:578:609:null:null:,METHOD_INVOCATION:578:608:null:null:,MEMBER_SELECT:578:596:null:null:,MEMBER_SELECT:578:588:null:null:,IDENTIFIER:578:584:null:null:,IDENTIFIER:597:607:null:null:,null,, actual tree: COMPILATION_UNIT:0:640:unnamed package:null:,null,IMPORT:0:25:null:null:,MEMBER_SELECT:7:24:java.util.Scanner:java.util.Scanner:,MEMBER_SELECT:7:16:java.util:java.util:,IDENTIFIER:7:11:java:java:,CLASS:26:640:nebu:nebu:,MODIFIERS:26:32:null:null:,null,VARIABLE:54:63:num1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:54:57:null:int:,null,null,VARIABLE:72:81:num2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:72:75:null:int:,null,null,METHOD:99:201:nebu(int,int):(int,int)void:,MODIFIERS:99:105:null:null:,null,VARIABLE:111:119:num1:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:111:114:null:int:,null,null,VARIABLE:121:129:num2:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:121:124:null:int:,null,null,null,BLOCK:130:201:null:null:,EXPRESSION_STATEMENT:130:-1:null:null:,METHOD_INVOCATION:130:-1:Object():void:,IDENTIFIER:130:135:Object():()void:,EXPRESSION_STATEMENT:144:161:null:null:,ASSIGNMENT:144:160:null:int:,MEMBER_SELECT:144:153:num1:int:,IDENTIFIER:144:148:this:nebu:,IDENTIFIER:156:160:num1:int:,EXPRESSION_STATEMENT:174:191:null:null:,ASSIGNMENT:174:190:null:int:,MEMBER_SELECT:174:183:num2:int:,IDENTIFIER:174:178:this:nebu:,IDENTIFIER:186:190:num2:int:,null,METHOD:210:292:sum():()int:,MODIFIERS:210:216:null:null:,PRIMITIVE_TYPE:217:220:null:int:,null,BLOCK:226:292:null:null:,VARIABLE:240:262:sum:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:240:243:null:int:,null,PLUS:250:261:null:int:,IDENTIFIER:250:254:num1:int:,IDENTIFIER:257:261:num2:int:,EXPRESSION_STATEMENT:275:291:null:null:,MEMBER_SELECT:275:291:java.lang.System.<error>:java.lang.System.<error>:,IDENTIFIER:275:281:java.lang.System:java.lang.System:,null,VARIABLE:310:339:difference:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:310:313:null:int:,null,MINUS:327:338:null:int:,IDENTIFIER:327:331:num1:int:,IDENTIFIER:334:338:num2:int:,VARIABLE:348:374:product:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:348:351:null:int:,null,MULTIPLY:362:373:null:int:,IDENTIFIER:362:366:num1:int:,IDENTIFIER:369:373:num2:int:,VARIABLE:383:410:quotient:int:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:383:386:null:int:,null,DIVIDE:398:409:null:int:,IDENTIFIER:398:402:num1:int:,IDENTIFIER:405:409:num2:int:,VARIABLE:419:446:modulo:float:,MODIFIERS:-1:-1:null:null:,PRIMITIVE_TYPE:419:424:null:float:,null,REMAINDER:434:445:null:int:,IDENTIFIER:434:438:num1:int:,IDENTIFIER:441:445:num2:int:,METHOD:460:633:main(java.lang.String[]):(java.lang.String[])void:,MODIFIERS:460:473:null:null:,PRIMITIVE_TYPE:474:478:null:void:,VARIABLE:484:497:args:java.lang.String[]:,MODIFIERS:-1:-1:null:null:,ARRAY_TYPE:484:492:null:java.lang.String[]:,IDENTIFIER:484:490:java.lang.String:java.lang.String:,null,null,null,IDENTIFIER:506:526:java.lang.InterruptedException:java.lang.InterruptedException:,BLOCK:527:633:null:null:,VARIABLE:537:569:calculator:nebu:,MODIFIERS:-1:-1:null:null:,IDENTIFIER:537:541:nebu:nebu:,null,NEW_CLASS:555:568:nebu(int,int):nebu:,null,IDENTIFIER:559:563:nebu:nebu:,INT_LITERAL:564:565:null:int:,INT_LITERAL:566:567:null:int:,null,EXPRESSION_STATEMENT:578:609:null:null:,METHOD_INVOCATION:578:608:println(java.lang.Object):void:,MEMBER_SELECT:578:596:println(java.lang.Object):(java.lang.Object)void:,MEMBER_SELECT:578:588:out:java.io.PrintStream:,IDENTIFIER:578:584:java.lang.System:java.lang.System:,IDENTIFIER:597:607:calculator:nebu:,null,

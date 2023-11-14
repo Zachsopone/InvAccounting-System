@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns="http://www.netbeans.org/ns/library-declaration/3" version="3.0">
+    <name>Java-EE-GlassFish-v3-Prelude</name>
+    <type>j2se</type>
+    <description>Java EE jars that are bundled with the most recently registered GlassFish installation</description>
+    <display-name>Java EE from GlassFish</display-name>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.activation.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.annotation-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.authentication-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.authorization-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.batch-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.ejb-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.el-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.el.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.enterprise.cdi-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.enterprise.concurrent-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.enterprise.concurrent.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.faces.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.inject-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.interceptor-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.jms-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.json.bind-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.json.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.mail.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.persistence-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.resource-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.security.enterprise-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.security.enterprise.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.servlet-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.servlet.jsp-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.servlet.jsp.jstl-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.servlet.jsp.jstl.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.transaction-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.validation-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.websocket-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.ws.rs-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jakarta.xml.bind-api.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/jaxb-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/webservices-osgi.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/glassfish/modules/weld-osgi-bundle.jar!/</resource>
+        <resource>jar:file:/C:/Users/GIGABYTE/GlassFish_Server/mq/lib/jaxm-api.jar!/</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>jar:file:/C:/Program%20Files/NetBeans-12.5/netbeans/enterprise/docs/javaee-doc-api.jar!/</resource>
+    </volume>
+    <volume>
+        <type>maven-pom</type>
+    </volume>
+    <properties/>
+</library>
